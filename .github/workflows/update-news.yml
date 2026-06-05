@@ -1,0 +1,54 @@
+name: 🤖 Update Physical AI News
+
+on:
+  schedule:
+    # 每天 UTC 0:00 和 12:00 运行（北京时间 8:00 和 20:00）
+    - cron: '0 0,12 * * *'
+  # 允许手动触发
+  workflow_dispatch:
+  # 推送 data/ 以外的文件时不触发；修改 data 文件时也不触发（避免循环）
+  push:
+    paths:
+      - 'scripts/fetch-news.js'
+      - '.github/workflows/update-news.yml'
+
+# 权限：允许 workflow 推送提交
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout 仓库
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 运行新闻抓取脚本
+        run: node scripts/fetch-news.js
+
+      - name: 检查是否有更新
+        id: check
+        run: |
+          if git diff --quiet data/news.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "📭 无新新闻"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "🆕 有新内容！"
+          fi
+
+      - name: 提交并推送更新
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "Physical AI Bot 🤖"
+          git config user.email "bot@physical-ai-tracker.dev"
+          git add data/news.json
+          git commit -m "📰 $(date +%Y-%m-%d) 新闻自动更新 — $(node -e 'const d=require(\"./data/news.json\");console.log(d.itemsFetched+\" 条新新闻\")')"
+          git push

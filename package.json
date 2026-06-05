@@ -1,0 +1,12 @@
+{
+  "name": "physical-ai-tracker",
+  "version": "1.0.0",
+  "description": "🤖 Physical AI / Embodied Intelligence 赛道追踪面板",
+  "private": true,
+  "scripts": {
+    "fetch": "node scripts/fetch-news.js",
+    "serve": "npx serve . -p 3000"
+  },
+  "keywords": ["physical-ai", "embodied-intelligence", "robotics", "tracker"],
+  "license": "MIT"
+}
