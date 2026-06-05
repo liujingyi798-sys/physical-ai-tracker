@@ -268,7 +268,7 @@ let dataSource = 'unknown'; // 'fetch' | 'embedded'
 
 async function loadData(key, url) {
   try {
-    const res = await fetch(url);
+    const res = await fetch(url + '?v=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
   } catch (e) {
