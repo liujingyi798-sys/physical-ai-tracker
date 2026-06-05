@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Physical AI · 具身智能赛道追踪</title>
+<title>物理AI · 具身智能赛道追踪</title>
 <style>
 /* ============================================================
    PHYSICAL AI TRACKER v2 — Dynamic Data + Auto News
@@ -162,7 +162,7 @@ body {
 <canvas id="bg-canvas"></canvas>
 
 <header class="header">
-  <div class="logo"><span>🤖</span> <span class="gradient-text">Physical AI Tracker</span></div>
+  <div class="logo"><span>🤖</span> <span class="gradient-text">物理AI赛道追踪</span></div>
   <div class="status">
     <span class="badge-auto live" id="autoBadge"><span class="dot"></span> 自动更新</span>
     <span style="font-size:0.78rem;color:var(--text-tertiary)" id="updateTime"></span>
@@ -183,7 +183,7 @@ body {
   <div class="hero-stats" id="heroStats"></div>
 
   <!-- 1. DOMAIN MAP -->
-  <div class="section-title" id="map"><span>🗺️ 赛道地图 · Physical AI 四大方向</span></div>
+  <div class="section-title" id="map"><span>🗺️ 赛道地图 · 物理AI四大方向</span></div>
   <div class="domain-grid">
     <div class="domain-card humanoid">
       <h3>🦾 人形机器人</h3><p>通用型机器人，AI 大脑 + 灵活身体 = 终极劳动力革命。孙宇晨预测的核心方向。</p>
@@ -246,7 +246,7 @@ body {
   </div>
 
   <div class="footer">
-    <p>🤖 Physical AI Tracker · <span id="footerStatus">数据加载中...</span></p>
+    <p>🤖 物理AI赛道追踪 · <span id="footerStatus">数据加载中...</span></p>
     <p style="margin-top:0.3rem;font-size:0.75rem;">⚠️ 本页面仅为个人研究记录，不构成投资建议。新闻由 GitHub Actions 自动抓取，内容未经人工审核。</p>
   </div>
 </div>
@@ -344,17 +344,32 @@ function renderStats() {
 function renderNews() {
   const { news } = appData;
   document.getElementById('newsUpdated').textContent = `更新于 ${(news.lastUpdated || '').split('T')[0]}`;
+  const tagMap = {
+    'nvidia': '英伟达', 'figure-ai': 'Figure', 'tesla': '特斯拉', 'boston-dynamics': '波士顿动力',
+    '1x': '1X', 'foundation-model': '基础模型', 'spatial-intelligence': '空间智能', 'industrial': '工业',
+    'unitree': '宇树', 'agibot': '智元', 'ubtech': '优必选', 'humanoid': '人形', 'embodied': '具身智能',
+    'funding': '融资', 'general': '综合', 'prediction': '预测', 'hardware': '硬件', 'justin-sun': '孙宇晨',
+  };
+    'arXiv CS Robotics': 'arXiv 机器人学',
+    'arXiv CS AI': 'arXiv 人工智能',
+    'TechCrunch Robotics': 'TechCrunch 机器人',
+    'The Robot Report': '机器人报告',
+    'ScienceDaily Robotics': '科学日报 机器人',
+    'TechCrunch（综合）': 'TechCrunch 综合',
+    '机器之心': '机器之心',
+    '雷锋网': '雷锋网',
+  };
   if (!news.items.length) {
     document.getElementById('newsFeed').innerHTML = '<div style="color:var(--text-tertiary);text-align:center;padding:2rem;">暂无新闻</div>';
     return;
   }
   document.getElementById('newsFeed').innerHTML = news.items.slice(0, 30).map(item => `
     <div class="news-item">
-      <div class="news-source ${news.source === 'auto-fetched' ? 'auto' : ''}">${item.source}</div>
+      <div class="news-source ${news.source === 'auto-fetched' ? 'auto' : ''}">${sourceMap[item.source] || item.source}</div>
       <div class="news-content">
         <div class="news-title">${item.link ? `<a href="${item.link}" target="_blank" rel="noopener">${esc(item.title)}</a>` : esc(item.title)}</div>
         ${item.summary ? `<div class="news-summary">${esc(item.summary)}</div>` : ''}
-        <div class="news-tags">${(item.tags || []).map(t => `<span class="news-tag">#${t}</span>`).join('')}</div>
+        <div class="news-tags">${(item.tags || []).map(t => `<span class="news-tag">#${tagMap[t] || t}</span>`).join('')}</div>
         <div class="news-date">${item.date}</div>
       </div>
     </div>
