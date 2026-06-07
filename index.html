@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>物理AI · 具身智能赛道追踪</title>
 <style>
 /* ============================================================
@@ -294,7 +297,12 @@ async function initApp() {
     appData = { companies, timeline, funding, news };
     if (dataSource !== 'embedded') dataSource = 'fetch';
 
-    renderAll();
+    try {
+      renderAll();
+    } catch (re) {
+      console.error('渲染失败:', re);
+      document.getElementById('newsFeed').innerHTML = '<div class="error-state">渲染出错: ' + re.message + '</div>';
+    }
     document.body.classList.add('loaded');
     document.body.classList.remove('loading');
 
@@ -319,11 +327,12 @@ async function initApp() {
 
 // ==================== RENDER ALL ====================
 function renderAll() {
-  renderStats();
-  renderNews();
-  renderCompanies();
-  renderTimeline();
-  renderFunding();
+  const safeRender = (name, fn) => { try { fn(); } catch(e) { console.error(name + ' 渲染失败:', e); } };
+  safeRender('Stats', renderStats);
+  safeRender('News', renderNews);
+  safeRender('Companies', renderCompanies);
+  safeRender('Timeline', renderTimeline);
+  safeRender('Funding', renderFunding);
 }
 
 // --- Stats ---
@@ -350,6 +359,7 @@ function renderNews() {
     'unitree': '宇树', 'agibot': '智元', 'ubtech': '优必选', 'humanoid': '人形', 'embodied': '具身智能',
     'funding': '融资', 'general': '综合', 'prediction': '预测', 'hardware': '硬件', 'justin-sun': '孙宇晨',
   };
+  const sourceMap = {
     'arXiv CS Robotics': 'arXiv 机器人学',
     'arXiv CS AI': 'arXiv 人工智能',
     'TechCrunch Robotics': 'TechCrunch 机器人',
@@ -495,8 +505,19 @@ function draw() {
 draw();
 
 // ==================== BOOT ====================
-initApp();
-console.log('🤖 Physical AI Tracker v2 已启动');
+initApp().finally(() => {
+  document.body.classList.add('loaded');
+  document.body.classList.remove('loading');
+});
+// 兜底：8秒后强制清除加载状态
+setTimeout(() => {
+  document.body.classList.add('loaded');
+  document.body.classList.remove('loading');
+  if (!appData.news) {
+    document.getElementById('newsFeed').innerHTML = '<div class="error-state">⚠️ 数据加载超时，请检查网络连接或刷新页面重试</div>';
+  }
+}, 8000);
+console.log('🤖 物理AI赛道追踪 v2 已启动');
 console.log('📡 数据源: data/*.json (自动抓取 + GitHub Actions)');
 console.log('💡 本地预览: npx serve . -p 3000');
 </script>
