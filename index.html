@@ -119,6 +119,43 @@ body {
 .news-item .news-tags { display: flex; gap: 0.3rem; flex-wrap: wrap; margin-top: 0.3rem; }
 .news-item .news-tag { font-size: 0.65rem; padding: 0.1rem 0.45rem; border-radius: 10px; background: var(--surface-hover); color: var(--text-tertiary); }
 
+/* Insights Panel */
+.insights-panel {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 1.5rem;
+}
+.insight-summary {
+  font-size: 1rem; line-height: 1.7; color: var(--text-primary);
+  padding: 1rem; background: rgba(201,169,110,0.06); border-radius: var(--radius-sm);
+  border-left: 3px solid var(--gold);
+  margin-bottom: 1.2rem;
+}
+.insight-events { display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.2rem; }
+.insight-event {
+  background: var(--surface-hover); border-radius: var(--radius-sm); padding: 1rem;
+  border: 1px solid var(--border);
+}
+.insight-event .event-num { font-size: 0.72rem; font-weight: 700; color: var(--gold-text); text-transform: uppercase; }
+.insight-event .event-title { font-weight: 700; margin-top: 0.2rem; }
+.insight-event .event-importance, .insight-event .event-impact { font-size: 0.82rem; color: var(--text-secondary); margin-top: 0.25rem; }
+.insight-event .event-importance::before { content: '💡 '; }
+.insight-event .event-impact::before { content: '📊 影响: '; }
+.insight-trend {
+  padding: 0.8rem 1rem; border-radius: var(--radius-sm); font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.insight-trend.speed-up { background: var(--green-soft); color: var(--green); }
+.insight-trend.steady { background: var(--blue-soft); color: var(--blue); }
+.insight-trend.cooling { background: var(--rose-soft); color: var(--rose); }
+.insight-watch { margin-bottom: 1rem; }
+.insight-watch h4 { font-size: 0.85rem; margin-bottom: 0.4rem; }
+.insight-watch .watch-item { font-size: 0.85rem; padding: 0.25rem 0; }
+.insight-watch .watch-item::before { content: '👁️ '; }
+.insight-noise {
+  font-size: 0.82rem; color: var(--text-tertiary); padding: 0.6rem 0.8rem;
+  background: rgba(255,255,255,0.02); border-radius: var(--radius-sm); font-style: italic;
+}
+
 /* Funding Grid */
 .funding-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.8rem; }
 .funding-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.3rem; transition: all 0.25s ease; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -173,6 +210,7 @@ body {
   <nav>
     <a href="#map" class="active">赛道地图</a>
     <a href="#news">新闻动态</a>
+    <a href="#insights">AI洞察</a>
     <a href="#companies">公司追踪</a>
     <a href="#timeline">时间线</a>
     <a href="#funding">融资</a>
@@ -212,6 +250,13 @@ body {
     <span class="last-updated" id="newsUpdated"></span>
   </div>
   <div class="news-feed" id="newsFeed"><div class="loading">加载新闻中...</div></div>
+
+  <!-- 2.5 AI WEEKLY INSIGHTS -->
+  <div class="section-title" id="insights">
+    <span>🧠 AI 每周洞察 <span class="badge-auto live" style="margin-left:0.5rem"><span class="dot"></span> DeepSeek 自动分析</span></span>
+    <span class="last-updated" id="insightsUpdated"></span>
+  </div>
+  <div class="insights-panel" id="insightsPanel"><div class="loading">加载洞察中...</div></div>
 
   <!-- 3. COMPANY TABLE -->
   <div class="section-title" id="companies">
@@ -264,9 +309,10 @@ const DATA_SOURCES = {
   timeline: 'data/timeline.json',
   funding: 'data/funding.json',
   news: 'data/news.json',
+  insights: 'data/insights.json',
 };
 
-let appData = { companies: null, timeline: null, funding: null, news: null };
+let appData = { companies: null, timeline: null, funding: null, news: null, insights: null };
 let dataSource = 'unknown'; // 'fetch' | 'embedded'
 
 async function loadData(key, url) {
@@ -287,14 +333,15 @@ async function loadData(key, url) {
 
 async function initApp() {
   try {
-    const [companies, timeline, funding, news] = await Promise.all([
+    const [companies, timeline, funding, news, insights] = await Promise.all([
       loadData('companies', DATA_SOURCES.companies),
       loadData('timeline', DATA_SOURCES.timeline),
       loadData('funding', DATA_SOURCES.funding),
       loadData('news', DATA_SOURCES.news),
+      loadData('insights', DATA_SOURCES.insights).catch(() => null),
     ]);
 
-    appData = { companies, timeline, funding, news };
+    appData = { companies, timeline, funding, news, insights };
     if (dataSource !== 'embedded') dataSource = 'fetch';
 
     try {
@@ -330,6 +377,7 @@ function renderAll() {
   const safeRender = (name, fn) => { try { fn(); } catch(e) { console.error(name + ' 渲染失败:', e); } };
   safeRender('Stats', renderStats);
   safeRender('News', renderNews);
+  safeRender('Insights', renderInsights);
   safeRender('Companies', renderCompanies);
   safeRender('Timeline', renderTimeline);
   safeRender('Funding', renderFunding);
@@ -384,6 +432,60 @@ function renderNews() {
       </div>
     </div>
   `).join('');
+}
+
+// --- AI Insights ---
+function renderInsights() {
+  const { insights } = appData;
+  if (!insights || !insights.reports || !insights.reports.length) {
+    document.getElementById('insightsPanel').innerHTML = '<div style="color:var(--text-tertiary);text-align:center;padding:2rem;">🧠 AI 洞察将在下周自动生成<br><small>每周一由 DeepSeek 自动分析本周新闻</small></div>';
+    document.getElementById('insightsUpdated').textContent = '等待首次生成';
+    return;
+  }
+  const report = insights.reports[0];
+  document.getElementById('insightsUpdated').textContent = '生成于 ' + (report.generatedAt || '').split('T')[0];
+
+  const trendClass = (report.trendJudgment || '').includes('加速') ? 'speed-up' :
+                     (report.trendJudgment || '').includes('降温') ? 'cooling' : 'steady';
+  const trendLabel = (report.trendJudgment || '').includes('加速') ? '🚀 赛道加速' :
+                     (report.trendJudgment || '').includes('降温') ? '❄️ 赛道降温' : '➡️ 匀速发展';
+
+  let html = '';
+  // Summary
+  html += `<div class="insight-summary">${esc(report.summary || '暂无摘要')}</div>`;
+
+  // Trend
+  html += `<div class="insight-trend ${trendClass}"><strong>${trendLabel}:</strong> ${esc(report.trendJudgment || '')}</div>`;
+
+  // Top Events
+  if (report.topEvents && report.topEvents.length > 0) {
+    html += '<div class="insight-events">';
+    report.topEvents.forEach((ev, i) => {
+      html += `<div class="insight-event">
+        <div class="event-num">TOP ${i + 1}</div>
+        <div class="event-title">${esc(ev.title || '')}</div>
+        ${ev.importance ? `<div class="event-importance">${esc(ev.importance)}</div>` : ''}
+        ${ev.impact ? `<div class="event-impact">${esc(ev.impact)}</div>` : ''}
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  // Companies to Watch
+  if (report.companiesToWatch && report.companiesToWatch.length > 0) {
+    html += '<div class="insight-watch"><h4>🔭 本周重点关注</h4>';
+    report.companiesToWatch.forEach(c => {
+      html += `<div class="watch-item"><strong>${esc(c.name)}</strong> — ${esc(c.reason || '')}</div>`;
+    });
+    html += '</div>';
+  }
+
+  // Noise Alert
+  if (report.noiseAlert) {
+    html += `<div class="insight-noise">🔇 噪音提醒: ${esc(report.noiseAlert)}</div>`;
+  }
+
+  document.getElementById('insightsPanel').innerHTML = html;
 }
 
 // --- Companies ---

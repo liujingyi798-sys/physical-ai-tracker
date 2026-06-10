@@ -4,6 +4,8 @@ on:
   schedule:
     # 每天 UTC 0:00 和 12:00 运行（北京时间 8:00 和 20:00）
     - cron: '0 0,12 * * *'
+    # 每周一 UTC 0:00 生成 AI 洞察（北京时间周一 8:00）
+    - cron: '0 0 * * 1'
   # 允许手动触发
   workflow_dispatch:
   # 推送 data/ 以外的文件时不触发；修改 data 文件时也不触发（避免循环）
@@ -52,3 +54,35 @@ jobs:
           git add data/news.json
           git commit -m "📰 $(date +%Y-%m-%d) 新闻自动更新 — $(node -e 'const d=require(\"./data/news.json\");console.log(d.itemsFetched+\" 条新新闻\")')"
           git push
+
+  generate-insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # 每周一自动运行，或手动触发时也运行
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - name: Checkout 仓库
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 运行 AI 洞察生成
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: node scripts/generate-insights.js
+
+      - name: 提交并推送洞察报告
+        run: |
+          if git diff --quiet data/insights.json; then
+            echo "📭 洞察无变化"
+          else
+            git config user.name "Physical AI Bot 🤖"
+            git config user.email "bot@physical-ai-tracker.dev"
+            git add data/insights.json
+            git commit -m "🧠 $(date +%Y-%m-%d) AI 每周洞察自动生成"
+            git push
+          fi
