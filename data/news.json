@@ -1,9 +1,40 @@
 {
-  "lastUpdated": "2026-06-19T04:04:20.060Z",
+  "lastUpdated": "2026-06-20T03:27:36.411Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 54,
+  "itemsFetched": 16,
   "items": [
+    {
+      "title": "Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking",
+      "link": "https://arxiv.org/abs/2605.23733",
+      "source": "arXiv CS Robotics",
+      "date": "2026-06-19",
+      "tags": [
+        "unitree",
+        "humanoid"
+      ],
+      "summary": "arXiv:2605.23733v3 Announce Type: replace Abstract: Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making "
+    },
+    {
+      "title": "Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System",
+      "link": "https://arxiv.org/abs/2606.18112",
+      "source": "arXiv CS Robotics",
+      "date": "2026-06-19",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2606.18112v2 Announce Type: replace Abstract: Agentic navigation systems require a base navigation model whose observation strategy can be externally reconfigured at inference time, because instruction following, object search, target tracking, and autonomous driving share "
+    },
+    {
+      "title": "Critique of World Model",
+      "link": "https://arxiv.org/abs/2507.05169",
+      "source": "arXiv CS Robotics",
+      "date": "2026-06-19",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2507.05169v5 Announce Type: replace-cross Abstract: World Model, the algorithmic simulator of the real-world environment which biological agents experience and act upon, has been an emerging topic in recent years due to the rising need to develop virtual agents with artific"
+    },
     {
       "title": "Playful Agentic Robot Learning",
       "link": "https://arxiv.org/abs/2606.19419",
@@ -665,6 +696,36 @@
       "summary": "“下一代汽车不会再单域地考虑智能。”在雷峰网受邀参加的中国汽车重庆论坛以“整车企业 X 科技公司，下一代汽车如何定义”为主题的研讨会上，长安汽车产品规划与定义业务总监柳宇翔用这句话概括了 AI 时代汽车定义正在发生的变化。过去几年，汽车行业谈智能化，更多还是围绕一个个具体功能展开，不同系统各自升级，构成了上一阶段智能汽车竞争的主要内容。但在 AI 化阶段，这种单点升级已经不足以解释下一代汽车的变化。柳宇翔认为，未来汽车会越来越像一个由中央大脑统一调度的系统，底盘、动力、座舱、智驾、云端不再各自独立运行，而是需要被整车智能重新组织起来。在这场研讨会上，来自"
     },
     {
+      "title": "九章云极发布“AI工厂”战略  定义智能规模化新基建",
+      "link": "https://www.leiphone.com/category/industrynews/zbQdehRHS9NgQjAv.html",
+      "source": "雷锋网",
+      "date": "2026-06-17",
+      "tags": [
+        "general"
+      ],
+      "summary": "6月17日，“智算·新云·新章——2026全球智算科技峰会暨九章云极战略发布会”在北京举行。九章云极创始人兼董事长方磊正式发布“AI工厂”核心战略，提出以DCU为度量衡、以专业Token为产出单元的智能规模化交付体系。这是九章云极向智能时代基础设施运营平台跃迁的重要一步。“一个时代的真正确立，始于一项伟大的发明，但最终，成于一套伟大的规模化生产体系。”方磊在主题演讲中指出，AI产业竞争内核已发生根本性迭代：行业比拼不再局限于打造性能更强的单点大模型，而是能否搭建现代化工厂式体系，规模化、低成本、高稳定地批量生产、交付标准化智能能力。九章智算云的目标，是让"
+    },
+    {
+      "title": "理想汽车举办Livis Day软件与具身智能发布会",
+      "link": "https://www.leiphone.com/category/transportation/iKKAYzqzrW0294JG.html",
+      "source": "雷锋网",
+      "date": "2026-06-17",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "L9 Livis发布后一个月， 李想进一步阐释了他的具身智能技术图景。6月15日，在Livis Day理想汽车软件与具身智能发布会上，理想汽车提出具身智能汽车的完整定义，即同时拥有电动车、职业司机、AI计算机与生活助手四大能力的智能体。围绕这一定义，发布会系统展示了全新一代理想空间交互体验、自研具身智能模型、自研全球首款动态数据流AI芯片马赫M100、具身智能产品和体验，并发布覆盖全年的OTA成长里程碑。理想汽车董事长兼CEO李想表示：“具身智能，跟造车到底有什么关系？今天的传统智能汽车，并不是真的智能，本质上是‘功能驱动’，服务于特定场景，对安全的定义"
+    },
+    {
+      "title": "阿里发布世界模型HappyOyster 1.0，用户可实时探索、导演并重塑 AI 世界",
+      "link": "https://www.leiphone.com/category/industrynews/1CH2JRMcIM0JbVu1.html",
+      "source": "雷锋网",
+      "date": "2026-06-17",
+      "tags": [
+        "general"
+      ],
+      "summary": "6月17日，阿里发布可实时构建和交互的开放式世界模型产品HappyOyster 1.0（快乐生蚝1.0），该产品深度学习物理世界状态转移规律，能主动推演从动作到反馈的因果链，并保持人物和环境的长程一致性。HappyOyster 1.0具备世界探索（Adventure）和实时导演（Directing）两大核心能力，并升级了交互功能，新增攻击、跳跃、剧情回溯、剧情分支等操控能力，用户仅需一句话或一张图，就能生成可互动、可探索、可实时改变的AI数字世界。HappyOyster 1.0可广泛应用于交互式游戏、虚拟陪伴、互动短剧、文旅体验、直播等行业，目前官网已开"
+    },
+    {
       "title": "Evaluating humanoids for surface finishing applications",
       "link": "https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/",
       "source": "The Robot Report",
@@ -753,66 +814,6 @@
         "general"
       ],
       "summary": "arXiv:2606.17418v1 Announce Type: new Abstract: Dexterous robotic hands face a longstanding trade-off among dexterity, compactness, and affordability. Particularly, high-degree-of-freedom designs typically demand complex actuation and transmission, hindering integration into huma"
-    },
-    {
-      "title": "AnnotateAnything: Automatic Annotation of 3D Assets for Robot Manipulation",
-      "link": "https://arxiv.org/abs/2606.17446",
-      "source": "arXiv CS Robotics",
-      "date": "2026-06-17",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2606.17446v1 Announce Type: new Abstract: Simulation enables scalable robot data collection, but raw 3D assets provide only geometry, lacking the semantic, interactive, and physical knowledge needed to specify where and how robots should act. In this work, we present Annota"
-    },
-    {
-      "title": "When Robots Sleep: Offline Skill Consolidation for Shared-Policy Robot Learning",
-      "link": "https://arxiv.org/abs/2606.17493",
-      "source": "arXiv CS Robotics",
-      "date": "2026-06-17",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2606.17493v1 Announce Type: new Abstract: Robots that learn over long deployments must add new skills without losing the shared policy structure that makes earlier skills reusable. We study sequential robot skill learning, where previous trajectories and task losses may be "
-    },
-    {
-      "title": "MagicSim: A Unified Infrastructure for Executable Embodied Interaction",
-      "link": "https://arxiv.org/abs/2606.17511",
-      "source": "arXiv CS Robotics",
-      "date": "2026-06-17",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2606.17511v1 Announce Type: new Abstract: Robot learning and embodied agents now require simulation to serve as a shared execution substrate linking control, skills, and planning, not only as a renderer, controller testbed, or fixed task environment. Existing pipelines spli"
-    },
-    {
-      "title": "GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments",
-      "link": "https://arxiv.org/abs/2606.17520",
-      "source": "arXiv CS Robotics",
-      "date": "2026-06-17",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2606.17520v1 Announce Type: new Abstract: Training embodied agents in the real world requires skilled operators and expensive hardware. Simulation environments offer a compelling alternative by enabling large-scale, cost-effective data augmentation. Consequently, rapidly co"
-    },
-    {
-      "title": "MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation",
-      "link": "https://arxiv.org/abs/2606.17598",
-      "source": "arXiv CS Robotics",
-      "date": "2026-06-17",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2606.17598v1 Announce Type: new Abstract: Humans naturally leverage diverse sensing modalities to interact with the physical world, while most Vision-Language-Action (VLA) models for robotics rely solely on RGB observations. This limits their ability to perceive physical pr"
-    },
-    {
-      "title": "HumanoidArena: Benchmarking Egocentric Hierarchical Whole-body Learning",
-      "link": "https://arxiv.org/abs/2606.17833",
-      "source": "arXiv CS Robotics",
-      "date": "2026-06-17",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2606.17833v1 Announce Type: new Abstract: Humanoid robots promise whole-body interaction in human-centered environments, but scalable policy learning remains difficult because task-level decision-making and whole-body dynamic execution are tightly coupled. A practical solut"
     }
   ]
 }
