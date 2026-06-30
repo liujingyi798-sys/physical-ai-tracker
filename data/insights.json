@@ -1,6 +1,59 @@
 {
   "reports": [
     {
+      "generatedAt": "2026-06-30T14:13:55.324Z",
+      "period": {
+        "start": "2026-06-23",
+        "end": "2026-06-30"
+      },
+      "newsCount": 80,
+      "analyzedCount": 30,
+      "summary": "本周物理AI赛道在技术层面持续深化，arXiv论文密集发布，聚焦于人形机器人全身控制、灵巧操作、仿真到现实迁移以及数据标准化等关键议题。其中，关于人形机器人数据标准（ISO/WD）的论文揭示了行业基础设施缺失的痛点，而多项研究在VLA模型微调、触觉仿真、自我对弈学习等方面取得突破，显示出技术迭代正从单一算法向系统化、标准化方向演进。",
+      "topEvents": [
+        {
+          "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
+          "importance": "Figure 02在宝马工厂成功生产超过3万辆X3，验证了人形机器人在汽车制造中的商业价值，Figure 03的部署标志着从试点到规模化应用的转折点。",
+          "impact": "加速人形机器人在制造业的落地进程，为其他车企和机器人公司提供可复制的商业化路径，推动行业从实验室走向工厂。"
+        },
+        {
+          "title": "Kinisi Robotics被Bear Robotics收购",
+          "importance": "Kinisi在物理AI领域的独特方法获得行业认可，收购整合表明资本正在加速布局具身智能赛道。",
+          "impact": "强化Bear Robotics在餐饮服务机器人市场的技术壁垒，同时为物理AI初创公司提供退出路径，可能引发更多并购活动。"
+        },
+        {
+          "title": "SpikeVLA: Vision-Language-Action Models with Spiking Neural Networks",
+          "importance": "将脉冲神经网络引入VLA模型，显著降低推理延迟和能耗，为边缘部署和实时控制提供新范式。",
+          "impact": "推动物理AI系统向低功耗、高效率方向发展，可能改变机器人芯片和硬件架构的设计思路。"
+        },
+        {
+          "title": "Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies",
+          "importance": "提出数据为中心的管线解决人形机器人运动数据稀缺问题，直接提升策略的可部署性。",
+          "impact": "降低人形机器人运动学习的门槛，加速从仿真到实物的迁移，推动行业数据基础设施的标准化。"
+        },
+        {
+          "title": "Building a Scalable, Reproducible, Evaluatable, and Closed-Loop Simulation Environment Foundation for Embodied Intelligence",
+          "importance": "提出云原生仿真基础设施框架，支持大规模训练、标准化评估和数据收集，是行业基础设施的关键突破。",
+          "impact": "为具身智能提供可复现的基准测试环境，促进算法公平比较和迭代，加速技术成熟。"
+        }
+      ],
+      "trendJudgment": "相比上周，赛道在加速。本周不仅有BMW和Figure的产业化里程碑，还有多项技术突破（如SpikeVLA、Booster Lab）和基础设施创新（云原生仿真），显示出从算法到系统再到商业化的全面提速。",
+      "companiesToWatch": [
+        {
+          "name": "Figure AI",
+          "reason": "Figure 03在宝马工厂部署，验证了人形机器人在汽车制造中的商业可行性，公司正从技术验证进入规模化应用阶段。"
+        },
+        {
+          "name": "Bear Robotics",
+          "reason": "收购Kinisi Robotics后，整合其物理AI技术，有望在餐饮服务机器人领域建立更强大的技术护城河。"
+        },
+        {
+          "name": "Kinisi Robotics",
+          "reason": "被收购事件凸显其技术价值，其物理AI方法可能成为行业参考，创始人Brennand Pierce的后续动向值得关注。"
+        }
+      ],
+      "noiseAlert": "本周无明显噪音。"
+    },
+    {
       "generatedAt": "2026-06-19T15:10:07.993Z",
       "period": {
         "start": "2026-06-12",
@@ -103,5 +156,5 @@
       "noiseAlert": "本周无明显噪音。所有新闻均围绕核心技术突破、政策推进或资本投入，无炒作性内容。"
     }
   ],
-  "lastUpdated": "2026-06-19T15:10:07.993Z"
+  "lastUpdated": "2026-06-30T14:13:55.324Z"
 }
