@@ -1,9 +1,59 @@
 {
-  "lastUpdated": "2026-07-08T13:58:47.171Z",
+  "lastUpdated": "2026-07-09T02:44:02.908Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 59,
+  "itemsFetched": 17,
   "items": [
+    {
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "link": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "source": "TechCrunch Robotics",
+      "date": "2026-07-08",
+      "tags": [
+        "foundation-model"
+      ],
+      "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data."
+    },
+    {
+      "title": "Tickets, geofences, and 1M miles: The new reality of California AV compliance",
+      "link": "https://www.therobotreport.com/tickets-geofences-1m-miles-new-reality-california-av-compliance/",
+      "source": "The Robot Report",
+      "date": "2026-07-08",
+      "tags": [
+        "general"
+      ],
+      "summary": "Guident CEO Harald Braun breaks down the new AV mandates in California mandates and how they will affect the driverless industry. The post Tickets, geofences, and 1M miles: The new reality of California AV compliance appeared first on The Robot Report."
+    },
+    {
+      "title": "NVIDIA and Hugging Face bring new models and frameworks to LeRobot",
+      "link": "https://www.therobotreport.com/nvidia-hugging-face-bring-new-models-frameworks-lerobot/",
+      "source": "The Robot Report",
+      "date": "2026-07-08",
+      "tags": [
+        "nvidia"
+      ],
+      "summary": "Hugging Face LeRobot is an open-source robotics library for training, running, and sharing robot datasets, models, policies, and workflows. The post NVIDIA and Hugging Face bring new models and frameworks to LeRobot appeared first on The Robot Report."
+    },
+    {
+      "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+      "link": "https://arxiv.org/abs/2607.04434",
+      "source": "arXiv CS Robotics",
+      "date": "2026-07-08",
+      "tags": [
+        "nvidia"
+      ],
+      "summary": "arXiv:2607.04434v3 Announce Type: replace Abstract: Generalist robot manipulation policies have advanced rapidly, yet existing benchmarks remain limited in systematically evaluating their capabilities. Many rely on simple, short-horizon, or skill-narrow tasks with limited capabil"
+    },
+    {
+      "title": "Athena-WBC: Capability-Aligned Policy Experts for Long-Tail Humanoid Whole-Body Control",
+      "link": "https://arxiv.org/abs/2607.04837",
+      "source": "arXiv CS Robotics",
+      "date": "2026-07-08",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2607.04837v2 Announce Type: replace Abstract: Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that th"
+    },
     {
       "title": "GraspIT: A Dataset Bridging the Sim-to-Real gap and back for Validated Grasping SE(3) Pose Generation",
       "link": "https://arxiv.org/abs/2607.05869",
@@ -776,57 +826,6 @@
         "general"
       ],
       "summary": "Forterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine."
-    },
-    {
-      "title": "Tesollo initiates IPO process while developing humanoid hands",
-      "link": "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/",
-      "source": "The Robot Report",
-      "date": "2026-07-07",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "Tesollo, a South Korean robotic hand specialist, has officially begun preparations for its initial public offering. The post Tesollo initiates IPO process while developing humanoid hands appeared first on The Robot Report."
-    },
-    {
-      "title": "GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation",
-      "link": "https://arxiv.org/abs/2607.02642",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-07",
-      "tags": [
-        "embodied",
-        "foundation-model"
-      ],
-      "summary": "arXiv:2607.02642v1 Announce Type: new Abstract: Evaluating embodied robot foundation models remains a critical bottleneck; unlike large language models efficiently assessed via digital benchmarks, robotic policies require slow, costly real-world rollouts limited by hardware and h"
-    },
-    {
-      "title": "TACO: TActile World Model as a Self-COrrector forScalable VLA Post-Training",
-      "link": "https://arxiv.org/abs/2607.02840",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-07",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.02840v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models have shown promising generalization in robotic manipulation, but they still struggle with contact-rich tasks, where minor contact perturbations can cause unrecoverable failures that are hard to de"
-    },
-    {
-      "title": "CLEAR: Closed-Loop Reinforcement Learning at Scale for End-to-End Autonomous Driving",
-      "link": "https://arxiv.org/abs/2607.02841",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-07",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.02841v1 Announce Type: new Abstract: End-to-end autonomous driving (E2E-AD) aims to directly map raw sensor information to driving actions. Recently, with the rapid advancement of multi-modal large language models (MLLMs), researchers have proposed the paradigm of Visi"
-    },
-    {
-      "title": "DREAMSTEER: Latent World Models Can Steer VLA Policies During Deployment Without Any Finetuning",
-      "link": "https://arxiv.org/abs/2607.02865",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-07",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.02865v1 Announce Type: new Abstract: Pretrained vision-language-action (VLA) policies show promising zero-shot generalization, but often fail under deployment-time distribution shift, leading to decreased robustness and inconsistent instruction following. While prior w"
     }
   ]
 }
