@@ -1,9 +1,79 @@
 {
-  "lastUpdated": "2026-07-11T02:26:03.396Z",
+  "lastUpdated": "2026-07-11T13:13:02.857Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 13,
+  "itemsFetched": 17,
   "items": [
+    {
+      "title": "Why robotics teams need virtual gyms before deployment",
+      "link": "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/",
+      "source": "The Robot Report",
+      "date": "2026-07-11",
+      "tags": [
+        "general"
+      ],
+      "summary": "To address environmental and task variability, robots can benefit from 'virtual gyms' to bridge the sim-to-real gap, says SoftServe. The post Why robotics teams need virtual gyms before deployment appeared first on The Robot Report."
+    },
+    {
+      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+      "link": "https://arxiv.org/abs/2607.08745",
+      "source": "arXiv CS AI",
+      "date": "2026-07-11",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2607.08745v1 Announce Type: new Abstract: Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visual question a"
+    },
+    {
+      "title": "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving",
+      "link": "https://arxiv.org/abs/2607.08375",
+      "source": "arXiv CS AI",
+      "date": "2026-07-11",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2607.08375v1 Announce Type: cross Abstract: Vision-Language-Action (VLA) models have advanced end-to-end autonomous driving. However, existing methods either lack comprehensive world cognition or suffer from fragmented world foresight, inherently confining these models to r"
+    },
+    {
+      "title": "DocMaster: A Hierarchical Structure-Aware System for Document Analysis",
+      "link": "https://arxiv.org/abs/2607.08539",
+      "source": "arXiv CS AI",
+      "date": "2026-07-11",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2607.08539v1 Announce Type: cross Abstract: Leveraging large language models (LLMs) to analyze complex documents -- such as academic papers, technical manuals, and financial reports -- has emerged as a mainstream and critical task in both research and industry. In practice,"
+    },
+    {
+      "title": "Validity of LLMs as data annotators: AMALIA on authority",
+      "link": "https://arxiv.org/abs/2607.08731",
+      "source": "arXiv CS AI",
+      "date": "2026-07-11",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2607.08731v1 Announce Type: cross Abstract: A national language model offers a linguistic community its own instrument for measuring what its citizens say and value. Portugal's AMALIA, a publicly funded 9B-parameter model for European Portuguese, appears competitive on agre"
+    },
+    {
+      "title": "From Application-Layer Simulation to Native Meta-Architecture: Structural Tension as an Endogenous Driver for Heterogeneous AI Evolution",
+      "link": "https://arxiv.org/abs/2607.06269",
+      "source": "arXiv CS AI",
+      "date": "2026-07-11",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2607.06269v2 Announce Type: replace Abstract: Current large language models (LLMs) are stateless across inference sessions: their behavior is fully determined by input at inference time, and any higher-order cognitive architecture must be simulated at the application layer "
+    },
+    {
+      "title": "Does Mixture-of-Experts Actually Help Inference on Consumer and Edge Hardware? An Empirical Study",
+      "link": "https://arxiv.org/abs/2606.21428",
+      "source": "arXiv CS AI",
+      "date": "2026-07-11",
+      "tags": [
+        "nvidia"
+      ],
+      "summary": "arXiv:2606.21428v3 Announce Type: replace-cross Abstract: Mixture-of-Experts (MoE) language models are often described as ideal for resource-constrained inference. Each token activates only a small subset of experts, so the per-token compute cost, in floating-point operations (FL"
+    },
     {
       "title": "How Path Robotics uses AI to optimize robotic welding",
       "link": "https://www.therobotreport.com/how-path-robotics-uses-ai-optimize-robotic-welding/",
@@ -754,76 +824,6 @@
         "humanoid"
       ],
       "summary": "arXiv:2607.04837v2 Announce Type: replace Abstract: Large-scale humanoid motion-tracking controllers are commonly improved by reallocating training effort: difficult motions are sampled more often, isolated into smaller subsets, or assigned to specialized experts. We show that th"
-    },
-    {
-      "title": "GraspIT: A Dataset Bridging the Sim-to-Real gap and back for Validated Grasping SE(3) Pose Generation",
-      "link": "https://arxiv.org/abs/2607.05869",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-08",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2607.05869v1 Announce Type: new Abstract: Robust robotic grasping of novel objects requires datasets that simultaneously provide photorealistic RGB-D observations, physically validated grasp quality annotations, and a principled bridge between simulation and the real world,"
-    },
-    {
-      "title": "DexTele: A Dual-Arm Dexterous Teleoperation System Based on Motion Retargeting and Adaptive Force Control",
-      "link": "https://arxiv.org/abs/2607.05883",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-08",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.05883v1 Announce Type: new Abstract: In dual-arm dexterous teleoperation, cross-platform generalization of motion retargeting and interactivity of grasping are crucial. However, the heterogeneity of robotic architectures and the wide variety of grasping objects pose si"
-    },
-    {
-      "title": "Imagined Rollouts are Kinematic, Not Dynamic: A Diagnosis of Long-Horizon World-Model Failure",
-      "link": "https://arxiv.org/abs/2607.05966",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-08",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.05966v1 Announce Type: new Abstract: Long-horizon failure in world models is conventionally attributed to compounding error, a generic framing that does not distinguish what kind of error compounds. We propose a kinematic-vs-dynamic reframing: world models tend to imag"
-    },
-    {
-      "title": "ThorArena: Benchmarking Humanoid Physical Interaction with Human Motion-Force Demonstrations",
-      "link": "https://arxiv.org/abs/2607.06052",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-08",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2607.06052v1 Announce Type: new Abstract: Humanoid robots are increasingly expected to perform contact-rich tasks that require not only accurate whole-body motion but also robust physical interaction with surrounding objects and humans. Although recent advances in humanoid "
-    },
-    {
-      "title": "LAMP: Latent Motion Prior-Guided Real-World Learning for Dexterous Hand Manipulation",
-      "link": "https://arxiv.org/abs/2607.06323",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-08",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.06323v1 Announce Type: new Abstract: Real-world learning for dexterous hands remains brittle because high-dimensional hand actions amplify imitation errors and make reinforcement-learning exploration prone to contact-breaking motion. While combining imitation learning "
-    },
-    {
-      "title": "OrchardBench: A Physically-Grounded, GPU-Parallel Apple-Orchard Simulation Benchmark for Agricultural Robotics",
-      "link": "https://arxiv.org/abs/2607.06337",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-08",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.06337v1 Announce Type: new Abstract: Robotic tree-fruit harvesting is a flagship problem for agricultural automation, but progress is bottlenecked by the cost and irreproducibility of field experiments: an orchard is available only weeks a year, every tree is different"
-    },
-    {
-      "title": "Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement",
-      "link": "https://arxiv.org/abs/2607.06370",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-08",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2607.06370v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models have emerged as a promising approach for generalizable robotic manipulations. In particular, flow matching-based VLA models have shown remarkable success due to their capability to generate precis"
     }
   ]
 }
