@@ -1,9 +1,51 @@
 {
-  "lastUpdated": "2026-07-24T13:38:35.981Z",
+  "lastUpdated": "2026-07-25T02:25:29.361Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 38,
+  "itemsFetched": 17,
   "items": [
+    {
+      "title": "Generalist&#8217;s GEN-1 foundation model now supports a range of robot end effectors",
+      "link": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
+      "source": "The Robot Report",
+      "date": "2026-07-24",
+      "tags": [
+        "foundation-model"
+      ],
+      "summary": "By training GEN-1 to work with new hands, Generalist said a single base model can learn sensorimotor policies on different robots. The post Generalist&#8217;s GEN-1 foundation model now supports a range of robot end effectors appeared first on The Robot Report."
+    },
+    {
+      "title": "How time series databases unlock real-time data for robotics",
+      "link": "https://www.therobotreport.com/how-time-series-databases-unlock-real-time-data-for-robotics/",
+      "source": "The Robot Report",
+      "date": "2026-07-24",
+      "tags": [
+        "general"
+      ],
+      "summary": "Discover how time series databases help robotics teams manage high-volume sensor data, power AI insights, and keep systems running at scale. The post How time series databases unlock real-time data for robotics appeared first on The Robot Report."
+    },
+    {
+      "title": "对话星炽动力CTO李达——PULSE架构：如何让具身智能更像人？",
+      "link": "https://www.leiphone.com/category/industrynews/VoghxG89WgJ2E9ZI.html",
+      "source": "雷锋网",
+      "date": "2026-07-24",
+      "tags": [
+        "industrial",
+        "embodied",
+        "funding"
+      ],
+      "summary": "端云协同 + 原生隐私设计，家庭机器人兼顾智能与安全&nbsp; &nbsp; 编辑丨李希&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs"
+    },
+    {
+      "title": "天立启鸣发布教育AGI白皮书：从答题响应到心智仿真，破解教育“不可能三角”",
+      "link": "https://www.leiphone.com/category/ai/9BvD2TFs3u6gMHPr.html",
+      "source": "雷锋网",
+      "date": "2026-07-24",
+      "tags": [
+        "general"
+      ],
+      "summary": "&nbsp;如今线上题库、网课、自适应习题工具早已普及，但教育行业质量、成本、规模难以兼顾的“不可能三角”依然尚未打破。同一班级里，有的学生一点就通、有的卡在基础概念、有的陷入思维误区，统一授课很难适配所有人；一对一的个性化教育高度依赖优质师资，成本高、难推广。教育AI工具尽管简单易用，但多停留在内容分发、答题响应与习题推荐的表层逻辑，无法看透学生内在心智变化和潜在需求。教育行业亟待从简单的“答题响应”，走向能模拟、读懂学生内心思考过程的“心智仿真”新阶段。在2026第9届世界人工智能大会（WAIC）期间，由天立国际、启鸣达人、天立启鸣AI研究院、AII"
+    },
     {
       "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
       "link": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
@@ -812,48 +854,6 @@
         "general"
       ],
       "summary": "arXiv:2607.18565v1 Announce Type: cross Abstract: Eco-Cooperative Adaptive Cruise Control (Eco-CACC) systems rely on accurate localization, signal timing, and interaction awareness to optimize energy consumption at signalized intersections. Existing approaches typically assume th"
-    },
-    {
-      "title": "Masked Visual Actions for Unified World Modeling",
-      "link": "https://arxiv.org/abs/2607.19343",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-22",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.19343v1 Announce Type: cross Abstract: Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in"
-    },
-    {
-      "title": "Scaling Cross-Embodiment World Models for Dexterous Manipulation",
-      "link": "https://arxiv.org/abs/2511.01177",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-22",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2511.01177v3 Announce Type: replace Abstract: Cross-embodiment learning seeks to build generalist robots that learn from and operate across diverse morphologies, but differences in kinematics and action spaces hinder data sharing and control transfer. We ask: What structure"
-    },
-    {
-      "title": "RAPT: Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Deployment",
-      "link": "https://arxiv.org/abs/2602.01515",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-22",
-      "tags": [
-        "nvidia",
-        "humanoid"
-      ],
-      "summary": "arXiv:2602.01515v2 Announce Type: replace Abstract: Deploying learned control policies is risky because policies that appear robust in simulation can confidently enter out-of-distribution (OOD) states after Sim-to-Real transfer, causing silent failures and potential hardware dama"
-    },
-    {
-      "title": "Training and Simulation of Quadrupedal Robot in Adaptive Stair Climbing and Descending for Indoor Firefighting: An End-to-End Reinforcement Learning Approach",
-      "link": "https://arxiv.org/abs/2602.03087",
-      "source": "arXiv CS Robotics",
-      "date": "2026-07-22",
-      "tags": [
-        "nvidia",
-        "unitree"
-      ],
-      "summary": "arXiv:2602.03087v2 Announce Type: replace Abstract: Quadruped robots are used for primary searches during the early stages of indoor fires. A typical primary search involves quickly and thoroughly looking for victims under hazardous conditions and monitoring flammable materials. "
     }
   ]
 }
