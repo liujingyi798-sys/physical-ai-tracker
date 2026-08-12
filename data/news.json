@@ -1,9 +1,204 @@
 {
-  "lastUpdated": "2026-08-12T01:42:11.391Z",
+  "lastUpdated": "2026-08-12T13:01:52.780Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 87,
+  "itemsFetched": 35,
   "items": [
+    {
+      "title": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
+      "link": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/",
+      "source": "The Robot Report",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "Einride is integrating its self-driving software with PACCAR unit DAF Trucks and research at TNO to advance safe autonomous trucking. The post DAF Trucks to integrate Einride Driver to scale autonomous electric freight appeared first on The Robot Report."
+    },
+    {
+      "title": "Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References",
+      "link": "https://arxiv.org/abs/2608.10220",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "unitree",
+        "humanoid"
+      ],
+      "summary": "arXiv:2608.10220v1 Announce Type: new Abstract: Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequentl"
+    },
+    {
+      "title": "FACT: Failure-Aware Causal Training for World-Action Models",
+      "link": "https://arxiv.org/abs/2608.10232",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.10232v1 Announce Type: new Abstract: Recent world-action models (WAMs) show that co-training policies with future prediction can provide physical priors for action generation. Building on the future-prediction ability of video models, many WAMs generate future videos a"
+    },
+    {
+      "title": "Real-World Cooperative Bimanual Dexterous Grasp of Large Objects from Single-View Observations",
+      "link": "https://arxiv.org/abs/2608.10383",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.10383v1 Announce Type: new Abstract: Bimanual dexterous grasping of large objects is a critical challenge in robotic manipulation. However, most existing studies focus on sequential manipulation rather than cooperative grasping, and methods addressing such bimanual tas"
+    },
+    {
+      "title": "PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots",
+      "link": "https://arxiv.org/abs/2608.10449",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.10449v1 Announce Type: new Abstract: Long-horizon service robots require persistent world models that can be built autonomously in unseen environments and revised as task-relevant objects change. Existing methods rely on online mapping, which accumulates localization a"
+    },
+    {
+      "title": "BooST: Bridging Semantics and Motions for Efficient Skill Transfer",
+      "link": "https://arxiv.org/abs/2608.10600",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.10600v1 Announce Type: new Abstract: Skill abstraction---the process of learning reusable and temporally extended behaviors---has emerged as a key paradigm for improving sample efficiency and generalization in robot learning. For efficient skill transfer to real robots"
+    },
+    {
+      "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
+      "link": "https://arxiv.org/abs/2608.10618",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "arXiv:2608.10618v1 Announce Type: new Abstract: Embodied artificial intelligence aims to develop agents that perceive, reason, and act through continuous interaction with the physical world. However, most embodied systems are still evaluated within conservative safety margins or "
+    },
+    {
+      "title": "JEPA-WAM: Stage-Level Joint-Embedding Prediction for World-Action Models in Robot Manipulation",
+      "link": "https://arxiv.org/abs/2608.10780",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.10780v1 Announce Type: new Abstract: Generalist robot policies aim to map multimodal observations and linguistic task instructions to actions across diverse tasks. However, existing methods typically represent the future as a fixed, short video-action chunk. This short"
+    },
+    {
+      "title": "Flex-$\\pi$: A Multi-Stream World-Action Model with Compute Flexibility",
+      "link": "https://arxiv.org/abs/2608.10860",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.10860v1 Announce Type: new Abstract: World-action models (WAMs) predict the future to act better, but nearly all of them predict only RGB latents, trained purely for pixel reconstruction, with no explicit signal for the 3D geometry or object semantics manipulation need"
+    },
+    {
+      "title": "VIScore: Diagnosing Planning-Relevant Quality in Latent World Models",
+      "link": "https://arxiv.org/abs/2608.11174",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.11174v1 Announce Type: new Abstract: Regulating the latent space to an isotropic Gaussian distribution provides a stable and information-maximized landscape for world model planning. However, the latent space property and successful planning remain disconnected. We fir"
+    },
+    {
+      "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+      "link": "https://arxiv.org/abs/2608.11204",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.11204v1 Announce Type: new Abstract: Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgi"
+    },
+    {
+      "title": "Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving",
+      "link": "https://arxiv.org/abs/2608.10386",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.10386v1 Announce Type: cross Abstract: Sample-efficient reinforcement learning for autonomous driving is often limited by the trade-off between data efficiency and model bias. While world models reduce the reliance on costly environment interactions, policy optimizatio"
+    },
+    {
+      "title": "OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2603.19201",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2603.19201v3 Announce Type: replace Abstract: Contact-rich manipulation tasks, such as wiping and assembly, require accurate perception of contact forces, friction changes, and state transitions that cannot be reliably inferred from vision alone. Despite growing interest in"
+    },
+    {
+      "title": "RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction",
+      "link": "https://arxiv.org/abs/2604.07126",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2604.07126v3 Announce Type: replace Abstract: Predicting traffic agent trajectories plays an important role in autonomous driving, traffic operations, transportation safety analysis, etc. Although many deep learning algorithms are devised to predict future agent trajectorie"
+    },
+    {
+      "title": "SinD 2.0: A Multi-City UAV Dataset with Semantic Risk Annotations for SOTIF-Oriented Safety Validation at Signalized Intersections",
+      "link": "https://arxiv.org/abs/2607.16943",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2607.16943v2 Announce Type: replace Abstract: Safety validation at signalized intersections remains a critical bottleneck for the deployment of autonomous driving systems (ADS), as these scenarios involve dense heterogeneous traffic, contested right of way, and long-tail sa"
+    },
+    {
+      "title": "AI时代，外贸跨境支付如何更高效？",
+      "link": "https://www.leiphone.com/category/industrynews/2qeAdkpkaQykwWHi.html",
+      "source": "雷锋网",
+      "date": "2026-08-12",
+      "tags": [
+        "general"
+      ],
+      "summary": "AI时代，人工智能技术正在深度渗透全球贸易。数字化、智能化成为外贸转型升级的核心驱动力，跨境支付作为外贸资金流转的关键环节，也迎来效率变革与合规升级的全新课题。近日，全球领先的B2B跨境贸易支付平台XTransfer举办2026未来外贸大会，4500多家外贸企业，50多家头部银行、金融机构以及多位外贸领域专家出席现场，共同探讨了AI时代的机遇和挑战。XTransfer以行业领导力，将跨境支付及风控服务经验分享给全行业，助力外贸高质量发展。以AI破解风控“不可能三角”，保障跨境支付安全合规数据显示，2025年全球制成品 B2B 跨境贸易额达到33.2 万亿"
+    },
+    {
+      "title": "桥介数物完成新一轮亿级融资，加速落地通用机器人操作系统",
+      "link": "https://www.leiphone.com/category/industrynews/lrwCyiLDozDxFo2b.html",
+      "source": "雷锋网",
+      "date": "2026-08-12",
+      "tags": [
+        "embodied",
+        "funding"
+      ],
+      "summary": "近日，通用机器人操作系统研发商桥介数物（BridgeDP Robotics）宣布完成 Pre-A+++ 轮融资。本轮融资由中国移动链长基金领投，老股东复星创富、深创投追加投资，融资规模达亿元级。桥介数物表示，本次融资将主要用于四个方向：RoboCraft AI 通用机器人运动能力开发平台的生态建设、跨本体全身运动数据工厂产能提升、运动控制模型持续迭代，以及海外技术服务体系布局与合规。接下来，桥介数物将继续以“运动控制”为立足点，围绕机器人运动能力纵向延展至操作、世界模型等关键领域，加速构建面向全球的通用机器人操作系统。中国移动链长基金表示：“随着具身智能"
+    },
+    {
+      "title": "一家 AI 眼镜独角兽背后的「冰与火之歌」",
+      "link": "https://www.leiphone.com/category/weiwu/N8AbqKGve3lxNPho.html",
+      "source": "雷锋网",
+      "date": "2026-08-12",
+      "tags": [
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "2026 年，智能眼镜赛道跑出了一家独角兽。雷峰网获悉，逸文今年二季度营收已实现翻倍增长，未来&nbsp;12&nbsp;个月要冲刺 10&nbsp;亿元人民币营收。同时，逸文也有意布局中国市场。距离逸文成立，不过三年时间，它的估值已经超 10 亿美金。过去半年，凭借一条“做减法”的产品逻辑，逸文一口气融了 10 亿人民币，节奏快得让人来不及眨眼。资本侧目，消费者买单，同行则开始“抄作业”。影目、雷鸟、极米，以及最新入局的比特幻境......在越来越多新品身上，都能嗅到逸文的味道。而极米，正是逸文创始人王骁逸在坚果投影时期的宿敌。据传，比特幻境背后操盘手"
+    },
+    {
+      "title": "DeepSeek招土木工程师；腾讯参投！林俊旸深夜官宣新公司：做下一代AI智能体；宇树科技中签号出炉：共19414个丨雷峰早报",
+      "link": "https://www.leiphone.com/category/zaobao/H8yaCINLCnx3D30o.html",
+      "source": "雷锋网",
+      "date": "2026-08-12",
+      "tags": [
+        "unitree",
+        "embodied",
+        "funding"
+      ],
+      "summary": "要闻提示1.DeepSeek招土木工程师，并开设「DeepSeek Harness团队」账号2.宇树科技中签号出炉：共19414个，每个中签号码只能认购500股3.腾讯参投！林俊旸深夜官宣新公司语用科技：做下一代AI智能体4.从上线到停运仅1个月！米哈游“新作”宣布停服5.董明珠回应「网红」身份：靠产品出圈，而非流量包装6.Manus：即将恢复以独立公司的形式运营7.OpenAI前机器人业务负责人加入Anthropic今日头条DeepSeek招土木工程师，并开设「DeepSeek Harness团队」账号8月11日消息，近日，DeepSeek官网挂出ID"
+    },
     {
       "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
       "link": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
@@ -619,204 +814,6 @@
         "general"
       ],
       "summary": "arXiv:2608.07750v1 Announce Type: cross Abstract: Deep Neural Networks (DNNs) have found successful deployment in numerous vision perception systems. However, their susceptibility to adversarial attacks has prompted concerns regarding their practical applications, specifically in"
-    },
-    {
-      "title": "Does a Toehold Make a Bidder Bolder? Preemption and Multiplicity in Multi-Round Takeover Auctions",
-      "link": "https://arxiv.org/abs/2608.08407",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2608.08407v1 Announce Type: cross Abstract: A bidder can quietly buy a stake in a company before making an offer for it. That stake, a toehold, is supposed to pay for itself twice: it makes the bidder willing to bid harder, and it frightens rivals into staying out of the fi"
-    },
-    {
-      "title": "Population-Scalable Multi-Agent World Modeling",
-      "link": "https://arxiv.org/abs/2608.08600",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.08600v1 Announce Type: cross Abstract: World models have recently achieved impressive progress in visual prediction and interactive generation, but extending them to multi-agent environments introduces a fundamental scalability challenge. Existing methods generally ass"
-    },
-    {
-      "title": "LEGO-Puzzles: How Good Are MLLMs at Multi-Step Spatial Reasoning?",
-      "link": "https://arxiv.org/abs/2503.19990",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "spatial-intelligence"
-      ],
-      "summary": "arXiv:2503.19990v4 Announce Type: replace Abstract: Many real-world applications of spatial intelligence, such as robotic control, autonomous driving, and automated assembly, require spatial reasoning across multiple sequential steps. However, the extent to which current Multimod"
-    },
-    {
-      "title": "Med-CRAFT: An Information System for Explainable and Configurable Construction of Multimodal Medical QA Datasets",
-      "link": "https://arxiv.org/abs/2512.01045",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2512.01045v2 Announce Type: replace Abstract: Data-intensive artificial intelligence applications increasingly rely on large-scale, high-quality, explainable, and reproducible datasets, yet the construction of such datasets often remains labor-intensive, weakly traceable, a"
-    },
-    {
-      "title": "Concept-Guided Spatial Regularization for World Models in Atari Pong",
-      "link": "https://arxiv.org/abs/2607.15142",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.15142v2 Announce Type: replace Abstract: World models are usually evaluated as components of model-based reinforcement learning (MBRL) systems, leaving their standalone reliability understudied. We reproduce five visual world-model agents in Atari Pong -- DreamerV3, DI"
-    },
-    {
-      "title": "Why Does the Future Branch? Identifiable Closure Tests for Stochastic Physical World Models",
-      "link": "https://arxiv.org/abs/2608.00591",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.00591v2 Announce Type: replace Abstract: A calibrated stochastic world model can reveal how uncertain a future is without revealing why it branches. The same conditional future law can arise because an observation aliases physical states or because dynamics remain rand"
-    },
-    {
-      "title": "ATLASFusion: Aggregation Tracking with Location-Aware Sparse Fusion for Robust Spatio-Temporal Multi-View Pedestrian Tracking",
-      "link": "https://arxiv.org/abs/2509.08421",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "boston-dynamics",
-        "spatial-intelligence"
-      ],
-      "summary": "arXiv:2509.08421v2 Announce Type: replace-cross Abstract: For multimedia spatial intelligence through time, multi-view multi-object tracking (MVMOT) suffers from persistent challenges in maintaining consistent object identities across different camera views, leading to tracking i"
-    },
-    {
-      "title": "Multilingual Agent-Based World Modeling for Social Science",
-      "link": "https://arxiv.org/abs/2512.07195",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2512.07195v2 Announce Type: replace-cross Abstract: Multi-agent role-playing has recently shown promise for studying social behavior with language agents, but existing simulations are mostly monolingual without cross-lingual interaction, an essential property of real societ"
-    },
-    {
-      "title": "Simple Token-Efficient Vision-Language Model for Case-level Pathology Synoptic Report Generation",
-      "link": "https://arxiv.org/abs/2605.30716",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "nvidia",
-        "boston-dynamics"
-      ],
-      "summary": "arXiv:2605.30716v2 Announce Type: replace-cross Abstract: Generating clinically useful pathology reports for pathology cases from whole-slide images (WSIs) is challenging due to gigapixel resolution, long visual-token sequences, and the complexity of case-level reasoning, where a"
-    },
-    {
-      "title": "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model",
-      "link": "https://arxiv.org/abs/2606.14574",
-      "source": "arXiv CS AI",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2606.14574v2 Announce Type: replace-cross Abstract: Large language models (LLMs) are increasingly deployed as planners for autonomous agents in household environments. While existing benchmarks evaluate whether LLM-generated plans execute successfully, they overlook a criti"
-    },
-    {
-      "title": "「说 Harness 会被淘汰的，肯定没做过工程」，Kimi 前 CLI 负责人戳破了 AI 圈最大的误解",
-      "link": "https://www.leiphone.com/category/yanxishe/iIRqNx8RhKLrA9Ol.html",
-      "source": "雷锋网",
-      "date": "2026-08-11",
-      "tags": [
-        "industrial",
-        "embodied",
-        "funding"
-      ],
-      "summary": "只有那些真正在一线写过CLI、调过 Agent Swarm 的人才会知道：模型不能解决一切。&nbsp; &nbsp; 作者丨高允毅&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp"
-    },
-    {
-      "title": "蚂蚁集团领投，老股东超额跟投加注，戴盟两月内连获数亿元融资，以全栈触觉能力破局物理AI",
-      "link": "https://www.leiphone.com/category/industrynews/D47bzyvQEgPf7PUB.html",
-      "source": "雷锋网",
-      "date": "2026-08-11",
-      "tags": [
-        "figure-ai",
-        "foundation-model",
-        "unitree",
-        "embodied"
-      ],
-      "summary": "2026年8月11日，戴盟机器人宣布完成数亿元融资，由蚂蚁集团领投，老股东超额跟投加注。这是蚂蚁集团在具身智能赛道的又一重磅出手，此前，蚂蚁已前瞻投资宇树科技、星海图、灵心巧手、苏度科技、舞肌科技等一批具身智能代表性企业，此次是其首次布局触觉赛道。戴盟机器人孵化于香港科技大学研究团队，2023年正式运营，总部位于深圳，并在香港设有研发中心。戴盟致力于构建贯通触觉感知、数据与模型的物理AI全栈能力体系：以触觉为入口、数据为燃料、模型为核心，让机器人真正具备物理智能。01 &nbsp;港科系物理AI全栈团队，股东阵容汇聚顶级产业资本值得注意的是，两个月内戴盟"
-    },
-    {
-      "title": "罚单51.79亿之后！携程年中绩效开奖，全部门奖金遭打折；千问推出新服务；DeepSeek被曝偷偷给用户取外号！官方：临时打标签",
-      "link": "https://www.leiphone.com/category/zaobao/Mz5j9DsCciXc6cTx.html",
-      "source": "雷锋网",
-      "date": "2026-08-11",
-      "tags": [
-        "unitree",
-        "funding"
-      ],
-      "summary": "要闻提示1.罚单51.79亿之后！携程年中绩效开奖，全部门奖金遭打折2.DeepSeek被曝偷偷给用户取外号！官方：只是在临时打标签3.苹果在iPhone和MacBook测试中国长鑫存储芯片：落地难度极大！4.千问办公助理，要收费了5.路虎卫士推出限时价格：72.8万元6.宇树科技：科创板IPO最终中签率公布7.风投女王徐新：人最大的本质是懒惰，习惯了外卖就会一直吃，所以我们重仓美团8.苹果被曝，考虑重新设计Apple Watch今日头条罚单51.79亿之后！携程年中绩效开奖，全部门奖金遭打折8月10日消息，有市场消息称，携程已于上周五正式发放年中绩效奖"
-    },
-    {
-      "title": "RoboStore launches Robo Inc. to help U.S. organizations deploy robots",
-      "link": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
-      "source": "The Robot Report",
-      "date": "2026-08-10",
-      "tags": [
-        "unitree"
-      ],
-      "summary": "RoboStore, a distributor of Unitree's legged robots, has launched Robo Inc. to serve as a U.S.-based manufacturer and integrator. The post RoboStore launches Robo Inc. to help U.S. organizations deploy robots appeared first on The Robot Report."
-    },
-    {
-      "title": "Tate deploys 58 Hirebotics cobot welders across multiple facilities",
-      "link": "https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/",
-      "source": "The Robot Report",
-      "date": "2026-08-10",
-      "tags": [
-        "general"
-      ],
-      "summary": "Tate decided to move from traditional hand welding to an agile, cloud-connected automation network powered by Hirebotics. The post Tate deploys 58 Hirebotics cobot welders across multiple facilities appeared first on The Robot Report."
-    },
-    {
-      "title": "VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research",
-      "link": "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/",
-      "source": "The Robot Report",
-      "date": "2026-08-10",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "VicOne says its free Radeis Extension for NVIDIA Isaac Sim enables developers to test robot cyber safety before deployment. The post VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research appeared first on The Robot Report."
-    },
-    {
-      "title": "8.99万元起，高性能智慧家轿2027款艾瑞泽8 PRO正式上市",
-      "link": "https://www.leiphone.com/category/industrynews/4AYm6hbg71IDngdw.html",
-      "source": "雷锋网",
-      "date": "2026-08-10",
-      "tags": [
-        "general"
-      ],
-      "summary": "2026年8月10日，奇瑞高性能智慧家轿2027款艾瑞泽8 PRO上市发布会在内蒙古鄂尔多斯康巴什音乐喷泉广场盛大启幕。当晚，亚洲第一喷泉水舞光影亮起，骏马盛装舞步与赛车同台，将新车优雅从容与激情澎湃的双重性格直观呈现。2027款艾瑞泽8 PRO在“赛级性能、全球审美、油电同智、全球安全”等核心维度全面进阶，将前沿智能科技、赛道验证的机械素质与越级舒适体验注入燃油家轿。2027款艾瑞泽8PRO共5个版型，从舒适型到猎鹰500尊享型，官方指导价为11.39万元至14.59万元。现在下订，可享受1000元抵10000元的限时优惠，限时指导价10.49万元至1"
-    },
-    {
-      "title": "华为乾崑赋能，阿维塔07L重塑智美大五座豪华SUV标杆",
-      "link": "https://www.leiphone.com/category/industrynews/qlmdmJ611fZ7BrcQ.html",
-      "source": "雷锋网",
-      "date": "2026-08-10",
-      "tags": [
-        "general"
-      ],
-      "summary": "2026年8月8日，在经历三个星期的预售热潮后，搭载华为乾崑智驾ADS™ 5的阿维塔07L正式上市。新车推出Elite纯电版、Max+纯电版以及Ultra三电机纯电版三个版型，限时权益价为21.99万元-26.99万元。9大限时权益至高价值61000元，即日起可通过阿维塔官方渠道进行订购。阿维塔07L：家我两相宜，内外皆出彩以“属于家，也属于我”为核心产品主张的阿维塔07L，“俊朗”外形设计延续了品牌原创未来美学设计。整车姿态挺拔，阿维塔07L拥有532黄金车格，体量感十足，标志性的蝶翼式前脸具备极高辨识度。阿维塔07L开创了全新的座舱视觉交互体系，两侧"
-    },
-    {
-      "title": "Fast and Accurate: An Adaptive VLA Inference Framework through Environment-aware Model Selection",
-      "link": "https://arxiv.org/abs/2608.06434",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-10",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2608.06434v1 Announce Type: new Abstract: Embodied intelligence demands both long-horizon reasoning and real-time closed-loop responsiveness. Recent dual-system Vision-Language-Action (VLA) architectures combine fast reactive control with slow deliberative reasoning to bala"
     }
   ]
 }
