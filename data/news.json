@@ -1,9 +1,39 @@
 {
-  "lastUpdated": "2026-08-13T13:03:02.440Z",
+  "lastUpdated": "2026-08-14T01:43:09.456Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 45,
+  "itemsFetched": 15,
   "items": [
+    {
+      "title": "Mobile manipulators and humanoids: The future of robotics",
+      "link": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
+      "source": "The Robot Report",
+      "date": "2026-08-13",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "A free download looks at the state of humanoids, including a rundown of current robotics developers and interviews with industry experts. The post Mobile manipulators and humanoids: The future of robotics appeared first on The Robot Report."
+    },
+    {
+      "title": "BioflexBot robot hand aims to replicate key human hand motions",
+      "link": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/",
+      "source": "The Robot Report",
+      "date": "2026-08-13",
+      "tags": [
+        "general"
+      ],
+      "summary": "Researchers created the BioflexBot, a novel robot that mimics and even exceeds core motions of the hand with a simple design. The post BioflexBot robot hand aims to replicate key human hand motions appeared first on The Robot Report."
+    },
+    {
+      "title": "4D-WAM: Infusing Spatiotemporal Awareness into World Action Models through Trajectory Fields",
+      "link": "https://arxiv.org/abs/2608.08023",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-13",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.08023v2 Announce Type: replace Abstract: Building on recent advances in world models, World Action Models (WAMs) jointly model video prediction and action generation. However, they typically represent videos in 2D pixel space, creating a representation gap with 3D spac"
+    },
     {
       "title": "Experts to discuss the state of humanoid robots at RoboBusiness",
       "link": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/",
@@ -798,37 +828,6 @@
         "nvidia"
       ],
       "summary": "arXiv:2608.07553v1 Announce Type: new Abstract: Robotic manipulation often requires object specific programming, manual data annotation, or calibrated perception pipelines, which limits rapid deployment in practical settings. Learning from demonstration offers a more direct alter"
-    },
-    {
-      "title": "Learning Physical Interaction: A Survey of Tactile- and Force-aware Robot Learning",
-      "link": "https://arxiv.org/abs/2608.07558",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.07558v1 Announce Type: new Abstract: Physically grounded robot intelligence requires robots to perceive, reason about, and regulate their interactions with the physical world. This capability is particularly critical in contact-sensitive manipulation, where successful "
-    },
-    {
-      "title": "Projection-Retraction MPPI: Exact Constraint-Manifold Control for Manipulators",
-      "link": "https://arxiv.org/abs/2608.07573",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-11",
-      "tags": [
-        "unitree",
-        "humanoid"
-      ],
-      "summary": "arXiv:2608.07573v1 Announce Type: new Abstract: Model Predictive Path Integral (MPPI) control is widely used in manipulation for its gradient-free, parallel handling of non-convex costs. Manipulation tasks, however, often impose constraints that hold throughout the motion: a clos"
-    },
-    {
-      "title": "AdaDexGrasp: Adaptive Dexterous Grasping via 3D Visuo-Tactile Representation Fusion",
-      "link": "https://arxiv.org/abs/2608.07600",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.07600v1 Announce Type: new Abstract: Humans achieve stable and adaptive grasps by seamlessly integrating visual perception and tactile feedback, a capability that remains challenging to replicate in robotic systems. Existing robotic grasping approaches predominantly re"
     }
   ]
 }
