@@ -1,9 +1,173 @@
 {
-  "lastUpdated": "2026-08-14T01:43:09.456Z",
+  "lastUpdated": "2026-08-14T12:59:15.457Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 15,
+  "itemsFetched": 28,
   "items": [
+    {
+      "title": "Robots on Wall Street: Non-traditional paths to public markets for robotics companies",
+      "link": "https://www.therobotreport.com/robots-on-wall-street-non-traditional-paths-public-markets-robotics-companies/",
+      "source": "The Robot Report",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "Agility’s SPAC deal shows there is no one route to a robotics public listing, with SPAC mergers, reverse mergers, and traditional IPOs offering different advantages. The post Robots on Wall Street: Non-traditional paths to public markets for robotics companies appeared first on T"
+    },
+    {
+      "title": "RoboSynChallenge: Mastering Real-World Dexterity via Generalizing Synthesized Manipulation Skills",
+      "link": "https://arxiv.org/abs/2608.12416",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "arXiv:2608.12416v1 Announce Type: new Abstract: Achieving generalizable robotic manipulation remains a central challenge in embodied intelligence. Despite rapid advances in model architectures and learning algorithms, progress is often limited by the scarcity and narrow diversity"
+    },
+    {
+      "title": "BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving",
+      "link": "https://arxiv.org/abs/2608.12854",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.12854v1 Announce Type: new Abstract: Autonomous driving requires planning under both semantic constraints and predictive dynamics. Existing end-to-end driving approaches, however, typically emphasize only one side of this requirement: Vision-Language-Action (VLA) model"
+    },
+    {
+      "title": "HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments",
+      "link": "https://arxiv.org/abs/2608.12860",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "nvidia",
+        "unitree",
+        "humanoid"
+      ],
+      "summary": "arXiv:2608.12860v1 Announce Type: new Abstract: Vision-Language Navigation (VLN) for humanoid robots poses challenges existing benchmarks fail to address: bipedal locomotion imposes physical constraints absent from wheeled agents, humanoid morphologies vary across platforms, and "
+    },
+    {
+      "title": "H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models",
+      "link": "https://arxiv.org/abs/2608.13049",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13049v1 Announce Type: new Abstract: Large-scale manipulation data is essential for robot learning, yet collecting robot demonstrations remains expensive and difficult to scale. Meanwhile, abundant egocentric human manipulation videos provide rich behavioral experience"
+    },
+    {
+      "title": "S2-HWM: Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgical Robot Manipulation",
+      "link": "https://arxiv.org/abs/2608.13103",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13103v1 Announce Type: new Abstract: Long-horizon surgical robot manipulation is challenging because task rewards are sparse, while meaningful interaction changes occur at irregular intervals. Existing world-model agents typically imagine at primitive-step resolution, "
+    },
+    {
+      "title": "Predictive Relative-Velocity Steering for Safe Robotic Manipulator Teleoperation in Dynamic Environments",
+      "link": "https://arxiv.org/abs/2608.13284",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13284v1 Announce Type: new Abstract: Recent advances in teleoperation have enabled robotic manipulators to perform dexterous, human-arm-like motions. However, human operators may fail to avoid suddenly appearing obstacles promptly and effectively, particularly under ne"
+    },
+    {
+      "title": "NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation",
+      "link": "https://arxiv.org/abs/2608.13362",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13362v1 Announce Type: new Abstract: Dexterous manipulation promises substantially richer robot interaction with the physical world, but learning these behaviours remains constrained by the difficulty of collecting consistent, complete-task demonstrations. Unlike paral"
+    },
+    {
+      "title": "FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving",
+      "link": "https://arxiv.org/abs/2608.13395",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13395v1 Announce Type: new Abstract: Reinforcement learning improves autonomous-driving vision-language-action (VLA) models by evaluating trajectories sampled from the current policy. Group relative policy optimization (GRPO) learns from reward differences within each "
+    },
+    {
+      "title": "ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models",
+      "link": "https://arxiv.org/abs/2608.13438",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13438v1 Announce Type: new Abstract: Contact-rich manipulation failures are often detected only after the robot has committed to contact. This is especially limiting in wrist-camera setups: close gripper--object views help observe contact, but a poor approach may alrea"
+    },
+    {
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "link": "https://arxiv.org/abs/2608.13555",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2608.13555v1 Announce Type: new Abstract: Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts t"
+    },
+    {
+      "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2608.13489",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13489v1 Announce Type: cross Abstract: We present \\textbf{DreamX-Phi 1.0}, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper"
+    },
+    {
+      "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
+      "link": "https://arxiv.org/abs/2511.07820",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "humanoid",
+        "foundation-model"
+      ],
+      "summary": "arXiv:2511.07820v4 Announce Type: replace Abstract: Despite the rise of billion-parameter foundation models trained across thousands of graphical processing units (GPUs), similar scaling gains have not been shown for humanoid control. Current neural controllers for humanoids rema"
+    },
+    {
+      "title": "APEX: Learning Adaptive High-Platform Traversal for Humanoid Robots",
+      "link": "https://arxiv.org/abs/2602.11143",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "unitree",
+        "humanoid"
+      ],
+      "summary": "arXiv:2602.11143v3 Announce Type: replace Abstract: Humanoid locomotion has advanced rapidly with deep reinforcement learning (DRL), enabling robust feet-based traversal over uneven terrain. Yet platforms beyond leg length remain largely out of reach because current RL training p"
+    },
+    {
+      "title": "Trajectory First: A Curriculum for Discovering Diverse Policies",
+      "link": "https://arxiv.org/abs/2506.01568",
+      "source": "arXiv CS Robotics",
+      "date": "2026-08-14",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2506.01568v4 Announce Type: replace-cross Abstract: Being able to solve a task in diverse ways makes agents more robust to task variations and less prone to local optima. In this context, constrained diversity optimization has become a useful reinforcement learning (RL) fra"
+    },
+    {
+      "title": "业绩向上之后，瑞浦兰钧为什么更强调 “人的可持续”",
+      "link": "https://www.leiphone.com/category/industrynews/19AHb2WXNyfATWu5.html",
+      "source": "雷锋网",
+      "date": "2026-08-14",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "8月8日，“冠军之芯·梦想时分”2026瑞浦兰钧品牌日在上海举行。与一场通常以新品和参数为中心的企业发布会不同，本届品牌日由“冠军之芯”产品发布和“梦想时分”音乐会两个篇章组成：一边讲技术如何进入AI算力、重卡运输和低空飞行等真实场景，一边将舞台交给青年钢琴家刘浩，讲述一个人在长期投入中不断靠近梦想。产品与琴声出现在同一场活动中，并不是简单的“科技+艺术”。它们共同指向瑞浦兰钧进入发展新阶段后的一种思考：一家企业的成长，既要有可以被市场检验的技术与业绩，也要有能够支撑长期发展的组织、文化和人。l&nbsp; 站上新起点，更关心如何走得长久2025年，瑞浦"
+    },
     {
       "title": "Mobile manipulators and humanoids: The future of robotics",
       "link": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
@@ -658,176 +822,6 @@
         "general"
       ],
       "summary": "arXiv:2608.11204v1 Announce Type: new Abstract: Learning reliable surgical manipulation policies is bottlenecked by the scarcity of action-labeled demonstrations: teleoperated surgical robot (e.g., dVRK) trajectories with synchronized kinematics are costly to collect, while surgi"
-    },
-    {
-      "title": "Dreamer-SAC: Off-Policy Learning in Latent World Models for Sample-Efficient Autonomous Driving",
-      "link": "https://arxiv.org/abs/2608.10386",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.10386v1 Announce Type: cross Abstract: Sample-efficient reinforcement learning for autonomous driving is often limited by the trade-off between data efficiency and model bias. While world models reduce the reliance on costly environment interactions, policy optimizatio"
-    },
-    {
-      "title": "OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
-      "link": "https://arxiv.org/abs/2603.19201",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2603.19201v3 Announce Type: replace Abstract: Contact-rich manipulation tasks, such as wiping and assembly, require accurate perception of contact forces, friction changes, and state transitions that cannot be reliably inferred from vision alone. Despite growing interest in"
-    },
-    {
-      "title": "RankFormer: A Propose-then-Select Transformer for Multi-Agent Multimodal Trajectory Prediction",
-      "link": "https://arxiv.org/abs/2604.07126",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2604.07126v3 Announce Type: replace Abstract: Predicting traffic agent trajectories plays an important role in autonomous driving, traffic operations, transportation safety analysis, etc. Although many deep learning algorithms are devised to predict future agent trajectorie"
-    },
-    {
-      "title": "SinD 2.0: A Multi-City UAV Dataset with Semantic Risk Annotations for SOTIF-Oriented Safety Validation at Signalized Intersections",
-      "link": "https://arxiv.org/abs/2607.16943",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.16943v2 Announce Type: replace Abstract: Safety validation at signalized intersections remains a critical bottleneck for the deployment of autonomous driving systems (ADS), as these scenarios involve dense heterogeneous traffic, contested right of way, and long-tail sa"
-    },
-    {
-      "title": "AI时代，外贸跨境支付如何更高效？",
-      "link": "https://www.leiphone.com/category/industrynews/2qeAdkpkaQykwWHi.html",
-      "source": "雷锋网",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "AI时代，人工智能技术正在深度渗透全球贸易。数字化、智能化成为外贸转型升级的核心驱动力，跨境支付作为外贸资金流转的关键环节，也迎来效率变革与合规升级的全新课题。近日，全球领先的B2B跨境贸易支付平台XTransfer举办2026未来外贸大会，4500多家外贸企业，50多家头部银行、金融机构以及多位外贸领域专家出席现场，共同探讨了AI时代的机遇和挑战。XTransfer以行业领导力，将跨境支付及风控服务经验分享给全行业，助力外贸高质量发展。以AI破解风控“不可能三角”，保障跨境支付安全合规数据显示，2025年全球制成品 B2B 跨境贸易额达到33.2 万亿"
-    },
-    {
-      "title": "桥介数物完成新一轮亿级融资，加速落地通用机器人操作系统",
-      "link": "https://www.leiphone.com/category/industrynews/lrwCyiLDozDxFo2b.html",
-      "source": "雷锋网",
-      "date": "2026-08-12",
-      "tags": [
-        "embodied",
-        "funding"
-      ],
-      "summary": "近日，通用机器人操作系统研发商桥介数物（BridgeDP Robotics）宣布完成 Pre-A+++ 轮融资。本轮融资由中国移动链长基金领投，老股东复星创富、深创投追加投资，融资规模达亿元级。桥介数物表示，本次融资将主要用于四个方向：RoboCraft AI 通用机器人运动能力开发平台的生态建设、跨本体全身运动数据工厂产能提升、运动控制模型持续迭代，以及海外技术服务体系布局与合规。接下来，桥介数物将继续以“运动控制”为立足点，围绕机器人运动能力纵向延展至操作、世界模型等关键领域，加速构建面向全球的通用机器人操作系统。中国移动链长基金表示：“随着具身智能"
-    },
-    {
-      "title": "一家 AI 眼镜独角兽背后的「冰与火之歌」",
-      "link": "https://www.leiphone.com/category/weiwu/N8AbqKGve3lxNPho.html",
-      "source": "雷锋网",
-      "date": "2026-08-12",
-      "tags": [
-        "humanoid",
-        "embodied"
-      ],
-      "summary": "2026 年，智能眼镜赛道跑出了一家独角兽。雷峰网获悉，逸文今年二季度营收已实现翻倍增长，未来&nbsp;12&nbsp;个月要冲刺 10&nbsp;亿元人民币营收。同时，逸文也有意布局中国市场。距离逸文成立，不过三年时间，它的估值已经超 10 亿美金。过去半年，凭借一条“做减法”的产品逻辑，逸文一口气融了 10 亿人民币，节奏快得让人来不及眨眼。资本侧目，消费者买单，同行则开始“抄作业”。影目、雷鸟、极米，以及最新入局的比特幻境......在越来越多新品身上，都能嗅到逸文的味道。而极米，正是逸文创始人王骁逸在坚果投影时期的宿敌。据传，比特幻境背后操盘手"
-    },
-    {
-      "title": "DeepSeek招土木工程师；腾讯参投！林俊旸深夜官宣新公司：做下一代AI智能体；宇树科技中签号出炉：共19414个丨雷峰早报",
-      "link": "https://www.leiphone.com/category/zaobao/H8yaCINLCnx3D30o.html",
-      "source": "雷锋网",
-      "date": "2026-08-12",
-      "tags": [
-        "unitree",
-        "embodied",
-        "funding"
-      ],
-      "summary": "要闻提示1.DeepSeek招土木工程师，并开设「DeepSeek Harness团队」账号2.宇树科技中签号出炉：共19414个，每个中签号码只能认购500股3.腾讯参投！林俊旸深夜官宣新公司语用科技：做下一代AI智能体4.从上线到停运仅1个月！米哈游“新作”宣布停服5.董明珠回应「网红」身份：靠产品出圈，而非流量包装6.Manus：即将恢复以独立公司的形式运营7.OpenAI前机器人业务负责人加入Anthropic今日头条DeepSeek招土木工程师，并开设「DeepSeek Harness团队」账号8月11日消息，近日，DeepSeek官网挂出ID"
-    },
-    {
-      "title": "「说 Harness 会被淘汰的，肯定没做过工程」，Kimi 前 CLI 负责人戳破了 AI 圈最大的误解",
-      "link": "https://www.leiphone.com/category/yanxishe/iIRqNx8RhKLrA9Ol.html",
-      "source": "雷锋网",
-      "date": "2026-08-11",
-      "tags": [
-        "industrial",
-        "embodied",
-        "funding"
-      ],
-      "summary": "只有那些真正在一线写过CLI、调过 Agent Swarm 的人才会知道：模型不能解决一切。&nbsp; &nbsp; 作者丨高允毅&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp"
-    },
-    {
-      "title": "蚂蚁集团领投，老股东超额跟投加注，戴盟两月内连获数亿元融资，以全栈触觉能力破局物理AI",
-      "link": "https://www.leiphone.com/category/industrynews/D47bzyvQEgPf7PUB.html",
-      "source": "雷锋网",
-      "date": "2026-08-11",
-      "tags": [
-        "figure-ai",
-        "foundation-model",
-        "unitree",
-        "embodied"
-      ],
-      "summary": "2026年8月11日，戴盟机器人宣布完成数亿元融资，由蚂蚁集团领投，老股东超额跟投加注。这是蚂蚁集团在具身智能赛道的又一重磅出手，此前，蚂蚁已前瞻投资宇树科技、星海图、灵心巧手、苏度科技、舞肌科技等一批具身智能代表性企业，此次是其首次布局触觉赛道。戴盟机器人孵化于香港科技大学研究团队，2023年正式运营，总部位于深圳，并在香港设有研发中心。戴盟致力于构建贯通触觉感知、数据与模型的物理AI全栈能力体系：以触觉为入口、数据为燃料、模型为核心，让机器人真正具备物理智能。01 &nbsp;港科系物理AI全栈团队，股东阵容汇聚顶级产业资本值得注意的是，两个月内戴盟"
-    },
-    {
-      "title": "罚单51.79亿之后！携程年中绩效开奖，全部门奖金遭打折；千问推出新服务；DeepSeek被曝偷偷给用户取外号！官方：临时打标签",
-      "link": "https://www.leiphone.com/category/zaobao/Mz5j9DsCciXc6cTx.html",
-      "source": "雷锋网",
-      "date": "2026-08-11",
-      "tags": [
-        "unitree",
-        "funding"
-      ],
-      "summary": "要闻提示1.罚单51.79亿之后！携程年中绩效开奖，全部门奖金遭打折2.DeepSeek被曝偷偷给用户取外号！官方：只是在临时打标签3.苹果在iPhone和MacBook测试中国长鑫存储芯片：落地难度极大！4.千问办公助理，要收费了5.路虎卫士推出限时价格：72.8万元6.宇树科技：科创板IPO最终中签率公布7.风投女王徐新：人最大的本质是懒惰，习惯了外卖就会一直吃，所以我们重仓美团8.苹果被曝，考虑重新设计Apple Watch今日头条罚单51.79亿之后！携程年中绩效开奖，全部门奖金遭打折8月10日消息，有市场消息称，携程已于上周五正式发放年中绩效奖"
-    },
-    {
-      "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
-      "link": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
-      "source": "The Robot Report",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "Since the start of the year, PlusAI said it has improved the safety validation, operational maturity, and efficiency of SuperDrive. The post PlusAI reaches key milestones ahead of launching its autonomous trucks appeared first on The Robot Report."
-    },
-    {
-      "title": "Webinar to discuss safety and scaling robot fleets in the warehouse",
-      "link": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
-      "source": "The Robot Report",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "Industry experts will discuss how to scale mobile robots in the warehouse while maintaining both safety and productivity. The post Webinar to discuss safety and scaling robot fleets in the warehouse appeared first on The Robot Report."
-    },
-    {
-      "title": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
-      "link": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/",
-      "source": "The Robot Report",
-      "date": "2026-08-11",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "The future of humanoid robotics is closer than most people realize. The post The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market appeared first on The Robot Report."
-    },
-    {
-      "title": "SC$^{2}$-WM: A Self-Correcting World Model with Closed-Loop Feedback for Vision-and-Language Navigation in Continuous Environments",
-      "link": "https://arxiv.org/abs/2608.07548",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-11",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.07548v1 Announce Type: new Abstract: Vision-and-Language Navigation in Continuous Environments (VLN-CE) requires agents to make fine-grained navigation decisions under partial observability. However, most existing methods rely on open-loop execution, lacking mechanisms"
-    },
-    {
-      "title": "Self Supervised Learning from Automatically Generated Demonstrations for Visual Robotic Manipulation",
-      "link": "https://arxiv.org/abs/2608.07553",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-11",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2608.07553v1 Announce Type: new Abstract: Robotic manipulation often requires object specific programming, manual data annotation, or calibrated perception pipelines, which limits rapid deployment in practical settings. Learning from demonstration offers a more direct alter"
     }
   ]
 }
