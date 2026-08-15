@@ -1,9 +1,173 @@
 {
-  "lastUpdated": "2026-08-15T01:04:07.744Z",
+  "lastUpdated": "2026-08-15T12:31:37.035Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 15,
+  "itemsFetched": 29,
   "items": [
+    {
+      "title": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
+      "link": "https://arxiv.org/abs/2608.12476",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.12476v1 Announce Type: new Abstract: Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing claim. We introduce Governed Persist"
+    },
+    {
+      "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
+      "link": "https://arxiv.org/abs/2608.12743",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "spatial-intelligence",
+        "embodied"
+      ],
+      "summary": "arXiv:2608.12743v1 Announce Type: new Abstract: Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants. To improve the spatial reasoning ability of VLM agents, existing work has mainly followed two lines. One line uses post-"
+    },
+    {
+      "title": "FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving",
+      "link": "https://arxiv.org/abs/2608.12932",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.12932v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models promise to bring end-to-end reasoning to autonomous driving, but their computational cost remains far too high for real-time control. The core challenge is structural: VLA inference is not a singl"
+    },
+    {
+      "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
+      "link": "https://arxiv.org/abs/2608.13420",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "nvidia",
+        "embodied"
+      ],
+      "summary": "arXiv:2608.13420v1 Announce Type: new Abstract: Embodied intelligent virtual agents are expected to operate as persistent, adaptive, and context-aware entities within complex virtual and Metaverse worlds. However, implementing cognitively capable agents in such environments is co"
+    },
+    {
+      "title": "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure",
+      "link": "https://arxiv.org/abs/2608.13456",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13456v1 Announce Type: new Abstract: World Models (WM) are increasingly seen as a foundation for intelligent agents that can predict, plan, and act beyond their training distribution. In this paper, we study WMs from a causal perspective across multiple levels of abstr"
+    },
+    {
+      "title": "AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)",
+      "link": "https://arxiv.org/abs/2608.13492",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.13492v1 Announce Type: new Abstract: This report presents an improved version of AlayaWorld. While the backbone architecture, chunk-wise autoregressive generation scheme, and training data remain unchanged from the previous release, we substantially revise how conditio"
+    },
+    {
+      "title": "FluctlightDB: A Memory Model of Data for AI Agents",
+      "link": "https://arxiv.org/abs/2608.12365",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2608.12365v1 Announce Type: cross Abstract: For fifty years, data systems have answered two questions. The relational model asked which records match a predicate; the vector model asked which vectors lie nearest a query. Neither was built for cue-driven, provenance-weighted"
+    },
+    {
+      "title": "The Objective Is the Bottleneck: Latent World Models Encode What Their Planners Cannot Use",
+      "link": "https://arxiv.org/abs/2608.12959",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.12959v1 Announce Type: cross Abstract: Latent world models are judged by how well they predict, so when planning fails at long horizons the natural reading is that the predictor degrades. On a reproduction of LeWorldModel on TwoRoom we show the binding constraint is th"
+    },
+    {
+      "title": "How Do VLMs Behave When Blind or Misled? Behavioral Evaluation of VLMs on Scientific Figures",
+      "link": "https://arxiv.org/abs/2608.13267",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2608.13267v1 Announce Type: cross Abstract: Existing vision-language model (VLM) benchmarks emphasize perception and reasoning accuracy (how well VLMs describe and reason about what they see in an image), with limited attention to behavioral reliability under uncertainty (h"
+    },
+    {
+      "title": "CAPRI: Contract-Aware Proof Repair for Isabelle",
+      "link": "https://arxiv.org/abs/2608.13459",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2608.13459v1 Announce Type: cross Abstract: We address the use of large language models (LLMs) to help discover Isabelle proofs. An Isabelle build establishes that the submitted theory is accepted, but not that an LLM changed only what the developer authorised. We present C"
+    },
+    {
+      "title": "AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models",
+      "link": "https://arxiv.org/abs/2608.13472",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2608.13472v1 Announce Type: cross Abstract: Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily on expert intuition. Among recent developments, LLMs have introduced a promising approach by bringin"
+    },
+    {
+      "title": "Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models",
+      "link": "https://arxiv.org/abs/2608.09696",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.09696v3 Announce Type: replace Abstract: Predicting the answer to interventional ``what if'' questions --- the outcome of an action never taken --- requires a \\emph{mechanistic}, causal model, not a curve fit; and learning such a model requires \\emph{experiments}, beca"
+    },
+    {
+      "title": "IACDM: Interactive Adversarial Convergence Development Methodology -- A Structured Framework for AI-Assisted Software Development",
+      "link": "https://arxiv.org/abs/2604.16399",
+      "source": "arXiv CS AI",
+      "date": "2026-08-15",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2604.16399v3 Announce Type: replace-cross Abstract: Adoption of AI-assisted development in 2025 exposed a tool-agnostic failure pattern: experienced developers using frontier models were measurably slower while believing they were faster, and 10.3% of applications in one pr"
+    },
+    {
+      "title": "索塔无界：全球首家原生物理世界模型落地商超，具身智能迎来“索塔时刻”",
+      "link": "https://www.leiphone.com/category/industrynews/aEyXlap53PQXDDYJ.html",
+      "source": "雷锋网",
+      "date": "2026-08-15",
+      "tags": [
+        "humanoid",
+        "embodied",
+        "funding"
+      ],
+      "summary": "在具身智能仍陷于“资本热、落地冷”之际，成立仅4个月的索塔无界，率先以欧洲最大商超集团的战略合作，打破商业落地僵局。根据规划，双方未来3年将在真实商超场景中部署超过千台具身智能机器人。索塔无界不造硬件，而是为机器人打造“原生物理大脑”——首次将4D世界动作模型部署于真实商超货架之间，开启物理智能的“场景收敛+通用泛化”新路径。破局：不追“虚拟温床”，直击“物理考场”2026年的具身智能，融资额屡创新高，但机器人进工厂仍困于专机专用、进家庭做家务仍在可望难及的远期蓝图。多数玩家沉迷视频生成或仿真训练，这些“虚拟温床”对具身操作并不实质。索塔无界创始人胡德波"
+    },
+    {
+      "title": "鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现场",
+      "link": "https://www.leiphone.com/category/industrynews/24fbshcNUNahZuQz.html",
+      "source": "雷锋网",
+      "date": "2026-08-15",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "8月14日，鹿明机器人发布全新重载轮臂式具身智能机器人Lumos MOS2。面向真实工业场景，Lumos MOS2具备50kg双臂负载能力，同时在硬件性能、全向移动能力、多模态感知系统和整机控制架构等方面实现全面升级，胜任真实工业场景高强度、持续性作业任务。鹿明机器人创始人兼CEO喻超表示，具身智能正在加速进入产业落地阶段，如何让机器人更高效地完成更多真实任务，取决于数据获取效率、硬件成本及产业交付效率。在这一判断下，MOS2被定位为面向工业场景的重载AI Worker：既拥有7×24小时不间断工作的强健躯体，也具备环境感知、任务理解与自主操作等能力，是"
+    },
+    {
+      "title": "限量手办 + 实景体验，浙江人行NAVIAI2026WRC 福利提前曝光",
+      "link": "https://www.leiphone.com/category/industrynews/YW6iXkaDum3xwwBJ.html",
+      "source": "雷锋网",
+      "date": "2026-08-15",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "8 月 19 日至 23 日，2026 世界机器人大会（WRC2026）将在北京亦庄亦创国际会展中心举办。浙江人形机器人创新中心将携旗下 NAVIAI 人形机器人亮相 C-105 展位，集中展示人形机器人在多元场景的落地应用成果。本次展会上，NAVIAI 将呈现工业制造、智慧零售、家庭服务、遥操数采多场景的实操能力，现场演示拆垛分拣搬运、货品递送、烹饪清洁、远程数据采集等功能，展现多机协同作业、精准泛化的技术特性。另有文娱演绎类场景在 8 月 19 日开展当天作为特别环节限时展示。大会期间，浙江人形机器人创新中心有限公司首席科学家熊蓉教授将于 8 月 2"
+    },
     {
       "title": "How Protolabs turns CAD files into parts in under 24 hours",
       "link": "https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/",
@@ -661,169 +825,6 @@
         "embodied"
       ],
       "summary": "arXiv:2608.11017v1 Announce Type: cross Abstract: Long-horizon egocentric video is a rich substrate for wearable AI assistants, but object-centric questions such as where an item was moved, when it last changed state, or why it was relocated remain difficult because caption- and "
-    },
-    {
-      "title": "Multiclass Sentiment Analysis for Identifying Political Viewpoints",
-      "link": "https://arxiv.org/abs/2608.11049",
-      "source": "arXiv CS AI",
-      "date": "2026-08-12",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2608.11049v1 Announce Type: cross Abstract: The rapid growth of social media has created vast amounts of political discourse, which provides valuable opportunities to analyze public opinions and identify different political perspectives. Sentiment Analysis (SA) is a core ta"
-    },
-    {
-      "title": "Moxia: A Trust-First Neuro-Symbolic Execution Architecture for Self-Explaining Mathematical Reasoning",
-      "link": "https://arxiv.org/abs/2606.00671",
-      "source": "arXiv CS AI",
-      "date": "2026-08-12",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2606.00671v3 Announce Type: replace Abstract: We present Moxia (formerly AXIOM), a trust-first neuro-symbolic architecture for self-explaining mathematical reasoning over natural-language input. Its language model is strictly a canonicalizer: it rewrites informal problem te"
-    },
-    {
-      "title": "Coachable agents for interactive gameplay",
-      "link": "https://arxiv.org/abs/2607.00642",
-      "source": "arXiv CS AI",
-      "date": "2026-08-12",
-      "tags": [
-        "humanoid",
-        "foundation-model"
-      ],
-      "summary": "arXiv:2607.00642v2 Announce Type: replace Abstract: Reinforcement learning has proven to be a valuable tool in the creation of advanced AI and robotic systems, contributing to everything from game playing to robotics to foundation models. Through trial-and-error, these AI systems"
-    },
-    {
-      "title": "TransitReID: Transit OD Data Collection with Occlusion-Resistant Dynamic Passenger Re-Identification",
-      "link": "https://arxiv.org/abs/2504.11500",
-      "source": "arXiv CS AI",
-      "date": "2026-08-12",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2504.11500v3 Announce Type: replace-cross Abstract: Transit Origin-Destination (OD) data are fundamental for optimizing public transit services, yet current collection methods, such as manual surveys, Bluetooth/WiFi tracking, and Automated Passenger Counters, are often cost"
-    },
-    {
-      "title": "PinpointQA: A Benchmark for Small Object-Centric Spatial Understanding in Indoor Videos",
-      "link": "https://arxiv.org/abs/2604.08991",
-      "source": "arXiv CS AI",
-      "date": "2026-08-12",
-      "tags": [
-        "spatial-intelligence",
-        "embodied"
-      ],
-      "summary": "arXiv:2604.08991v3 Announce Type: replace-cross Abstract: Reliable embodied interaction in indoor environments requires agents to precisely localize small everyday objects from visual observations. Yet this fundamental capability remains challenging for multimodal large language "
-    },
-    {
-      "title": "DIMOS: Disentangling Instance-level Moving Object Segmentation",
-      "link": "https://arxiv.org/abs/2606.12826",
-      "source": "arXiv CS AI",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2606.12826v2 Announce Type: replace-cross Abstract: Moving instance segmentation (MIS) attracts increasing attention due to its broad applications in traffic surveillance, autonomous driving, and animal tracking. Event cameras record asynchronous brightness changes, providi"
-    },
-    {
-      "title": "Patients With Personality: Realistic Patient Simulation through Controlled Diversity and Selective Disclosure",
-      "link": "https://arxiv.org/abs/2606.17441",
-      "source": "arXiv CS AI",
-      "date": "2026-08-12",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2606.17441v2 Announce Type: replace-cross Abstract: Simulating realistic patient interactions is a key requirement to testing clinical applications of LLMs at scale without time-consuming and expensive user studies. However, existing approaches often lack realism and contro"
-    },
-    {
-      "title": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
-      "link": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/",
-      "source": "The Robot Report",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "Einride is integrating its self-driving software with PACCAR unit DAF Trucks and research at TNO to advance safe autonomous trucking. The post DAF Trucks to integrate Einride Driver to scale autonomous electric freight appeared first on The Robot Report."
-    },
-    {
-      "title": "Whole-Body Planning for Humanoids Navigating Confined Spaces via Self-Collision Avoidance References",
-      "link": "https://arxiv.org/abs/2608.10220",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "unitree",
-        "humanoid"
-      ],
-      "summary": "arXiv:2608.10220v1 Announce Type: new Abstract: Humanoid locomotion in highly confined environments requires navigating dense environmental obstacles and complex self-collision bounds while maintaining multi-contact dynamic feasibility. Traditional trajectory optimizers frequentl"
-    },
-    {
-      "title": "FACT: Failure-Aware Causal Training for World-Action Models",
-      "link": "https://arxiv.org/abs/2608.10232",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.10232v1 Announce Type: new Abstract: Recent world-action models (WAMs) show that co-training policies with future prediction can provide physical priors for action generation. Building on the future-prediction ability of video models, many WAMs generate future videos a"
-    },
-    {
-      "title": "Real-World Cooperative Bimanual Dexterous Grasp of Large Objects from Single-View Observations",
-      "link": "https://arxiv.org/abs/2608.10383",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.10383v1 Announce Type: new Abstract: Bimanual dexterous grasping of large objects is a critical challenge in robotic manipulation. However, most existing studies focus on sequential manipulation rather than cooperative grasping, and methods addressing such bimanual tas"
-    },
-    {
-      "title": "PBD-AG: Persistent Baseline-Delta Active Graphs with Uncertainty-Aware Inspection for Long-Horizon Service Robots",
-      "link": "https://arxiv.org/abs/2608.10449",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.10449v1 Announce Type: new Abstract: Long-horizon service robots require persistent world models that can be built autonomously in unseen environments and revised as task-relevant objects change. Existing methods rely on online mapping, which accumulates localization a"
-    },
-    {
-      "title": "BooST: Bridging Semantics and Motions for Efficient Skill Transfer",
-      "link": "https://arxiv.org/abs/2608.10600",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.10600v1 Announce Type: new Abstract: Skill abstraction---the process of learning reusable and temporally extended behaviors---has emerged as a key paradigm for improving sample efficiency and generalization in robot learning. For efficient skill transfer to real robots"
-    },
-    {
-      "title": "Toward the Cognitive--Physical Limits of Embodied Intelligence through a World-Model-Centric Autonomous Racing Agent",
-      "link": "https://arxiv.org/abs/2608.10618",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2608.10618v1 Announce Type: new Abstract: Embodied artificial intelligence aims to develop agents that perceive, reason, and act through continuous interaction with the physical world. However, most embodied systems are still evaluated within conservative safety margins or "
-    },
-    {
-      "title": "JEPA-WAM: Stage-Level Joint-Embedding Prediction for World-Action Models in Robot Manipulation",
-      "link": "https://arxiv.org/abs/2608.10780",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.10780v1 Announce Type: new Abstract: Generalist robot policies aim to map multimodal observations and linguistic task instructions to actions across diverse tasks. However, existing methods typically represent the future as a fixed, short video-action chunk. This short"
-    },
-    {
-      "title": "Flex-$\\pi$: A Multi-Stream World-Action Model with Compute Flexibility",
-      "link": "https://arxiv.org/abs/2608.10860",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-12",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.10860v1 Announce Type: new Abstract: World-action models (WAMs) predict the future to act better, but nearly all of them predict only RGB latents, trained purely for pixel reconstruction, with no explicit signal for the 3D geometry or object semantics manipulation need"
     }
   ]
 }
