@@ -1,9 +1,53 @@
 {
-  "lastUpdated": "2026-08-22T12:32:30.521Z",
+  "lastUpdated": "2026-08-23T01:08:55.079Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 16,
+  "itemsFetched": 18,
   "items": [
+    {
+      "title": "Robots don&#8217;t run themselves: The workforce powering physical AI",
+      "link": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+      "source": "The Robot Report",
+      "date": "2026-08-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "The addition of physical AI to the workforce requires more key performance indicators than throughput, according to the president of HireArt. The post Robots don&#8217;t run themselves: The workforce powering physical AI appeared first on The Robot Report."
+    },
+    {
+      "title": "The technology that could bring robot mowers to one in two American lawns",
+      "link": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
+      "source": "The Robot Report",
+      "date": "2026-08-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "Improvements in AI, satellite navigation, and machine vision are helping robotic lawn mowers spread in the U.S., writes Sunseeker's founder. The post The technology that could bring robot mowers to one in two American lawns appeared first on The Robot Report."
+    },
+    {
+      "title": "工业具身智能的 &quot;最后一公里&quot;，为什么是埃夫特&amp;启智在走？",
+      "link": "https://www.leiphone.com/category/robot/UL2Q8ihgr90Dy85f.html",
+      "source": "雷锋网",
+      "date": "2026-08-22",
+      "tags": [
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "一、90% 的工厂，机器人还进不去具身智能这两年很热，但热的地方大多不在工厂。人形机器人在展会上跳舞、倒酒、叠衣服，视频传播量惊人；可一旦走进真实的工业车间，话题就迅速冷下来。原因很简单，工业现场不是实验室，它要求机器人在油污、粉尘、温差和来料不一致的环境里，连续、稳定、可核算地干活。而这恰恰是当前具身智能最薄弱的环节。传统工业机器人其实已经很强了。高速、高精、大负载，在汽车焊装线、3C 装配线上可以做到毫秒级节拍；在防爆、喷涂等特种场景也有成熟方案。但它的强，是 &quot;确定性&quot; 的强 —— 程序写死、轨迹固定、来料一致，一旦条件发生变化"
+    },
+    {
+      "title": "WRC 2026 风向标：具身智能下半场，比「大脑」更比「账本」",
+      "link": "https://www.leiphone.com/category/ai/rUNBvF7Iq6C3UtyR.html",
+      "source": "雷锋网",
+      "date": "2026-08-22",
+      "tags": [
+        "industrial",
+        "ubtech",
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "展台不再比谁花活多，开始比谁能稳定干满8小时。&nbsp; &nbsp; 作者丨邓哲敏&nbsp;齐铖湧&nbsp; &nbsp; 编辑丨齐铖湧&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp"
+    },
     {
       "title": "How software-defined manufacturing fits into real factory operations",
       "link": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
@@ -800,46 +844,6 @@
         "general"
       ],
       "summary": "arXiv:2608.17600v1 Announce Type: new Abstract: Visual cues are increasingly adopted to guide robot learning, but whether Vision-Language-Action (VLA) models can reliably follow authorized cues while disregarding unauthorized ones remains unclear. Existing work covers only a narr"
-    },
-    {
-      "title": "CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation",
-      "link": "https://arxiv.org/abs/2608.17717",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-19",
-      "tags": [
-        "unitree"
-      ],
-      "summary": "arXiv:2608.17717v1 Announce Type: new Abstract: A robot asked to \"place the cup near the red plate or the blue plate\" may reach the centroid between them and appear geometrically successful, while satisfying neither disjunct of the instruction. This silent semantic failure expose"
-    },
-    {
-      "title": "Stability Control for Real World Testing in Autonomous Racing",
-      "link": "https://arxiv.org/abs/2608.17779",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-19",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.17779v1 Announce Type: new Abstract: Controlling an autonomous vehicle at the limits of handling is a challenging task. Due to external influences, such as road conditions or weather, a vehicle can easily become unstable. Since most control algorithms assume stable veh"
-    },
-    {
-      "title": "Jetson-ORB-SLAM3: Accuracy-Preserving GPU Implementation for Edge Computing Devices",
-      "link": "https://arxiv.org/abs/2608.17874",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-19",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2608.17874v1 Announce Type: new Abstract: Visual-inertial SLAM on low-power edge platforms is constrained by the cost of dense feature extraction and loop closure. Prior GPU ports of ORB-SLAM trade accuracy for speed by approximating the ORB detector, altering the feature s"
-    },
-    {
-      "title": "ControlledShifts: Towards Standardizing Robustness Evaluation in Trajectory Prediction Under Distribution Shifts",
-      "link": "https://arxiv.org/abs/2608.17882",
-      "source": "arXiv CS Robotics",
-      "date": "2026-08-19",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.17882v1 Announce Type: new Abstract: Trajectory prediction is central to safety in autonomous driving, yet learning-based predictors tend to degrade sharply when encountering scenarios poorly represented by their training data. Many methods attempt to mitigate distribu"
     }
   ]
 }
