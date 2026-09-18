@@ -1,9 +1,89 @@
 {
-  "lastUpdated": "2026-09-17T16:12:26.040Z",
+  "lastUpdated": "2026-09-18T03:07:57.203Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 69,
+  "itemsFetched": 25,
   "items": [
+    {
+      "title": "Robotics investments reach $4.9B in August 2026",
+      "link": "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
+      "source": "The Robot Report",
+      "date": "2026-09-17",
+      "tags": [
+        "funding"
+      ],
+      "summary": "The August 2026 Robotics Investments Report includes a table with all 162 investments rounds, complete with breakdowns by technology, country, funding stage, and more. The post Robotics investments reach $4.9B in August 2026 appeared first on The Robot Report."
+    },
+    {
+      "title": "Decoupling Vision, Language, and Action for Efficient Multi-Task Robot Policies",
+      "link": "https://arxiv.org/abs/2609.18374",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-17",
+      "tags": [
+        "nvidia"
+      ],
+      "summary": "arXiv:2609.18374v2 Announce Type: new Abstract: Vision-Language-Action (VLA) policies commonly run Vision-Language Model (VLM) backbones with billions of parameters at every policy inference, which costs latency and energy. We revisit a decoupled alternative for multi-task manipu"
+    },
+    {
+      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "link": "https://arxiv.org/abs/2609.19137",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-17",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.19137v2 Announce Type: new Abstract: Video generation models have advanced rapidly and can now synthesize plausible videos of robot manipulation from image and text prompts. Recent work extracts robot actions directly from such generated videos, but the result is purel"
+    },
+    {
+      "title": "Primitive-Informed Sampling-Based MPC for Multi-Fingered Dexterous Manipulation",
+      "link": "https://arxiv.org/abs/2609.14868",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-17",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.14868v2 Announce Type: replace Abstract: We present a primitive-informed sampling-based model predictive control (MPC) framework for multi-fingered dexterous manipulation. Sampling-based MPC evaluates candidate control trajectories through forward simulation without re"
+    },
+    {
+      "title": "Real-World Reinforcement Learning with MPC Scaffolding for Dexterous Manipulation",
+      "link": "https://arxiv.org/abs/2609.14878",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-17",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.14878v2 Announce Type: replace Abstract: Real-world reinforcement learning (RL) offers a promising route to dexterous manipulation policies that can adapt directly from physical interaction, but learning is hindered by inefficient early exploration and costly failures."
+    },
+    {
+      "title": "CorrRisk-WM: Corridor-Conditioned Risk World Modeling for Safety-Critical Trajectory Planning",
+      "link": "https://arxiv.org/abs/2609.16724",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-17",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.16724v2 Announce Type: replace Abstract: Safe local planning requires forecasting surrounding-agent motion and evaluating candidate-specific risks, since identical agent motion can pose different risks to different ego trajectories. We present CorrRisk-WM, a planning-o"
+    },
+    {
+      "title": "The Latent That Never Was: A Forensic Re-run of the CVAE Ablation in Action Chunking Transformers",
+      "link": "https://arxiv.org/abs/2609.16745",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-17",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.16745v2 Announce Type: replace Abstract: Action Chunking Transformers (ACT) are widely used to learn robot manipulation from demonstrations. Their conditional variational autoencoder includes an encoder meant to capture differences between demonstrations during trainin"
+    },
+    {
+      "title": "华为开创AI时代计算架构：让百万处理器成为一台计算机",
+      "link": "https://www.leiphone.com/category/industrynews/ZAv4gLB8zM5B5PBX.html",
+      "source": "雷锋网",
+      "date": "2026-09-17",
+      "tags": [
+        "boston-dynamics"
+      ],
+      "summary": "关键信息：• Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主从架构，实现了百万级处理器真正成为一台更大的计算机。• 灵衢是实现Peerium计算架构的关键互联技术。[中国，上海，2026年9月17日] 今日，华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算力需求。Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。Peerium计算架构突破了图灵范式，提出了Nested BSP"
+    },
     {
       "title": "Arm Total Design for Physical AI brings more than 80 developers together",
       "link": "https://www.therobotreport.com/arm-total-design-for-physical-ai-brings-more-than-80-developers-together/",
@@ -571,6 +651,18 @@
       "summary": "要闻提示1.周鸿祎：不会再投资新能源汽车，已经吃过一次亏2.曝字节跳动完成 2.9 亿美元融资，用于拆分 AI 制药业务 Anew Labs3.iPhone Duo可靠性翻车：影视飓风Tim在苹果总部掰一下就闪屏了4.花呗、抖音月付等将退出支付选项？多平台回应5.奥迪惨遭高空坠落餐刀刺穿车顶，刀身插入两三厘米，维修费高达12万6.吉利回应“宁德时代收购电池公司”：未放弃电池自研，“85亿元投资”不实7.努比亚NaviX Ultra发布：搭载豆包手机助手，售价5499元起8.OpenAI洽谈新一轮融资，估值或超1.2万亿美元今日头条周鸿祎：不会再投资新能源"
     },
     {
+      "title": "被AI放大的光学「戏份」，让「配角」舜宇的生意越做越大",
+      "link": "https://www.leiphone.com/category/iot/n1PzfiDNtDc0NYgy.html",
+      "source": "雷锋网",
+      "date": "2026-09-16",
+      "tags": [
+        "unitree",
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "作者 | 陈悦琳编辑 | 郭思&nbsp;几乎同时迎来“量产元年”的人形机器人和智能眼镜，正在放大光学的“戏份”。&nbsp;据Counterpoint统计，今年上半年全球人形机器人出货量突破2.2万台，同比激增近300%。与此同时，智能眼镜市场也迎来爆发，IDC数据显示，今年一季度全球智能眼镜出货量达356.6万台，同比增长130.1%。&nbsp;尽管产品形态各异，两者对光学系统提出了共同诉求——“更清晰”和“更轻便”。人形机器人需精准感知障碍物与距离以规划动作；AI拍摄眼镜要在轻薄镜架中还原第一视角；AI+AR眼镜则需将数字信息无缝叠加至现实视野。"
+    },
+    {
       "title": "OLogic to share how robots can learn from human demonstrations at RoboBusiness",
       "link": "https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/",
       "source": "The Robot Report",
@@ -729,96 +821,6 @@
         "embodied"
       ],
       "summary": "arXiv:2609.16074v1 Announce Type: new Abstract: Robots operating in open environments act under partial observability, physical constraints, and dynamic task contexts. Beyond mapping observations and language instructions to actions, they must anticipate how candidate actions may"
-    },
-    {
-      "title": "ConGraspXL: Controllable Constraint-Conditioned Dexterous Grasping Motion Synthesis",
-      "link": "https://arxiv.org/abs/2609.16319",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.16319v1 Announce Type: new Abstract: Dexterous grasping is usually conducted for specific tasks, leading to heterogeneous constraints such as specific approach directions, desired contact regions, specified wrist trajectories, and functional hand poses. Our previous wo"
-    },
-    {
-      "title": "Collision-Aware Humanoid Whole-Body Control under Imperfect Tracking Targets",
-      "link": "https://arxiv.org/abs/2609.16405",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.16405v1 Announce Type: new Abstract: Humanoid robots often execute motion commands through whole-body controllers (WBCs) that track targets while maintaining balance and stability. However, most WBCs are blind to scene geometry, which can lead to collisions from imperf"
-    },
-    {
-      "title": "UniDex-ViTac: Learning Unified Visuo-Tactile Dexterous Manipulation Policy from Human Video Data",
-      "link": "https://arxiv.org/abs/2609.16504",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.16504v1 Announce Type: new Abstract: Human videos provide demonstrations of dexterous manipulation but lack robot-executable actions and tactile measurements. We present UniDex-ViTac, a framework that uses human-video-guided simulation to generate robot demonstrations "
-    },
-    {
-      "title": "ProxiDex: Learning Dynamics-Guided Proximity Policy for Dexterous Manipulation",
-      "link": "https://arxiv.org/abs/2609.16586",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.16586v1 Announce Type: new Abstract: Multi-finger dexterous manipulation relies on stable hand-object interactions, yet these interactions are partially observable in practice. Visual observations are often occluded by the hand, tactile sensors introduce hardware-speci"
-    },
-    {
-      "title": "SAVLA: Symmetry-Aware Vision-Language-Action Models for Robotic Manipulation",
-      "link": "https://arxiv.org/abs/2609.16641",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2609.16641v1 Announce Type: new Abstract: Vision-language-action (VLA) models have become the dominant paradigm for language-conditioned robot manipulation. However, although images and language instructions inherently encode geometric information, VLAs acquire their spatia"
-    },
-    {
-      "title": "WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination",
-      "link": "https://arxiv.org/abs/2609.16644",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.16644v1 Announce Type: new Abstract: World Action Models (WAMs) offer a promising approach to general-purpose robot manipulation by jointly modeling visual dynamics and actions. However, most WAM studies focus on tabletop or arm-centric manipulation, while humanoid loc"
-    },
-    {
-      "title": "Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions",
-      "link": "https://arxiv.org/abs/2609.16683",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.16683v1 Announce Type: new Abstract: Learning humanoid-object interaction requires coordinating whole-body balance, locomotion, and dexterous hand contact to control both robot and object motion. Human demonstrations provide examples of coordinated interaction, but tra"
-    },
-    {
-      "title": "IL-ACT: Imitation Learning with Adaptive Cartesian Tracking Control for a 30-ton Excavator",
-      "link": "https://arxiv.org/abs/2609.16696",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2609.16696v1 Announce Type: new Abstract: Autonomous excavator control is challenged by coupled kinematics, actuation lag, and uncertainty. We propose imitation learning and adaptive Cartesian tracking (IL-ACT), a novel motion control framework for a 30-ton-class excavator."
-    },
-    {
-      "title": "World Models for Embodied Intelligence: From Plausible to Controllable to Actionable",
-      "link": "https://arxiv.org/abs/2609.16697",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-16",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2609.16697v1 Announce Type: new Abstract: World models connect perception and decision-making in embodied intelligence by maintaining hidden state, anticipating consequences, comparing interventions, and adapting when execution departs from expectations. Although progress i"
     }
   ]
 }
