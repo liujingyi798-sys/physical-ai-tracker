@@ -1,9 +1,59 @@
 {
-  "lastUpdated": "2026-09-18T15:47:52.412Z",
+  "lastUpdated": "2026-09-19T03:04:13.514Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 77,
+  "itemsFetched": 18,
   "items": [
+    {
+      "title": "The picks-and-shovels strategy behind the robotics boom",
+      "link": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
+      "source": "The Robot Report",
+      "date": "2026-09-18",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today. The post The picks-and-shovels strategy behind the robotics boom appeared first on The Robot Report."
+    },
+    {
+      "title": "SoftBank agrees to acquire Robotics and AI Institute",
+      "link": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
+      "source": "The Robot Report",
+      "date": "2026-09-18",
+      "tags": [
+        "funding"
+      ],
+      "summary": "The deal has been rumored for a couple of months, but it is now being reviewed by the Committee on Foreign Investment in the United States. The post SoftBank agrees to acquire Robotics and AI Institute appeared first on The Robot Report."
+    },
+    {
+      "title": "ForwardDLO: Model-Based Bimanual Shape Matching of Unconstrained Deformable Linear Objects",
+      "link": "https://arxiv.org/abs/2609.18455",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-18",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.18455v2 Announce Type: replace Abstract: Ropes, cables, and other deformable linear objects appear in tasks from untangling to cable routing and suturing, yet controlling their shape remains a challenge in robot manipulation. We study model-based shape control in a gen"
+    },
+    {
+      "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
+      "link": "https://arxiv.org/abs/2609.18620",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-18",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.18620v2 Announce Type: replace Abstract: Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical properties. This is especially challenging for deformable objects, since text and images provide limited evid"
+    },
+    {
+      "title": "EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control",
+      "link": "https://arxiv.org/abs/2605.16692",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-18",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2605.16692v4 Announce Type: replace-cross Abstract: We introduce EfficientTDMPC, a sample-efficient model-based reinforcement learning method for continuous control built on the TD-MPC family of algorithms. Central to this family is a planner that aims to find an action seq"
+    },
     {
       "title": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
       "link": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
@@ -663,6 +713,16 @@
       "summary": "9月15日，鸿蒙智行和问界汽车同日发布说明，宣布即日起问界在鸿蒙智行合作框架下探索新合作模式，问界品牌将专属专营。今日，赛力斯集团董事、副总裁康波，首次回应了用户及市场关心的话题。Q1：9月15日以来，有很多关于赛力斯和华为合作的讨论，大家都很关心问界为什么要专属专营？ 康波：2021年，赛力斯与华为联合推出问界品牌，开创了汽车产业与ICT产业跨界合作的先河。过去五年，赛力斯与华为高度聚焦、深度共创，在没有任何现有模式可以借鉴的情况下，共同开创了跨界融合的创新商业模式，全心全意把问界从0做到1，形成今天的高端品牌、百万用户和体系基础，充分证明了合作模式的"
     },
     {
+      "title": "九识建成首个L4万卡集群，无人驾驶进入多模态大模型新范式",
+      "link": "https://www.leiphone.com/category/industrynews/sOtgTcXitH6C7vAT.html",
+      "source": "雷锋网",
+      "date": "2026-09-17",
+      "tags": [
+        "general"
+      ],
+      "summary": "一家做无人车的公司，为什么需要一万多张GPU？9月10日，九识CEO孔旗在广州宣布战略升级为“城市级物理AI”。一周后的9月17日，CTO庄立首次披露支撑这次升级的底层能力：九识已建成业内首个L4级万卡集群，算力集群总规模近1.5万卡。九识也成为首个建成万卡集群的L4团队。而万卡算力的背后，是一个正在从百亿级迈向千亿级的九识APEX多模态基座大模型。无人驾驶下半场：迈入多模态大模型新范式在智能驾驶圈子里，长期存在一个顽固的偏见：载人自动驾驶是高科技，城市货运无人车，AI壁垒更低。但事实显然不是如此。九识成立于2021年8月，创始团队是中国无人驾驶的拓荒者"
+    },
+    {
       "title": "Robotics investments reach $4.9B in August 2026",
       "link": "https://www.therobotreport.com/robotics-investments-reach-4-9b-in-august-2026/",
       "source": "The Robot Report",
@@ -761,68 +821,6 @@
         "general"
       ],
       "summary": "arXiv:2609.17728v1 Announce Type: new Abstract: Recent Vision-Language-Action (VLA) models for autonomous driving have incorporated world modeling by predicting future driving scenes alongside driving actions, demonstrating strong planning performance. Future driving scenes are u"
-    },
-    {
-      "title": "CALOS: Control-Affine Lyapunov On-manifold Safety Layer for Safe Deep Reinforcement Learning for Quadrotors",
-      "link": "https://arxiv.org/abs/2609.17758",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-17",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2609.17758v1 Announce Type: new Abstract: Deep Reinforcement Learning has demonstrated remarkable capability in quadrotor control, yet learned policies offer no guarantee of respecting safety constraints during training or deployment. We present CALOS (Control-Affine Lyapun"
-    },
-    {
-      "title": "Learning Multi-Humanoid Pickup and Transport via Decentralized Object-Centric Control",
-      "link": "https://arxiv.org/abs/2609.17824",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-17",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.17824v1 Announce Type: new Abstract: We study cooperative multi-humanoid pickup and transport of objects with varying size, weight, and geometry, requiring robot teams of different sizes. Our approach uses decentralized object-centric control, where each humanoid is as"
-    },
-    {
-      "title": "Causal-History Test-Time Scaling for Failure Recovery in Autoregressive World-Action Models",
-      "link": "https://arxiv.org/abs/2609.18016",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-17",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.18016v1 Announce Type: new Abstract: World-action models (WAMs) have emerged as a promising paradigm for robot manipulation by jointly modeling future visual dynamics and robot actions. However, existing WAMs are trained predominantly on successful trajectories, making"
-    },
-    {
-      "title": "Technical Report: One-Step Drifting Action Heads for GR00T N1.7",
-      "link": "https://arxiv.org/abs/2609.18108",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-17",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2609.18108v1 Announce Type: new Abstract: One-step action generation can substantially reduce the inference cost of vision-language-action (VLA) policies, but its effect on closed-loop task success remains an open question. This technical report studies a GR00T N1.7 variant"
-    },
-    {
-      "title": "A Comprehensive Review of Generative Physical Artificial Intelligence",
-      "link": "https://arxiv.org/abs/2609.18111",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-17",
-      "tags": [
-        "humanoid",
-        "embodied",
-        "foundation-model"
-      ],
-      "summary": "arXiv:2609.18111v1 Announce Type: new Abstract: The integration of large-scale foundation models with physical embodiments has led to significant advancements in robotics known as Generative Physical Artificial Intelligence (GPAI). These agentic AI systems autonomously perceive, "
-    },
-    {
-      "title": "OpenDexGrasp: Open-vocabulary Task-Oriented Dexterous Grasping",
-      "link": "https://arxiv.org/abs/2609.18117",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-17",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2609.18117v1 Announce Type: new Abstract: Dexterous grasp synthesis has advanced rapidly in generating stable and physically plausible hand poses, but real-world manipulation requires grasps that preserve the function implied by the task. We study open-vocabulary task-orien"
     }
   ]
 }
