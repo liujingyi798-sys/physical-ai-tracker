@@ -1,828 +1,827 @@
 {
-  "lastUpdated": "2026-09-22T03:15:12.354Z",
+  "lastUpdated": "2026-09-22T16:15:01.989Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 15,
+  "itemsFetched": 105,
   "items": [
     {
-      "title": "IAC completes autonomous racing event at Laguna Seca",
-      "link": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
+      "title": "Intrinsic open sources key parts of its platform for easier development",
+      "link": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
       "source": "The Robot Report",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "At Laguna Seca, Unimore Racing won the Indy Autonomous Challenge, marking the IAC's first autonomous car overtakes on a road course. The post IAC completes autonomous racing event at Laguna Seca appeared first on The Robot Report."
+      "summary": "With Intrinsic Core, the company is making key parts of its manipulation platform available to robotics developers. The post Intrinsic open sources key parts of its platform for easier development appeared first on The Robot Report."
     },
     {
-      "title": "SkipVLA: Skipping VLA Steps with Classical Planning for Fast Robot Manipulation",
-      "link": "https://arxiv.org/abs/2609.20648",
+      "title": "CHOREO: Every Humanoid Skill as a Trajectory",
+      "link": "https://arxiv.org/abs/2609.22274",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.20648v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are a class of generalist robot policies that map camera images and language instructions directly to robot actions. While promising, these models remain slow at test time, particularly for lo"
-    },
-    {
-      "title": "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation",
-      "link": "https://arxiv.org/abs/2609.20649",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.20649v2 Announce Type: replace Abstract: Learning predictive models of contact-rich dexterous manipulation requires dense tactile interaction, but such data are costly to scale on real robots and remain tied to embodiment-specific sensors. We introduce DexTouch-WM, an "
-    },
-    {
-      "title": "WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models",
-      "link": "https://arxiv.org/abs/2606.31672",
-      "source": "arXiv CS AI",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2606.31672v5 Announce Type: replace-cross Abstract: Despite rapid progress in interactive world models (IWMs), short-horizon performance does not establish sustained action following, visual stability, physical plausibility, or memory. We introduce WorldRoamBench, an open-w"
-    },
-    {
-      "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
-      "link": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
-      "source": "The Robot Report",
-      "date": "2026-09-21",
-      "tags": [
-        "boston-dynamics",
-        "humanoid"
-      ],
-      "summary": "The new Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia. The post Boston Dynamics opens Metaplant Application Center to train Atlas humanoids appeared first on The Robot Report."
-    },
-    {
-      "title": "WM-VS: Progress-Aligned World Models for Closed-Loop Visual Servoing",
-      "link": "https://arxiv.org/abs/2609.20892",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.20892v1 Announce Type: new Abstract: Closed-loop visual servoing requires predictions that indicate whether an action reduces task error, not only whether the action is plausible. We call this gap the prediction-control mismatch and introduce WM-VS, a target-centric pr"
-    },
-    {
-      "title": "AeRove: A Compact Bimodal Aerial-Terrestrial Drone with Rapid Bistable Reconfiguration for Close-Range Pipeline Inspection",
-      "link": "https://arxiv.org/abs/2609.20965",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2609.20965v1 Announce Type: new Abstract: Close-proximity pipeline inspection is challenging for standard drones due to high hovering power consumption, airflow sensitivity, and propeller wash interference with gas sensing. To address this, we present AeRove, a compact bimo"
-    },
-    {
-      "title": "Catch Me If You Can: Real-Time Feedback Denoising for Responsive VLAs",
-      "link": "https://arxiv.org/abs/2609.21022",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2609.21022v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models have shown strong generalization in robotic manipulation by combining semantic knowledge from pretrained vision-language models with expressive action-generation policies. Diffusion-based action g"
-    },
-    {
-      "title": "DEXTERA: From a Single Image to Deployable Dexterous Manipulation via Real-to-Sim-to-Real",
-      "link": "https://arxiv.org/abs/2609.21045",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21045v1 Announce Type: new Abstract: Collecting real-world robot data for dexterous manipulation is costly and time-consuming. While high-fidelity physics simulators enable scalable data synthesis and policy learning, constructing deployment-ready digital twins manuall"
-    },
-    {
-      "title": "Design of Adaptive PID Controller Based On Asynchronous Advantage Actor Critic Learning Method for QuadCopter Control",
-      "link": "https://arxiv.org/abs/2609.21082",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2609.21082v1 Announce Type: new Abstract: Quadcopters offer great utility in many applications, but their nonlinear nature and disturbance sensitivity present great control challenges. Basic PID controllers are generally not sophisticated enough to cope with these complexit"
-    },
-    {
-      "title": "Dynamics-Induced Commitment in Learning-Based Robotic Penalty Kicks",
-      "link": "https://arxiv.org/abs/2609.21100",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.21100v1 Announce Type: new Abstract: Learning in robotic games is constrained not only by strategic information but also by what the body can still execute. We study this coupling in a hierarchical humanoid-quadruped penalty system in which game-level self-play policie"
-    },
-    {
-      "title": "Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations",
-      "link": "https://arxiv.org/abs/2609.21107",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "tags": [
         "unitree",
         "humanoid"
       ],
-      "summary": "arXiv:2609.21107v1 Announce Type: new Abstract: While learning from human motions has enabled highly dynamic humanoid skills such as dancing and martial arts in obstacle-free space, traversal through densely cluttered environments remains underexplored. These spaces are three-dim"
+      "summary": "arXiv:2609.22274v1 Announce Type: new Abstract: Recent advances in humanoid robotics have produced diverse skills through reinforcement learning, motion imitation, and generative modeling. Yet these capabilities remain siloed because they are built around incompatible representat"
     },
     {
-      "title": "Noctif3R: Feed-Forward Monocular Real-Time SLAM for Photon-Limited Scenes on Embedded Hardware",
-      "link": "https://arxiv.org/abs/2609.21114",
+      "title": "OJOx: Specification-Conditioned Demonstrations for Embodied AI in Construction",
+      "link": "https://arxiv.org/abs/2609.22289",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
+      "tags": [
+        "unitree",
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "arXiv:2609.22289v1 Announce Type: new Abstract: Large-scale egocentric and whole-body human demonstrations are becoming a primary source of data for embodied intelligence. They record what people perceive and do, but rarely the external specification that gave an action its purpo"
+    },
+    {
+      "title": "EditWM: Event-Decomposed World Modeling with Incremental Correction for End-to-End Autonomous Driving",
+      "link": "https://arxiv.org/abs/2609.22317",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22317v1 Announce Type: new Abstract: World models support autonomous driving by predicting the scene evolution associated with candidate trajectories. Driving dynamics differ in predictability, motivating a distinction between regular evolution and event-induced deviat"
+    },
+    {
+      "title": "Embedding Physics Priors in Robot Learning: A Survey",
+      "link": "https://arxiv.org/abs/2609.22319",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "foundation-model"
+      ],
+      "summary": "arXiv:2609.22319v1 Announce Type: new Abstract: The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based approaches. While purely data-driven methods have achieved remarkable success in computer vision and natural languag"
+    },
+    {
+      "title": "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
+      "link": "https://arxiv.org/abs/2609.22332",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22332v1 Announce Type: new Abstract: Generalizable robot manipulation requires predicting how a scene will evolve, identifying where interactions are feasible, and determining how to act. Action-labeled robot videos directly supervise control but are costly and limited"
+    },
+    {
+      "title": "Latent Policy Steering: An Efficient and Flexible Framework for Cross-Embodiment Transfer",
+      "link": "https://arxiv.org/abs/2609.22521",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22521v1 Announce Type: new Abstract: The performance of learned robot visuomotor policies depends heavily on the size and quality of their training data, yet collecting high-quality demonstrations remains costly for robots in the real world. Although large-scale robot "
+    },
+    {
+      "title": "FRAMES: Failure Recovery And Monitoring of Embodied Skills for Humanoid Loco-Manipulation",
+      "link": "https://arxiv.org/abs/2609.22538",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "unitree",
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "arXiv:2609.22538v1 Announce Type: new Abstract: Large language model (LLM) planners can decompose natural-language instructions and select reusable robot skills, but choosing the correct skill does not guarantee successful physical execution. This gap is especially important in h"
+    },
+    {
+      "title": "REBOOT: From Failure to Recovery - A Dataset and Benchmark for Precision Assembly",
+      "link": "https://arxiv.org/abs/2609.22591",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22591v1 Announce Type: new Abstract: Robot learning policies fail in characteristic ways: they stall in uncertain states, drift during contact-rich alignment, and miss targets by millimetres in precision tasks. Yet training datasets consist largely of successful demons"
+    },
+    {
+      "title": "HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization",
+      "link": "https://arxiv.org/abs/2609.22611",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "unitree",
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.22611v1 Announce Type: new Abstract: Humanoid robots can acquire complex skills by imitating kinematic humanoid motion references, yet reliable references for contact-rich interactions remain difficult to obtain: motion capture deteriorates under occlusion and close ph"
+    },
+    {
+      "title": "AquaWorld: Structure-Consistent Underwater World Generation for Robot Simulation",
+      "link": "https://arxiv.org/abs/2609.22670",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22670v1 Announce Type: new Abstract: Underwater robot simulation requires diverse environments in which terrain, scene composition, tasks, and currents remain mutually consistent. We present AquaWorld, a world-generation framework that preserves these relationships thr"
+    },
+    {
+      "title": "A Direct Rigid Transmission 2-DoF Wrist Extension for Tendon-Driven Hand",
+      "link": "https://arxiv.org/abs/2609.22681",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22681v1 Announce Type: new Abstract: Dexterous manipulation in confined spaces requires local control of hand orientation. Without a wrist, a dexterous hand must obtain this local orientation through coordinated motion of the robot arm, often involving several joints a"
+    },
+    {
+      "title": "BEACON: Belief-Enabled Adaptive CONtrol for Imitation Learning under Uncertainty",
+      "link": "https://arxiv.org/abs/2609.22730",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22730v1 Announce Type: new Abstract: Robot manipulation tasks often involve hidden state information that cannot be directly observed and must be inferred through sequential physical interactions. In such partially observable settings, conditioning an imitation learnin"
+    },
+    {
+      "title": "Expert-Play Contouring Control: Faster-than-Demonstration Planning from Slow Expert and Fast Play",
+      "link": "https://arxiv.org/abs/2609.22798",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22798v1 Announce Type: new Abstract: Expert demonstrations often specify what a robot should do, but not how fast it can do it. Imitation Learning (IL) inherits demonstration timing, while directly accelerating the learned motion can fail when faster execution changes "
+    },
+    {
+      "title": "Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation",
+      "link": "https://arxiv.org/abs/2609.22829",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.22829v1 Announce Type: new Abstract: Collecting whole-body demonstrations for humanoid manipulation mostly relies on teleoperation, which is costly and hard to scale up. The Universal Manipulation Interface (UMI) provides a scalable data collection paradigm, but end-ef"
+    },
+    {
+      "title": "Physical-Touch Observability from Wrist Wrench in Granular Scooping",
+      "link": "https://arxiv.org/abs/2609.22852",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "arXiv:2609.22852v1 Announce Type: new Abstract: Mining and earthmoving are important real-world deployment settings for embodied intelligence. Autonomous transport and driving systems have improved substantially, but loading and scooping still often depend on skilled human operat"
+    },
+    {
+      "title": "PileBelief: Persistent Physical State for Interaction-Driven World Modeling",
+      "link": "https://arxiv.org/abs/2609.22858",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22858v1 Announce Type: new Abstract: World models allow robots to anticipate action consequences before execution. This capability is especially valuable in excavation, where each scoop reshapes the terrain and affects subsequent actions. Local observations, however, c"
+    },
+    {
+      "title": "Splat-CBF: Safe Next-Best-View Control in 3D Gaussian-Splat Maps",
+      "link": "https://arxiv.org/abs/2609.23100",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "nvidia"
+      ],
+      "summary": "arXiv:2609.23100v1 Announce Type: new Abstract: Where to look and how to move? A robot navigating an unmapped environment must do both at once, and the two goals pull against each other. The regions most worth observing are the ones the map knows least about, and those are exactl"
+    },
+    {
+      "title": "Verti-WM: A Physics-Aided Exteroceptive World Model for Off-Road Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2609.23118",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.23118v1 Announce Type: new Abstract: Reinforcement learning for off-road navigation requires extensive vehicle-terrain interaction data, which are costly to collect in high-fidelity simulation. World models offer a promising alternative by replacing simulator roll-outs"
+    },
+    {
+      "title": "AquaCap: A Training-Free Underwater Embodied Agent with Code-as-Policy",
+      "link": "https://arxiv.org/abs/2609.23133",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "arXiv:2609.23133v1 Announce Type: new Abstract: Recent advances in vision-language-action models have stimulated growing interest in underwater embodied intelligence. However, their reliance on large-scale interaction data limits their applicability underwater, where data collect"
+    },
+    {
+      "title": "Robot World Models Are Not Invariant to How the Actions Are Written",
+      "link": "https://arxiv.org/abs/2609.23252",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.23252v1 Announce Type: new Abstract: A robot policy is trained with one of two action parameterizations: absolute joint targets, or deltas relative to the current state. The choice is a live engineering decision in robot learning, and a world model conditioned on actio"
+    },
+    {
+      "title": "Scenario MPC with STL Specifications and Pareto-Based Feasibility Repair",
+      "link": "https://arxiv.org/abs/2609.23263",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.23263v1 Announce Type: new Abstract: Temporal logic is a formal language for reasoning about system behaviors over time. Signal temporal logic (STL), in particular, has been used to encode spatio-temporal requirements for control synthesis in multi-agent systems, often"
+    },
+    {
+      "title": "EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots",
+      "link": "https://arxiv.org/abs/2609.23414",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "unitree",
+        "humanoid",
+        "foundation-model"
+      ],
+      "summary": "arXiv:2609.23414v1 Announce Type: new Abstract: Socially competent humanoid robots must communicate affect and intent through gesture as well as speech, yet open-ended interaction must become motion that is both expressive and executable on a specific body. This demands semantic "
+    },
+    {
+      "title": "HEARTH: An Object-Centric RGB-Thermal-3D Dataset for Temperature-Aware Robot Manipulation",
+      "link": "https://arxiv.org/abs/2609.23418",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.23418v1 Announce Type: new Abstract: Language-guided manipulation can depend on physical properties that visible appearance does not reveal. Temperature is one such property, but object datasets for robot learning rarely associate measured temperatures with object appe"
+    },
+    {
+      "title": "STRIDER: Stepping-Enabled Multi-Gait Hierarchical 3D Loco-Manipulation Framework for Humanoid Robots",
+      "link": "https://arxiv.org/abs/2609.23483",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.23483v1 Announce Type: new Abstract: Humanoid loco-manipulation faces two prominent limitations: controllers using continuous velocity commands cannot precisely regulate individual footholds, while specialized foothold-tracking modules are difficult to integrate with w"
+    },
+    {
+      "title": "FeasibleFlow: One-Step Joint Transport of Configuration Feasibility and Trajectories for End-to-End Driving",
+      "link": "https://arxiv.org/abs/2609.23488",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.23488v1 Announce Type: new Abstract: End-to-end autonomous driving maps current observations directly to future trajectories, yet those trajectories must remain valid as the scene evolves. Future state modeling aims to address this temporal mismatch, but general repres"
+    },
+    {
+      "title": "PRIMO: Prior-Informed Odometry from Human-Motion Tracking for Humanoid Robots",
+      "link": "https://arxiv.org/abs/2609.23610",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "agibot",
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.23610v1 Announce Type: new Abstract: Simulation-trained humanoid proprioceptive odometry faces two transfer challenges: training trajectories generated by specific robot control policies intended for deployment cover only a limited range of motions, while sim-to-real m"
+    },
+    {
+      "title": "WOLF: World Model Guided LiDAR Exploration with Predictive Frontiers",
+      "link": "https://arxiv.org/abs/2609.23656",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.23656v1 Announce Type: new Abstract: LiDAR-based unmanned aerial vehicle (UAV) exploration builds maps by continually selecting where to observe next. However, decisions based on the measured map provide limited foresight into spatial continuations behind occlusions, l"
+    },
+    {
+      "title": "UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains",
+      "link": "https://arxiv.org/abs/2609.23666",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.23666v1 Announce Type: new Abstract: Open-world deployment requires humanoid robots to cross highly heterogeneous terrain safely, with perception that simultaneously provides wide coverage, local accuracy, and redundancy against sensor failure. Existing approaches stru"
+    },
+    {
+      "title": "EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience",
+      "link": "https://arxiv.org/abs/2609.23755",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.23755v1 Announce Type: new Abstract: Egocentric human data provide a principled source of supervision for learning dexterous robot manipulation. Unlike prior approaches that often collect such data in constrained or specially constructed environments, we collect in-the"
+    },
+    {
+      "title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics",
+      "link": "https://arxiv.org/abs/2609.23863",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "foundation-model"
+      ],
+      "summary": "arXiv:2609.23863v1 Announce Type: new Abstract: Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-"
+    },
+    {
+      "title": "HumynexSurg-1: A Curated Expert Liposuction Dataset",
+      "link": "https://arxiv.org/abs/2609.23885",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "nvidia",
-        "boston-dynamics"
-      ],
-      "summary": "arXiv:2609.21114v1 Announce Type: new Abstract: Robots carrying out tasks in dark environments need to localize from a single RGB camera, in light so low that the per-pixel signal approaches the sensor's own noise, on a power-constrained onboard computer, in real time. Each of th"
-    },
-    {
-      "title": "SAGE: Safety-Aligned Gradient Enforcement for Human--Robot Collaboration",
-      "link": "https://arxiv.org/abs/2609.21130",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.21130v1 Announce Type: new Abstract: Multi-party human-robot collaboration poses a dual challenge: robot decisions should remain interpretable and auditable, while executed actions must satisfy safety constraints during physical interaction. Combining explainable decis"
-    },
-    {
-      "title": "Same World, Different Knowledge: When Isolated Audits Misjudge World-Model Repairs",
-      "link": "https://arxiv.org/abs/2609.21155",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21155v1 Announce Type: new Abstract: A repair favored under an isolated input fault can be inferior when deployed modules share the faulty information. We introduce an information-interface audit for world models, distinguishing fidelity gaps, where exact inputs become"
-    },
-    {
-      "title": "SafeStage: Evaluating Safety Before, During, and After Vision-Language-Conditioned Robot Manipulation",
-      "link": "https://arxiv.org/abs/2609.21223",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21223v1 Announce Type: new Abstract: Vision-language-conditioned robot policies integrate perception, language understanding, and control for general-purpose manipulation. However, existing evaluations often focus on task success, isolated physical constraints, semanti"
-    },
-    {
-      "title": "FOCAL-VLA: Subtask-Guided Geometry Distillation and Implicit World Modeling for Vision-Language-Action Models",
-      "link": "https://arxiv.org/abs/2609.21228",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21228v1 Announce Type: new Abstract: Vision-language-action (VLA) models built on pretrained vision-language models have demonstrated strong performance across diverse robotic manipulation tasks. However, VLA models that directly map current 2D observations to actions "
-    },
-    {
-      "title": "KnowDemo: Knowledge-Guided Robot Demonstration Generation from Human Videos",
-      "link": "https://arxiv.org/abs/2609.21229",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21229v1 Announce Type: new Abstract: Learning robot manipulation policies typically requires substantial demonstration data, which are costly to collect on real robots. Recent methods generate robot demonstrations from human videos by adapting recovered motion and vali"
-    },
-    {
-      "title": "The EventCV Library for Event-Based Robotic Vision",
-      "link": "https://arxiv.org/abs/2609.21330",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2609.21330v1 Announce Type: new Abstract: Event cameras detect per-pixel brightness changes asynchronously on microsecond timescales, with high dynamic range and low power draw. These are desirable properties for robots that move fast or work in difficult lighting condition"
-    },
-    {
-      "title": "ProTracer: Proprioception-Guided Failure Diagnosis in Robot Manipulation",
-      "link": "https://arxiv.org/abs/2609.21369",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21369v1 Announce Type: new Abstract: This paper presents a comprehensive framework for robot manipulation failure analysis that includes binary failure detection, failure categorization, explanation generation, and the additional capability of failure onset localizatio"
-    },
-    {
-      "title": "Stabilizing Trajectory Outputs in End-to-End Autonomous Driving via SC-IMM Based Teacher Signals",
-      "link": "https://arxiv.org/abs/2609.21404",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21404v1 Announce Type: new Abstract: End-to-End autonomous driving models commonly predict future waypoints from sensor inputs and convert them into vehicle control commands through a downstream controller. However, conventional waypoint-based imitation learning mainly"
-    },
-    {
-      "title": "FootQuery: Future-Touchdown-Guided Retrieval from Depth History for Perceptive Humanoid Locomotion",
-      "link": "https://arxiv.org/abs/2609.21447",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "unitree",
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.21447v1 Announce Type: new Abstract: Humanoid locomotion over complex terrain requires anticipating footholds that may no longer be visible at touchdown. Limited camera coverage and self-occlusion make it necessary to retrieve relevant terrain information from earlier "
-    },
-    {
-      "title": "Robotic Multiphase Interaction: Manipulating Coupled Liquid and Solid Dynamics with a World Model",
-      "link": "https://arxiv.org/abs/2609.21448",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21448v1 Announce Type: new Abstract: This work presents \\textit{Robotic Multiphase Interaction (RMI)}, a setting in which liquid enters a porous material and interacts mechanically with its deforming solid skeleton. Manipulation can therefore change pore volume, expel "
-    },
-    {
-      "title": "Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip",
-      "link": "https://arxiv.org/abs/2609.21467",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.21467v1 Announce Type: new Abstract: Motion tracking can reproduce humanoid loco-manipulation from a single retargeted motion clip, but a policy trained on a fixed reference primarily reproduces its demonstrated transport outcome. Although the source trajectory visits "
-    },
-    {
-      "title": "Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training",
-      "link": "https://arxiv.org/abs/2609.21482",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21482v1 Announce Type: new Abstract: Accurate neural world models are central to model-based robotics, where they enable robots to predict future states from previously observed trajectories. Multi-step autoregressive training improves long-horizon prediction, but fixe"
-    },
-    {
-      "title": "DPed-VLN: A Benchmark for Socially Compliant Vision-and-Language Navigation in Dynamic Pedestrian Environments",
-      "link": "https://arxiv.org/abs/2609.21504",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.21504v1 Announce Type: new Abstract: Vision-and-language navigation (VLN) has advanced rapidly in static indoor environments, but robots operating in human-populated spaces must ground language while responding to moving pedestrians and social-safety constraints. We pr"
-    },
-    {
-      "title": "2nd Place Solution to the HANDS 2026 Workshop Challenge-Dexterous Grasp Motion Track: Single-Shot Trajectory Warping for Grasp Motion Generation",
-      "link": "https://arxiv.org/abs/2609.21511",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21511v1 Announce Type: new Abstract: This report describes our 2nd place solution to the HANDS 2026 workshop challenge (Dexterous Grasp Motion track) in conjunction with ECCV 2026. In this challenge, we address grasp motion generation for the 12-DoF LinkerHand O6, aimi"
-    },
-    {
-      "title": "Skel-WAM: A Hand-Skeleton-Conditioned World Action Model for Human-to-Robot Manipulation Transfer",
-      "link": "https://arxiv.org/abs/2609.21514",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21514v1 Announce Type: new Abstract: Robot demonstrations are expensive to collect and often provide limited distributional coverage of task variations. Human videos offer a low-cost source of complementary manipulation experience, but learning from them requires bridg"
-    },
-    {
-      "title": "Sandwich-Residuals: Parameter-Efficient Test-time Adaptation of World Models",
-      "link": "https://arxiv.org/abs/2609.21740",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21740v1 Announce Type: new Abstract: Latent world models enable planning by predicting the effects of actions in a learned representation space, but their predictions can become unreliable when test-time conditions differ from training. Existing test-time adaptation me"
-    },
-    {
-      "title": "Scaling Vision-Language Reward Learning for Robot Manipulation in Parallel Simulation",
-      "link": "https://arxiv.org/abs/2609.21767",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2609.21767v1 Announce Type: new Abstract: Vision-language models (VLMs) can replace human annotators in preference-based reward learning, but sequential API requests and single-environment data collection make training slow and costly. We present RAPID (Reward learning with"
-    },
-    {
-      "title": "Compact but Moving: Intervention-Relevant Geometry in Recurrent World Models",
-      "link": "https://arxiv.org/abs/2609.21787",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21787v1 Announce Type: new Abstract: Learned world models may have compact interventions even when their recurrent state is high-dimensional, but it is unclear what happens to such a correction after it enters the model. We study this question in a controlled recurrent"
-    },
-    {
-      "title": "CommitFlow: Semantic Commitment Verification and Local Correction for Long-Horizon Robot Manipulation VLA Execution",
-      "link": "https://arxiv.org/abs/2609.21908",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21908v1 Announce Type: new Abstract: Although vision-language-action (VLA) policies have advanced rapidly, long-horizon execution may still progress to the next task stage before the required physical effect has been established. We call this a mismatch between semanti"
-    },
-    {
-      "title": "GALA: Geometry-Aware Latent Action Modeling for Vision-Language-Action Model Pretraining across Embodiments",
-      "link": "https://arxiv.org/abs/2609.21948",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21948v1 Announce Type: new Abstract: Learning large-scale vision-language-action (VLA) models from multi-embodiment datasets remains challenging due to heterogeneous action spaces across end effectors. Although latent action models (LAMs) can learn embodiment-agnostic "
-    },
-    {
-      "title": "SkelWAM: A Skeleton-Guided World-Action Model for Zero-Shot Cross-Embodiment Manipulation",
-      "link": "https://arxiv.org/abs/2609.21983",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21983v1 Announce Type: new Abstract: Reusing manipulation experience across robot embodiments is important for scaling robot learning and reducing repeated task-specific data collection. However, changes in embodiment alter visual appearance, action dimensionality and "
-    },
-    {
-      "title": "LIMBO: Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control",
-      "link": "https://arxiv.org/abs/2609.22075",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.22075v1 Announce Type: new Abstract: Safe whole-body control requires coordinating collision avoidance and balance under high-dimensional, nonlinear dynamics--making safety certificates difficult to design and reuse across behaviors. We present LIMBO, a framework for s"
-    },
-    {
-      "title": "SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation",
-      "link": "https://arxiv.org/abs/2609.22085",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.22085v1 Announce Type: new Abstract: Despite rapid progress, generalist robot policies remain brittle on complex, long-horizon tasks that comprise multiple stages or require repeated attempts and deliberation on the same underlying stage before success. Q-value functio"
-    },
-    {
-      "title": "Talk to Me, Jarvis: An Open-Source Edge-Deployable Voice Assistant Framework for Autonomous Racecars",
-      "link": "https://arxiv.org/abs/2609.21109",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.21109v1 Announce Type: cross Abstract: Recent advances in large language models have improved their effectiveness as back-end components for voice assistants, particularly in intent understanding and context-aware input classification. However, online-hosted models int"
-    },
-    {
-      "title": "Adaptive World Memory 3D Foundation Model for Scalable 3D Mapping, Localization, and Rendering",
-      "link": "https://arxiv.org/abs/2609.21502",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
         "foundation-model"
       ],
-      "summary": "arXiv:2609.21502v1 Announce Type: cross Abstract: Recent 3D foundation models enable generalizable geometric reasoning from RGB images but remain limited in persistent memory, scalability, and renderable scene modeling. We present a memory-centric 3D foundation model for scalable"
+      "summary": "arXiv:2609.23885v1 Announce Type: new Abstract: Robot foundation models learn manipulation from large demonstration corpora, but surgery is missing from those corpora: across the 780-hour Open-H surgical collection, one dataset carries synchronized force and none covers an aesthe"
     },
     {
-      "title": "PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models",
-      "link": "https://arxiv.org/abs/2609.22040",
+      "title": "ReVeal: A Reconstruction-Aware Real-to-Sim Framework for VLA Policy Evaluation",
+      "link": "https://arxiv.org/abs/2609.23910",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
+      "tags": [
+        "nvidia",
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.23910v1 Announce Type: new Abstract: Simulation-based evaluation provides a scalable and repeatable alternative to real-world evaluation of vision-language-action (VLA) policies. However, reconstruction errors can cause simulated policy performance to diverge from real"
+    },
+    {
+      "title": "FinsSim: A Reality-Aligned Integrated Simulation Platform for Underwater Robot Learning",
+      "link": "https://arxiv.org/abs/2609.23943",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "arXiv:2609.22040v1 Announce Type: cross Abstract: Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence withi"
+      "summary": "arXiv:2609.23943v1 Announce Type: new Abstract: Underwater robot learning relies on simulators that integrate high-fidelity hydrodynamics, convenient learning interfaces, and a credible transition to real scenarios. In this work, we present FinsSim, a reality-aligned integrated s"
     },
     {
-      "title": "Benchmarking World Models for Continual Learning on Compositional Tasks",
-      "link": "https://arxiv.org/abs/2609.22055",
+      "title": "Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation",
+      "link": "https://arxiv.org/abs/2609.23968",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.23968v1 Announce Type: new Abstract: Humanoid robots are expected to perform diverse human-level tasks in daily environments, many of which require precise regulation of interaction forces. While recent vision-language-action (VLA) models have shown promise for semanti"
+    },
+    {
+      "title": "Imagine-RL: Residual-Confidence-Guided Cross-Attention for World-Model-Augmented VLA Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2609.24033",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "arXiv:2609.22055v1 Announce Type: cross Abstract: A desirable property of a world model is the ability to learn continually across tasks, adapting to new environments without forgetting what the agent has already learnt. In particular, the ability to retain and reuse knowledge ob"
+      "summary": "arXiv:2609.24033v1 Announce Type: new Abstract: Reliable action evaluation in contact-rich manipulation requires looking beyond the current observation to future visual and contact consequences. Existing noise-space reinforcement learning efficiently steers a frozen Vision-Langua"
     },
     {
-      "title": "Benchmarking Autonomous Driving Planners Across Leaderboards: A Unified CARLA-Based Evaluation",
-      "link": "https://arxiv.org/abs/2509.22754",
+      "title": "What Matters in Designing World Action Models: An Empirical Study",
+      "link": "https://arxiv.org/abs/2609.24048",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "arXiv:2509.22754v2 Announce Type: replace Abstract: Autonomous driving remains a highly active research domain that seeks to enable vehicles to perceive dynamic environments, predict the future trajectories of traffic agents such as vehicles, pedestrians, and cyclists and plan sa"
+      "summary": "arXiv:2609.24048v1 Announce Type: new Abstract: World Action Models (WAMs) have emerged as a promising paradigm for generalizable robot control. Despite the growing number of WAM systems, existing works often introduce unified systems that bundle together multiple design choices,"
     },
     {
-      "title": "HERMES: A Holistic End-to-End Risk-Aware Multimodal Embodied System with Vision-Language Models for Long-Tail Autonomous Driving",
-      "link": "https://arxiv.org/abs/2602.00993",
+      "title": "AquaOrbit: Sim-to-Real Reinforcement Learning for Underwater Target Orbiting under Intermittent Visual Feedback",
+      "link": "https://arxiv.org/abs/2609.24054",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
+      "tags": [
+        "nvidia",
+        "figure-ai"
+      ],
+      "summary": "arXiv:2609.24054v1 Announce Type: new Abstract: Intermittent visual loss disrupts target-relative feedback during underwater orbiting, making it difficult to maintain coordinated motion and reacquire a moving target. We present AquaOrbit, a reinforcement-learning controller with "
+    },
+    {
+      "title": "When Does Touch Matter? Charting the Vision-Interaction Gap in Cluttered Dexterous Grasping",
+      "link": "https://arxiv.org/abs/2609.24068",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.24068v1 Announce Type: new Abstract: Dexterous grasping in clutter poses a basic sensing question: when do tactile measurements and external wrench estimates improve on visual geometry? Occlusion and contact can obscure grasp quality, motivating a controlled evaluation"
+    },
+    {
+      "title": "Dexterous Robot Manipulation from Human Demonstrations via Contact-Anchored Retargeting and Residual Policy Learning",
+      "link": "https://arxiv.org/abs/2609.24093",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.24093v1 Announce Type: new Abstract: Learning dexterous manipulation from demonstrations is bottlenecked by data: the contact forces that determine whether a grasp succeeds are absent from every scalable source of human demonstrations. This paper builds on two observat"
+    },
+    {
+      "title": "Phrase-Level Robotic Guqin Performance: Bimanual Motion Planning and Audio-Tactile Interaction Monitoring",
+      "link": "https://arxiv.org/abs/2609.24133",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "arXiv:2609.24133v1 Announce Type: new Abstract: Recent advances in humanoid robotics and embodied intelligence have enabled robots to perform increasingly complex manipulation tasks. However, musical instrument performance remains a formidable benchmark, demanding not only collis"
+    },
+    {
+      "title": "MimicAgent: Quadruped Skills via Prompt-to-Trajectory Generation",
+      "link": "https://arxiv.org/abs/2609.24145",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.24145v1 Announce Type: new Abstract: We present MimicAgent, a prompt-to-trajectory generation framework for learning dynamic quadruped skills. Although reward shaping is extensively used when training quadruped policies, navigating the resulting reward landscape is not"
+    },
+    {
+      "title": "ME-Brain-1.0: Memory, Cognition and Action for Evolving Embodied Intelligence",
+      "link": "https://arxiv.org/abs/2609.24271",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "embodied"
       ],
-      "summary": "arXiv:2602.00993v2 Announce Type: replace Abstract: End-to-end autonomous driving models increasingly benefit from large vision-language models for semantic understanding, yet safe and reliable planning under long-tail conditions remains challenging, particularly in mixed-traffic"
+      "summary": "arXiv:2609.24271v1 Announce Type: new Abstract: Current embodied systems largely rely on pretrained capabilities that remain fixed after deployment, limiting their ability to learn from physical interaction. We introduce MachEmbodied-Brain (ME-Brain), a self-evolving embodied sys"
     },
     {
-      "title": "ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation",
-      "link": "https://arxiv.org/abs/2603.03279",
+      "title": "Tactile-JEPA: Topology-Aware Self-Supervised Representation Learning for Distributed Tactile Sensors",
+      "link": "https://arxiv.org/abs/2609.24385",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "unitree",
-        "humanoid"
-      ],
-      "summary": "arXiv:2603.03279v2 Announce Type: replace Abstract: Achieving autonomous and versatile whole-body loco-manipulation remains a central barrier to making humanoids practically useful. Yet existing approaches are fundamentally constrained: retargeted data are often scarce or low-qua"
-    },
-    {
-      "title": "Towards the Vision-Sound-Language-Action Paradigm: The HEAR Framework for Sound-Centric Manipulation",
-      "link": "https://arxiv.org/abs/2603.16086",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "embodied",
-        "foundation-model"
-      ],
-      "summary": "arXiv:2603.16086v2 Announce Type: replace Abstract: While recent Vision-Language-Action (VLA) models have begun to incorporate audio, they typically treat sound as static pre-execution prompts or focus exclusively on human speech. This leaves a significant gap in real-time, sound"
-    },
-    {
-      "title": "DexPIE: Stable Dexterous Policy Improvement from Real-World Experience",
-      "link": "https://arxiv.org/abs/2606.09615",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "arXiv:2606.09615v2 Announce Type: replace Abstract: Dexterous manipulation presents substantial challenges for imitation learning due to its high-dimensional action space and complex contact-rich dynamics. Policies trained purely from demonstrations often suffer from compounding "
+      "summary": "arXiv:2609.24385v1 Announce Type: new Abstract: Tactile sensing is an essential modality for robots performing contact-rich, dexterous manipulation, particularly under visual occlusion. While pre-trained image encoders are standard in robot learning pipelines, tactile encoders ar"
     },
     {
-      "title": "Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots",
-      "link": "https://arxiv.org/abs/2609.02306",
+      "title": "Zeva-Ego: Egocentric Mid-Training with In-Context Causal Learning for Robot Manipulation",
+      "link": "https://arxiv.org/abs/2609.24411",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "tags": [
-        "humanoid"
+        "embodied"
       ],
-      "summary": "arXiv:2609.02306v2 Announce Type: replace Abstract: Accurate joint encoder offsets are essential for kinematic consistency in humanoid lower limbs, yet existing calibration methods typically require external motion-capture systems or fiducial targets. We present a self-contained "
+      "summary": "arXiv:2609.24411v1 Announce Type: new Abstract: Egocentric video offers a scalable source of physical interaction experience, yet translating it into robot-executable knowledge and enabling continual adaptation remain challenging. We introduce Zeva-Ego, a unified framework that l"
     },
     {
-      "title": "STAR: Sparse Tactile Representation Learning in Vision-Tactile-Language-Action Models for Dexterous Manipulation",
-      "link": "https://arxiv.org/abs/2609.12549",
+      "title": "FoldQuantVLA: Native Low-Bit Quantization of Vision-Language-Action Models via Consistent Folding",
+      "link": "https://arxiv.org/abs/2609.24433",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.12549v2 Announce Type: replace Abstract: Dexterous manipulation requires coordinated multi-finger control and effective tactile feedback, yet learning these capabilities remains challenging due to the lack of large-scale real-world data and the difficulty of extracting"
-    },
-    {
-      "title": "Refining Ground Truth Poses in Autonomous Driving Datasets via Neural Rendering",
-      "link": "https://arxiv.org/abs/2504.15776",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2504.15776v2 Announce Type: replace-cross Abstract: Public autonomous driving datasets underpin the training and benchmarking of perception, mapping, and localization algorithms, yet residual inaccuracies in sensor calibration and ego-poses can silently degrade both model p"
-    },
-    {
-      "title": "Synthesis and Deployment of Maximal Robust Control Barrier Functions through Adversarial Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2604.13192",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "tags": [
         "nvidia"
       ],
-      "summary": "arXiv:2604.13192v2 Announce Type: replace-cross Abstract: Robust control barrier functions (CBFs) provide a principled mechanism for smooth safety enforcement under worst-case disturbances. However, existing approaches typically rely on explicit, closed-form structure in the dyna"
+      "summary": "arXiv:2609.24433v1 Announce Type: new Abstract: Low-bit vision-language-action inference must reduce observation-to-action latency while preserving robot behavior. We present FoldQuantVLA, a post-training quantization framework that carries a consistent activation representation "
     },
     {
-      "title": "Risk-Aware Occupancy for Safety-Oriented End-to-End Autonomous Driving",
-      "link": "https://arxiv.org/abs/2609.21470",
-      "source": "arXiv CS AI",
-      "date": "2026-09-21",
+      "title": "TACIT: Tactile Contact Supervision for Spatial Attention in Dexterous Manipulation",
+      "link": "https://arxiv.org/abs/2609.24507",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "arXiv:2609.21470v1 Announce Type: new Abstract: Sparse representation formulates the environment perception for the end-to-end driving system as a set of discrete elements like objects and lane lines. This formulation meets safety risks in crowded, occluded scenes dealing with un"
+      "summary": "arXiv:2609.24507v1 Announce Type: new Abstract: Visuomotor policies trained from a few demonstrations may reproduce demonstrated trajectories without reliably following changes in object position. Existing approaches with explicit attention typically obtain spatial priors from hu"
     },
     {
-      "title": "Driving on Registers, Reasoning on Risk: Risk-Aware Occupancy for Register-Based End-to-End Autonomous Driving",
-      "link": "https://arxiv.org/abs/2609.21486",
-      "source": "arXiv CS AI",
-      "date": "2026-09-21",
+      "title": "MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions",
+      "link": "https://arxiv.org/abs/2609.24547",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "arXiv:2609.24547v1 Announce Type: new Abstract: Real-time embodied companion interaction requires a robot to infer user intent from streaming speech, generate timely responses, and execute expressive, interruptible motions. Existing systems typically decouple dialogue orchestrati"
+    },
+    {
+      "title": "Smoothness as a Constraint for Stable Humanoid Locomotion",
+      "link": "https://arxiv.org/abs/2609.24552",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "arXiv:2609.24552v1 Announce Type: new Abstract: Embodied AI systems, particularly humanoid robots deployed in real world scenarios require whole-body control policies that are both task-responsive and physically smooth. However, smoothness is not uniform across the body: lower bo"
+    },
+    {
+      "title": "Learning tactile perception from high-bandwidth single-point sensing",
+      "link": "https://arxiv.org/abs/2609.24621",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "arXiv:2609.24621v1 Announce Type: new Abstract: Tactile sensing is increasingly being incorporated into learning-based robotic manipulation, yet many existing approaches rely on spatially distributed sensors. Here we introduce SpectRobot, a framework that transforms single-point "
+    },
+    {
+      "title": "Touch2Robot: Robot Touch in the Human Demonstration Loop",
+      "link": "https://arxiv.org/abs/2609.24660",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "arXiv:2609.21486v1 Announce Type: new Abstract: Multimodal trajectory prediction improves behavioral coverage in end-to-end autonomous driving, but existing methods remain limited by sparse scene representations. Incomplete evidence leads to low-quality candidate generation and u"
+      "summary": "arXiv:2609.24660v1 Announce Type: new Abstract: Human demonstrations offer a scalable way to collect manipulation data, but their contacts may be unstable or infeasible when transferred to a robot hand. Collecting demonstrations directly on the target robot avoids this mismatch, "
     },
     {
-      "title": "World Modeling in Transformers",
-      "link": "https://arxiv.org/abs/2609.21748",
-      "source": "arXiv CS AI",
-      "date": "2026-09-21",
+      "title": "Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies",
+      "link": "https://arxiv.org/abs/2609.24682",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.24682v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models map observations to actions with no objective that accounts for how the world responds, so their robustness is bounded primarily by data coverage. World models carry precisely that missing objecti"
+    },
+    {
+      "title": "LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot",
+      "link": "https://arxiv.org/abs/2609.24742",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.24742v1 Announce Type: new Abstract: Humanoid robots are increasingly being popular and developed for human-centered applications, yet their ability to provide intelligent conversations and natural interactive knowledge assistance remains constrained by traditional rul"
+    },
+    {
+      "title": "D-JEPA: A Decision-Aligned Latent World Model",
+      "link": "https://arxiv.org/abs/2609.24749",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "arXiv:2609.21748v1 Announce Type: new Abstract: Behavioral failures can make a transformer appear to lack a world model even when it has learned faithful representations of its environment. We demonstrate this in TaxiGPT, a transformer trained on random walks through Manhattan wh"
+      "summary": "arXiv:2609.24749v1 Announce Type: new Abstract: Latent world models predict the consequences of actions, but accurate prediction does not guarantee that latent distance reflects which candidate will execute successfully. We identify a decision-local prediction gap: among the few "
     },
     {
-      "title": "Talking Past the Machine: Morality, Politeness, and Alignment in Human-AI Dialogue",
-      "link": "https://arxiv.org/abs/2609.21401",
-      "source": "arXiv CS AI",
-      "date": "2026-09-21",
+      "title": "H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer",
+      "link": "https://arxiv.org/abs/2609.24778",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.24778v1 Announce Type: new Abstract: Learning robot manipulation policies from human video demonstrations constitutes a promising avenue for scalable robot learning. However, comparing different human-to-robot (H2R) transfer methods remains challenging, as existing app"
+    },
+    {
+      "title": "PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control",
+      "link": "https://arxiv.org/abs/2609.24840",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "nvidia",
+        "unitree",
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.24840v1 Announce Type: new Abstract: Diffusion models offer flexible motion generation, but translating this flexibility into feedback-responsive humanoid control remains challenging. Hierarchical systems steer motion through references that may exceed a separate track"
+    },
+    {
+      "title": "Steerable and Reactive Grasping Through Modular Design with a Three-Point Interface",
+      "link": "https://arxiv.org/abs/2609.24896",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.24896v1 Announce Type: new Abstract: Dexterous grasping requires deciding where to grasp, reaching the target, and maintaining stable contact. We connect these stages through a compact three-point interface that separates global geometric reasoning from local contact c"
+    },
+    {
+      "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+      "link": "https://arxiv.org/abs/2609.24976",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.24976v1 Announce Type: new Abstract: Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-cent"
+    },
+    {
+      "title": "Learning Beyond What Humans Can Demonstrate",
+      "link": "https://arxiv.org/abs/2609.24996",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.24996v1 Announce Type: new Abstract: Behavior cloning for robot manipulation relies on expert demonstrations. However, for tasks that require dynamic stability, precise contact timing, or dexterous coordination, human operators may find it hard or even impossible to co"
+    },
+    {
+      "title": "Image Frame Dynamic Object Segmentation and Ego Motion Estimation using Radar Image Fusion",
+      "link": "https://arxiv.org/abs/2609.22857",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22857v1 Announce Type: cross Abstract: Dynamic object segmentation and ego-motion estimation are closely coupled problems in autonomous driving, as accurate ego-motion estimation typically requires static scene observations, while identifying static observations requir"
+    },
+    {
+      "title": "Towards robust multimodal 3D object detection via visual foundation models",
+      "link": "https://arxiv.org/abs/2609.23541",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "foundation-model"
+      ],
+      "summary": "arXiv:2609.23541v1 Announce Type: cross Abstract: Multimodal 3D object detection is fundamental to robust perception in autonomous driving because it integrates complementary information from LiDAR and camera sensors. However, existing methods often fail to maintain robustness un"
+    },
+    {
+      "title": "Relationally Grounded Latent World Models for Autonomous Driving",
+      "link": "https://arxiv.org/abs/2609.24626",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.24626v1 Announce Type: cross Abstract: Latent world models learn predictive representations for autonomous driving, but the relational semantics these states preserve often remain implicit. We investigate whether traffic scene graphs can serve as privileged semantic su"
+    },
+    {
+      "title": "Highly-Efficient Differentiable Simulation for Robotics",
+      "link": "https://arxiv.org/abs/2409.07107",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2409.07107v3 Announce Type: replace Abstract: Robotics simulators have improved significantly in computational speed and scalability, enabling them to generate years of simulated data for complex systems in minutes or hours. Despite these advances, efficiently and accuratel"
+    },
+    {
+      "title": "Enhancing Autonomous Driving Safety through World Model-Based Predictive Navigation and Adaptive Learning Algorithms for 5G Wireless Applications",
+      "link": "https://arxiv.org/abs/2411.15042",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2411.15042v3 Announce Type: replace Abstract: Addressing the challenge of ensuring safety in ever-changing and unpredictable environments, particularly in the swiftly advancing realm of autonomous driving in today's 5G wireless communication world, we present Navigation Sec"
+    },
+    {
+      "title": "HiBerNAC: Hierarchical Brain-inspired Robotic Neural Agent Collective for Disentangling Complex Manipulation",
+      "link": "https://arxiv.org/abs/2506.08296",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2506.08296v3 Announce Type: replace Abstract: Recent advances in multimodal vision-language-action (VLA) models have revolutionized traditional robot learning, enabling systems to interpret vision, language, and action in unified frameworks for complex task planning. Howeve"
+    },
+    {
+      "title": "Sim2Real Diffusion: Leveraging Foundation Vision Language Models for Adaptive Automated Driving",
+      "link": "https://arxiv.org/abs/2507.00236",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "foundation-model"
+      ],
+      "summary": "arXiv:2507.00236v4 Announce Type: replace Abstract: Simulation-based design, optimization, and validation of autonomous vehicles have proven to be crucial for their improvement over the years. Nevertheless, the ultimate measure of effectiveness is their successful transition from"
+    },
+    {
+      "title": "When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving",
+      "link": "https://arxiv.org/abs/2507.00319",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2507.00319v3 Announce Type: replace Abstract: Simulation frameworks have been key enablers for the development and validation of autonomous driving systems. However, existing methods struggle to comprehensively address the autonomy-oriented requirements of balancing: (i) dy"
+    },
+    {
+      "title": "ERUPT: An Open Toolkit for Interfacing with Robot Motion Planners in Extended Reality",
+      "link": "https://arxiv.org/abs/2510.02464",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "figure-ai"
       ],
-      "summary": "arXiv:2609.21401v1 Announce Type: cross Abstract: Conversational AI systems produce fluent, socially appropriate responses, yet whether they participate in cooperative communication or merely simulate its surface forms remains unclear - a question central to how these systems are"
+      "summary": "arXiv:2510.02464v2 Announce Type: replace Abstract: We present the Extended Reality Universal Planning Toolkit (ERUPT), an extended reality (XR) system for interactive motion planning. This paper serves to introduce our open-source system to others who can use it as a base to dev"
     },
     {
-      "title": "百度200万美元重奖2支技术团队，李彦宏：认可技术价值，是百度真正的竞争力",
-      "link": "https://www.leiphone.com/category/industrynews/7frcIluWLrkbs5p9.html",
-      "source": "雷锋网",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "9月21日，百度创始人李彦宏在内部活动上为技术团队颁发“百度最高奖”。两支入围团队均获奖，各获100万美元奖励。今年百度最高奖颁发奖金总计200万美元，折合人民币超1300万元。&nbsp;&nbsp;“百度最高奖是百度技术信仰一个非常典型的体现。”李彦宏在活动现场表示，从百度成立的第一天起，百度就信仰技术，很多技术都是因为10年、15年的坚持，最后才被认可，才见到效果。“我们擅长坚持。我们有耐心，我们有恒心，我们有信心。我们认可技术的价值，这才是百度真正的竞争力。”&nbsp;今年获得“百度最高奖”的两个技术团队，分处百度“芯-云-模-体”全栈AI布局"
-    },
-    {
-      "title": "AI4S青年志① | 摇瓶子的手与调参数的脑：两个95后和一场物质科学的化学反应",
-      "link": "https://www.leiphone.com/category/academic/vY1gBvHhcA2frpx4.html",
-      "source": "雷锋网",
-      "date": "2026-09-21",
-      "tags": [
-        "industrial",
-        "embodied",
-        "funding"
-      ],
-      "summary": "在AI4S，AI出身的人是在等AI出奇迹，而Science出身的人是在给AI立规矩。&nbsp; &nbsp; 作者丨周蕾&nbsp; &nbsp; 编辑丨岑峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs"
-    },
-    {
-      "title": "华为云码道上线鸿蒙编码大模型 面向鸿蒙开发者全面升级",
-      "link": "https://www.leiphone.com/category/industrynews/B5ahgA6nibk33DRO.html",
-      "source": "雷锋网",
-      "date": "2026-09-21",
-      "tags": [
-        "general"
-      ],
-      "summary": "2026年9月21日，华为云码道CodeArts代码智能体面向鸿蒙开发者进行全面升级，上线“鸿蒙编码大模型+码道鸿蒙智能体+鸿蒙开发者实践中心”三大核心能力，打造全球首个且唯一专为鸿蒙生态打造的AI编码智能体。华为公有云总裁胡玉海表示：“华为云码道CodeArts代码智能体凝练华为多年研发经验，更懂研发工程实践，为开发者带来了新的开发体验。面向鸿蒙生态，华为云推出新模型、新工具、新实践，为鸿蒙开发者一站式打通‘从想法到上架’全流程，致力于成为更懂鸿蒙开发的AI编码智能体。”▲华为公有云总裁 胡玉海【升级一】鸿蒙编码大模型，更懂鸿蒙开发依托华为云独有的鸿蒙"
-    },
-    {
-      "title": "具身智能模型公司方奇科技完成千万级天使轮融资",
-      "link": "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
-      "source": "雷锋网",
-      "date": "2026-09-21",
-      "tags": [
-        "embodied",
-        "funding"
-      ],
-      "summary": "近日，具身智能通用大脑研发商方奇科技（北京）有限公司（以下简称“方奇科技”）宣布完成千万级天使轮融资，投资方包括启迪之星创投等知名机构。据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势，逐步构建面向多机器人本体、多场景的具身能力学习-沉淀-分发的基础设施。解决“大脑”泛化难题，提出语义化世界模型方奇科技创始人王心舟博士认为，当前具身机器人泛化能力弱的根因仍然在于世界模型缺乏人类知识，而具身“大脑”又缺乏物理常识"
-    },
-    {
-      "title": "传化集团40周年全面拥抱AI时代：开放全域产业场景，共创新40年",
-      "link": "https://www.leiphone.com/category/industrynews/E1dBuYT43K9cd1LQ.html",
-      "source": "雷锋网",
-      "date": "2026-09-21",
-      "tags": [
-        "unitree",
-        "embodied"
-      ],
-      "summary": "2026年，创业40年的传化站在新的起点。四十年来，从化工制造到智慧物流，从科技农业到生物技术产业新城，传化持续在产业实践中寻找增长与创新的答案。面对人工智能加速重构产业的时代变革，传化正在把40年积累的产业场景、产业能力和产业资源，转化为拥抱AI、共创未来的新动能。9月20日，以“场景为壤，AI生花”为主题的传化40周年场景开放与AI共创生态大会在传化科技城举行。政府领导、专家学者、AI创业者、科技企业、产业伙伴及媒体代表等近千位嘉宾齐聚一堂，共同探讨AI与产业深度融合的新路径。&nbsp;面对AI带来的产业变革，传化集团董事长徐冠巨的判断很明确：AI"
-    },
-    {
-      "title": "上市遇故障！iPhone 18 Pro曝出死机问题，苹果启动调查；国产突围！长鑫科技宣布第五代技术平台正式量产；特斯拉Roadster开启预定",
-      "link": "https://www.leiphone.com/category/zaobao/W5fLfeynETtTWpTt.html",
-      "source": "雷锋网",
-      "date": "2026-09-21",
-      "tags": [
-        "humanoid",
-        "embodied",
-        "funding"
-      ],
-      "summary": "要闻提示1.上市遇故障！iPhone 18 Pro曝出死机问题，苹果启动调查2.国产突围！长鑫科技宣布第五代技术平台正式量产：每张晶圆产出提升 50% 以上3.淘宝闪购骑士制服获法国设计奖最高奖，设计团队懵了：我们纯业余4.董明珠卸任，格力电商换帅5.苹果闹钟终于响了：iOS 27 支持中国大陆调休日，首次测试火上热搜6.内存成本大降！华为鲲鹏底层优化：大数据内存需求仅原来75%7.Anthropic拟于IPO前推出新AI模型，应对OpenAI竞争压力8.定金33万元！特斯拉Roadster开启预定，不满意可以退全款今日头条上市遇故障！iPhone 18"
-    },
-    {
-      "title": "深度解读：关于 Jev 的几大疑问",
-      "link": "https://www.leiphone.com/category/yanxishe/NWrXUxymnfYDTSCF.html",
-      "source": "雷锋网",
-      "date": "2026-09-20",
-      "tags": [
-        "industrial",
-        "embodied",
-        "funding"
-      ],
-      "summary": "刷屏全网的 Jev，是 AI 革命，还是营销噱头？&nbsp; &nbsp; 作者丨高允毅&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp"
-    },
-    {
-      "title": "曝长鑫准备进入闪存市场，将与三星海力士美光正面竞争；曝京东北京园区行政岗被要求佩戴采集器记录动作数据；传Kimi或入局具身智能领域",
-      "link": "https://www.leiphone.com/category/zaobao/VgsycjqvNfz75zmN.html",
-      "source": "雷锋网",
-      "date": "2026-09-20",
-      "tags": [
-        "humanoid",
-        "embodied"
-      ],
-      "summary": "要闻提示1.消息人士：长鑫准备进入闪存市场，将与三星海力士美光正面竞争2.曝京东北京园区行政岗被要求佩戴采集器，用于记录动作数据3.赛力斯科技总裁刘宗成：汽车产业最大的风险不是慢，而是“速成”4.传Kimi或入局具身智能领域5.钉钉创始人陈航担任百望股份非执行董事，年薪10万元6.MiniMax 宣布开源 MiniMax Code CLI7.吴恩达批评AI灭绝论：堪比科幻小说，新一波造势或意在影响监管8.特朗普：我要组建一支“人工智能部队”今日头条消息人士：长鑫准备进入闪存市场，将与三星海力士美光正面竞争9月19日消息，据外媒消息，三位知情人士透露，长鑫"
-    },
-    {
-      "title": "What do you do with a humanoid robot when it breaks down?",
-      "link": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/",
-      "source": "The Robot Report",
-      "date": "2026-09-20",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor. The post What do you do with a humanoid robot when it breaks down? appeared first on The Robot Report."
-    },
-    {
-      "title": "别把杰作留在实验室，张江见 2026 GDPS 国际具身智能技能大赛·高校赛队招募",
-      "link": "https://www.leiphone.com/category/industrynews/QmCxO9BKrABdNFbB.html",
-      "source": "雷锋网",
-      "date": "2026-09-20",
-      "tags": [
-        "humanoid",
-        "embodied",
-        "funding"
-      ],
-      "summary": "具身智能正在从「展示品」变成「生产力」。而这一年，国家把真题摆上了桌面，工信部联合国务院国资委启动《2026年度人形机器人与具身智能实景实训专项行动》，九大重点场景面向全球求解：生产制造、检测分析、维修维护、仓储物流、配送零售、医疗康养、安全生产、应急救援、防灾减灾。上海作为先行城市承接国家任务。10月23—25日，上海·张江科学会堂，2026 全球开发者先锋大会（GDPS）暨国际具身智能技能大赛，一场面向高校赛队的实景大考正式开启。这不是一场普通比赛，参赛即路演，获奖即融资。炼过赛场的，才是真未来生产力。谁可以来面向国内外高校与科研机构的学生科研团队。"
-    },
-    {
-      "title": "智用开物管震：工业互联网被误读十年后，Agent才让它开始干活",
-      "link": "https://www.leiphone.com/category/IndustrialInternet/og8hnQkB5Ur9a0BF.html",
-      "source": "雷锋网",
-      "date": "2026-09-20",
-      "tags": [
-        "funding"
-      ],
-      "summary": "今年3月，智用开物完成近亿元天使+轮融资，除了老股东瑞枫资本，创享投资以及战略级客户立讯集团家族办公室及高管团队也出现在了股东名单里。这是智用开物过去一年里的第三笔融资，而创始人管震告诉雷峰网，很快会完成新一轮融资。这些资金流向的，究竟是怎样的一个稀缺方向？是工厂里那些“不上产线”的环节。当大多数AI Agent还在处理办公、代码和客服时，智用开物正在把Agent做成虚拟工厂员工，排产员、报价员、设备维护工程师……四步上岗，半小时就能用起来。创办智用开物之前，管震在微软待了19年，做过物联网、工业互联网，也参与过OpenAI在微软的工程化，几乎经历了中国"
-    },
-    {
-      "title": "考拉悠然无界再登WorldArena 2.0全球前列，两项核心指标全球第一",
-      "link": "https://www.leiphone.com/category/robot/Byhr8nY5EMvruVC5.html",
-      "source": "雷锋网",
-      "date": "2026-09-20",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "9月16日，WorldArena 2.0全球终榜揭晓，考拉悠然旗下悠然无界世界模型在Track 1视频质量赛道获得全球第二，并在Background Consistency与JEPA Similarity两项核心指标中位列第一。在雷峰网看来，这进一步验证了其在长时场景一致性、状态演化与物理规律建模方面的能力。基于结构化4D世界建模、动态场景记忆等技术，悠然无界正进一步与Geek Mind具身大脑结合，将世界模型能力从榜单评测延伸至工业巡检等真实场景，推动具身智能从“能推演”走向“能执行、能复制”。&nbsp;9月16日，WorldArena 2.0全球终"
-    },
-    {
-      "title": "鹿明机器人剧场《机器人和 TA 的朋友们》全球首演，探索“机器人+演艺”新场景",
-      "link": "https://www.leiphone.com/category/industrynews/KQYlP3qCFGorz4hm.html",
-      "source": "雷锋网",
-      "date": "2026-09-19",
-      "tags": [
-        "humanoid",
-        "embodied"
-      ],
-      "summary": "9月19日，由鹿明机器人与深圳市文旅产业发展有限公司共同打造的机器人剧场《机器人和 TA 的朋友们》在深圳市宝安区青少年宫迎来全球首场公演。这场时长45分钟的沉浸式演出，由机器人主持全程串联，涵盖舞蹈、相声、小品、武术、DJ秀、魔术六大表演品类，多台机器人协同参演，通过系统化、专业化的舞台节目编排，实现无间断连贯演出，为观众带来一场融合科技、艺术与文化内容的现场演艺体验。作为鹿明机器人与深圳市文旅产业发展有限公司共同打造的全新线下演艺项目，该剧场将由深圳文旅进行常态化运营，持续探索机器人在线下文娱文旅场景中的创新应用。六大节目品类，解锁机器人多元演艺场景"
-    },
-    {
-      "title": "The picks-and-shovels strategy behind the robotics boom",
-      "link": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
-      "source": "The Robot Report",
-      "date": "2026-09-18",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "The real robotics opportunity isn’t a humanoid in every home—it’s packaging robots for the jobs businesses need done today. The post The picks-and-shovels strategy behind the robotics boom appeared first on The Robot Report."
-    },
-    {
-      "title": "SoftBank agrees to acquire Robotics and AI Institute",
-      "link": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
-      "source": "The Robot Report",
-      "date": "2026-09-18",
-      "tags": [
-        "funding"
-      ],
-      "summary": "The deal has been rumored for a couple of months, but it is now being reviewed by the Committee on Foreign Investment in the United States. The post SoftBank agrees to acquire Robotics and AI Institute appeared first on The Robot Report."
-    },
-    {
-      "title": "ForwardDLO: Model-Based Bimanual Shape Matching of Unconstrained Deformable Linear Objects",
-      "link": "https://arxiv.org/abs/2609.18455",
+      "title": "A Recipe for Efficient Sim-to-Real Transfer in Manipulation with Online Imitation-Pretrained World Models",
+      "link": "https://arxiv.org/abs/2510.02538",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "tags": [
         "general"
       ],
-      "summary": "arXiv:2609.18455v2 Announce Type: replace Abstract: Ropes, cables, and other deformable linear objects appear in tasks from untangling to cable routing and suturing, yet controlling their shape remains a challenge in robot manipulation. We study model-based shape control in a gen"
+      "summary": "arXiv:2510.02538v2 Announce Type: replace Abstract: We are interested in solving the problem of imitation learning with a limited amount of real-world expert data. Existing offline imitation methods often struggle with poor data coverage and severe performance degradation. We pro"
     },
     {
-      "title": "DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation",
-      "link": "https://arxiv.org/abs/2609.18620",
+      "title": "Thor: Towards Human-Inspired Whole-Body Reactions for Intense Contact-Rich Environments",
+      "link": "https://arxiv.org/abs/2510.26280",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.18620v2 Announce Type: replace Abstract: Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical properties. This is especially challenging for deformable objects, since text and images provide limited evid"
-    },
-    {
-      "title": "EfficientTDMPC: Improved MPC Objectives for Sample-Efficient Continuous Control",
-      "link": "https://arxiv.org/abs/2605.16692",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2605.16692v4 Announce Type: replace-cross Abstract: We introduce EfficientTDMPC, a sample-efficient model-based reinforcement learning method for continuous control built on the TD-MPC family of algorithms. Central to this family is a planner that aims to find an action seq"
-    },
-    {
-      "title": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
-      "link": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
-      "source": "The Robot Report",
-      "date": "2026-09-18",
-      "tags": [
-        "general"
-      ],
-      "summary": "This is the last major test of the system before Icarus Robotics will be sending JOY the the ISS in early 2027. The post Icarus Robotics flies ISS-bound robot in microgravity for the first time appeared first on The Robot Report."
-    },
-    {
-      "title": "DITTO: Dexterous Interface for Transparent TeleOperation",
-      "link": "https://arxiv.org/abs/2609.19196",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.19196v1 Announce Type: new Abstract: Collecting data for manipulation with high-DOF hands is challenging, as interfaces must capture rich hand motion while rendering the contact interactions essential for precise manipulation. Existing data collection approaches face a"
-    },
-    {
-      "title": "ULOHA: An Underwater Bimanual Robot System for Robot Learning",
-      "link": "https://arxiv.org/abs/2609.19200",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.19200v1 Announce Type: new Abstract: Underwater visuomotor policy learning has focused primarily on single manipulators, while bimanual imitation learning has been studied largely in air. We present ULOHA, an underwater bimanual robot learning platform that combines cu"
-    },
-    {
-      "title": "4D Radar Perception Algorithms for Autonomous Driving: A Review",
-      "link": "https://arxiv.org/abs/2609.19216",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.19216v1 Announce Type: new Abstract: Research on 4D millimeter-wave radar perception algorithms has flourished in recent years, extending from signal processing and object detection to semantic segmentation, motion estimation, occupancy prediction, and dynamic scene re"
-    },
-    {
-      "title": "Grasping by interconnection: robust closing motions from coarse object templates",
-      "link": "https://arxiv.org/abs/2609.19228",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.19228v1 Announce Type: new Abstract: Dexterous robot hands must often grasp objects whose shape, size, and pose are known only approximately. Grasp planners typically require accurate object models or correct errors with feedback, but how much inaccuracy a closing moti"
-    },
-    {
-      "title": "Learning Safe Humanoid Navigation from Reduced Order Models",
-      "link": "https://arxiv.org/abs/2609.19272",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "tags": [
         "unitree",
         "humanoid"
       ],
-      "summary": "arXiv:2609.19272v1 Announce Type: new Abstract: Research in humanoid robotics has achieved rapid progress in locomotion, and recent results have pushed the boundary on autonomous navigation. We demonstrate that a standard single-stage RL navigation pipeline struggles to scale to "
+      "summary": "arXiv:2510.26280v4 Announce Type: replace Abstract: Maintaining whole-body stability and motion tracking under large interaction forces remains challenging for humanoids. We present Thor, a reinforcement learning framework for forceful humanoid loco-manipulation. Thor jointly tra"
     },
     {
-      "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
-      "link": "https://arxiv.org/abs/2609.19315",
+      "title": "Heterogeneous Robot Collaboration in Unstructured Environments with Grounded Generative Intelligence",
+      "link": "https://arxiv.org/abs/2510.26915",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "tags": [
-        "embodied"
+        "boston-dynamics"
       ],
-      "summary": "arXiv:2609.19315v1 Announce Type: new Abstract: Large language models (LLMs) provide a flexible interface for long-horizon robot planning, but generated plans often fail to respect embodiment constraints, recover from planning errors, or reason effectively under partial observabi"
+      "summary": "arXiv:2510.26915v2 Announce Type: replace Abstract: While heterogeneous teams have typically been designed for well-specified missions with known semantics, generative intelligence, i.e., large language models (LLMs) and vision language models (VLMs), opens the possibility of tea"
     },
     {
-      "title": "ViLoMan: Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots",
-      "link": "https://arxiv.org/abs/2609.19340",
+      "title": "HybridFlow: A 2-NFE Generative Policy for Real-Time Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2602.13718",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
+      "date": "2026-09-22",
+      "tags": [
+        "nvidia"
+      ],
+      "summary": "arXiv:2602.13718v2 Announce Type: replace Abstract: Generative policies for robotic manipulation must balance action accuracy with inference latency. We present HybridFlow, a three-stage policy inference procedure requiring two network function evaluations (2-NFE). A Global Jump "
+    },
+    {
+      "title": "Cognition to Control - Multi-Agent Learning for Human-Humanoid Collaborative Transport",
+      "link": "https://arxiv.org/abs/2603.03768",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
       "tags": [
         "unitree",
         "humanoid"
       ],
-      "summary": "arXiv:2609.19340v1 Announce Type: new Abstract: Humanoid loco-manipulation requires adaptive whole-body coordination to seamlessly integrate locomotion and physical interaction. Despite recent advances, learning autonomous loco-manipulation remains challenging due to the scarcity"
+      "summary": "arXiv:2603.03768v2 Announce Type: replace Abstract: Full-stack human-robot collaboration (HRC) can become brittle when replacing a planner, partner model, coordination policy, or controller changes the physical meaning of cross-layer signals. We introduce C2C, an object-centric c"
     },
     {
-      "title": "From Rollout to Reset: A Graph-Based Harness for Autonomous Long-Horizon Manipulation Evaluation",
-      "link": "https://arxiv.org/abs/2609.19413",
+      "title": "Observing and Controlling Features in Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2603.05487",
       "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "tags": [
-        "foundation-model"
+        "embodied"
       ],
-      "summary": "arXiv:2609.19413v1 Announce Type: new Abstract: Robot manipulation policies are improving quickly, and real-robot evaluation remains the standard evidence for that progress. It still relies on a human to reset the scene between rollouts, which consumes operator time and leaves th"
+      "summary": "arXiv:2603.05487v2 Announce Type: replace Abstract: Vision-Language-Action models (VLAs) have shown remarkable progress towards embodied intelligence. While their architecture partially resembles that of Large Language Models (LLMs), VLAs exhibit higher complexity due to their mu"
+    },
+    {
+      "title": "Unified Learning of Temporal Task Structure and Action Timing for Bimanual Robot Manipulation",
+      "link": "https://arxiv.org/abs/2603.06538",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2603.06538v2 Announce Type: replace Abstract: Bimanual manipulation requires both temporal task structure - which actions precede or overlap others - and concrete timing - when each action starts and how long it takes. Symbolic relations enable high-level reasoning about ta"
+    },
+    {
+      "title": "Stability-Aligned Residual Adaptation for Rapid Recovery from Dynamics Shifts",
+      "link": "https://arxiv.org/abs/2603.07775",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2603.07775v2 Announce Type: replace Abstract: Robotic systems deployed beyond controlled environments encounter abrupt and unobserved dynamics shifts that induce substantial transient performance loss, even when the nominal closed loop remains locally stabilizing. We formul"
+    },
+    {
+      "title": "Colosseum V2: Benchmarking Generalization for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2605.27759",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2605.27759v3 Announce Type: replace Abstract: Vision-Language-Action (VLA) models demonstrate promising generalization in robotic manipulation, driven by advances in large-scale vision and language pre-training. This progress can be misleading. Despite the zero-shot percept"
+    },
+    {
+      "title": "vla.cpp: A Unified Inference Runtime for Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2606.08094",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "nvidia"
+      ],
+      "summary": "arXiv:2606.08094v2 Announce Type: replace Abstract: Deploying vision--language--action (VLA) models on robots requires adapting model-specific inference pipelines to heterogeneous processors and limited onboard memory. We present vla.cpp, a unified C++ inference runtime for eleve"
+    },
+    {
+      "title": "GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains",
+      "link": "https://arxiv.org/abs/2606.10449",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2606.10449v3 Announce Type: replace Abstract: Humanoid robots have achieved strong locomotion capabilities, but reliable navigation on versatile terrains remains challenging because obstacle avoidance must be coordinated with dynamically feasible motion. In this work, we pr"
+    },
+    {
+      "title": "See Selectively, Act Adaptively: Dual-Level Structural Decomposition for Bimanual Robot Manipulation",
+      "link": "https://arxiv.org/abs/2606.13279",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2606.13279v2 Announce Type: replace Abstract: In bimanual robotic manipulation, task-relevant visual information varies with the task stage and context, while the interaction of the two arms shifts between independent and coordinated modes, making policy learning challengin"
     }
   ]
 }
