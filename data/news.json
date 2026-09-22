@@ -1,9 +1,49 @@
 {
-  "lastUpdated": "2026-09-21T17:51:01.843Z",
+  "lastUpdated": "2026-09-22T03:15:12.354Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 65,
+  "itemsFetched": 15,
   "items": [
+    {
+      "title": "IAC completes autonomous racing event at Laguna Seca",
+      "link": "https://www.therobotreport.com/iac-completes-autonomous-racing-event-at-laguna-seca/",
+      "source": "The Robot Report",
+      "date": "2026-09-21",
+      "tags": [
+        "general"
+      ],
+      "summary": "At Laguna Seca, Unimore Racing won the Indy Autonomous Challenge, marking the IAC's first autonomous car overtakes on a road course. The post IAC completes autonomous racing event at Laguna Seca appeared first on The Robot Report."
+    },
+    {
+      "title": "SkipVLA: Skipping VLA Steps with Classical Planning for Fast Robot Manipulation",
+      "link": "https://arxiv.org/abs/2609.20648",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-21",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.20648v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are a class of generalist robot policies that map camera images and language instructions directly to robot actions. While promising, these models remain slow at test time, particularly for lo"
+    },
+    {
+      "title": "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation",
+      "link": "https://arxiv.org/abs/2609.20649",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-21",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.20649v2 Announce Type: replace Abstract: Learning predictive models of contact-rich dexterous manipulation requires dense tactile interaction, but such data are costly to scale on real robots and remain tied to embodiment-specific sensors. We introduce DexTouch-WM, an "
+    },
+    {
+      "title": "WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models",
+      "link": "https://arxiv.org/abs/2606.31672",
+      "source": "arXiv CS AI",
+      "date": "2026-09-21",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2606.31672v5 Announce Type: replace-cross Abstract: Despite rapid progress in interactive world models (IWMs), short-horizon performance does not establish sustained action following, visual stability, physical plausibility, or memory. We introduce WorldRoamBench, an open-w"
+    },
     {
       "title": "Boston Dynamics opens Metaplant Application Center to train Atlas humanoids",
       "link": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
@@ -783,48 +823,6 @@
         "foundation-model"
       ],
       "summary": "arXiv:2609.19413v1 Announce Type: new Abstract: Robot manipulation policies are improving quickly, and real-robot evaluation remains the standard evidence for that progress. It still relies on a human to reset the scene between rollouts, which consumes operator time and leaves th"
-    },
-    {
-      "title": "VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control",
-      "link": "https://arxiv.org/abs/2609.19554",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "spatial-intelligence",
-        "embodied"
-      ],
-      "summary": "arXiv:2609.19554v1 Announce Type: new Abstract: Spatial intelligence requires more than describing object locations. Under incomplete observation, models must identify and acquire missing evidence, interpret it in a common spatial frame, and act on it. We introduce VA-Bench to ev"
-    },
-    {
-      "title": "OmniCalib: Target-Free, Task-Structured Self-Calibration for Humanoid Robots",
-      "link": "https://arxiv.org/abs/2609.19582",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "agibot",
-        "humanoid"
-      ],
-      "summary": "arXiv:2609.19582v1 Announce Type: new Abstract: Assembly, wear, and component replacement perturb the sensor extrinsics and joint zeros encoded by a humanoid CAD model. Existing procedures calibrate one sensor pair or require external fiducials. Using only robot-native motion and"
-    },
-    {
-      "title": "WorldContact: A Contact-Centric World Model for Scalable Robot Learning",
-      "link": "https://arxiv.org/abs/2609.19600",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.19600v1 Announce Type: new Abstract: Adapting robots to new objects and tasks requires interaction experience that can be costly to obtain. We present WorldContact, a contact-centric world model for deformable-object manipulation, constructed from a limited set of high"
-    },
-    {
-      "title": "TacSushi: Tactile-Grounded World-Action Modeling for Dexterous Sushi Manipulation",
-      "link": "https://arxiv.org/abs/2609.19613",
-      "source": "arXiv CS Robotics",
-      "date": "2026-09-18",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2609.19613v1 Announce Type: new Abstract: Dexterous food manipulation requires control under deformation, occlusion, and uncertain contact. We present TacSushi, a tactile-grounded, Cosmos3-based world-action policy that learns from recorded future consequences while acting "
     }
   ]
 }
