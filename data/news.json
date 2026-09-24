@@ -1,9 +1,39 @@
 {
-  "lastUpdated": "2026-09-23T16:04:14.528Z",
+  "lastUpdated": "2026-09-24T03:05:24.028Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 66,
+  "itemsFetched": 13,
   "items": [
+    {
+      "title": "With the new VENTUNO Q board, Arduino hopes to make robotics development easier",
+      "link": "https://www.therobotreport.com/new-ventuno-q-board-arduino-hopes-make-robotics-development-easier/",
+      "source": "The Robot Report",
+      "date": "2026-09-23",
+      "tags": [
+        "general"
+      ],
+      "summary": "While this is the first intentional step by Arduino into robotics, the company has over 20 years of experience working with robotics developers. The post With the new VENTUNO Q board, Arduino hopes to make robotics development easier appeared first on The Robot Report."
+    },
+    {
+      "title": "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
+      "link": "https://arxiv.org/abs/2609.22332",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-23",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.22332v2 Announce Type: replace Abstract: Generalizable robot manipulation requires predicting how a scene will evolve, identifying where interactions are feasible, and determining how to act. Action-labeled robot videos directly supervise control but are costly and lim"
+    },
+    {
+      "title": "Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation",
+      "link": "https://arxiv.org/abs/2609.22829",
+      "source": "arXiv CS Robotics",
+      "date": "2026-09-23",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2609.22829v2 Announce Type: replace Abstract: Collecting whole-body demonstrations for humanoid manipulation mostly relies on teleoperation, which is costly and hard to scale up. The Universal Manipulation Interface (UMI) provides a scalable data collection paradigm, but en"
+    },
     {
       "title": "Helicon brings automation to high-volume composites manufacturing",
       "link": "https://www.therobotreport.com/helicon-brings-automation-high-volume-composites-manufacturing/",
@@ -614,6 +644,16 @@
       "summary": "要闻提示1.苹果高管称不建议给iPhone贴膜！网友：免费换屏幕我就信你2.知情人士：DeepSeek将向联合国安理会介绍AI风险，月之暗面等中国企业也受邀参会3.高德地图成“职场版大众点评”？回应来了4.字节通报二季度违规案例：114名员工被辞退，其中8人被移交司法机关处理5.阿里Qwen4和下代视频模型均在训练中，新一代AI芯片将于2027年一季度上市6.曝华为还将推出新形态手机7.Meta 再次上桌！个人AI产品 Muse 爆红，扎克伯格身价一日暴涨近1700亿8.特斯拉最新版FSD翻车：误判眩光为摄像头污渍，官方承认是Bug今日头条苹果高管称不建"
     },
     {
+      "title": "Intrinsic open sources key parts of its platform for easier development",
+      "link": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/",
+      "source": "The Robot Report",
+      "date": "2026-09-22",
+      "tags": [
+        "general"
+      ],
+      "summary": "With Intrinsic Core, the company is making key parts of its manipulation platform available to robotics developers. The post Intrinsic open sources key parts of its platform for easier development appeared first on The Robot Report."
+    },
+    {
       "title": "Intel to discuss the infrastructure needed to scale physical AI at RoboBusiness",
       "link": "https://www.therobotreport.com/intel-discusses-infrastructure-needed-to-scale-physical-ai-robobusiness/",
       "source": "The Robot Report",
@@ -794,47 +834,6 @@
         "figure-ai"
       ],
       "summary": "arXiv:2609.22599v1 Announce Type: new Abstract: Large language model (LLM) judges provide a flexible and scalable method for evaluating model and agent outputs, but their verdicts can be sensitive to incidental changes in the evaluated response, judge instructions, and scoring ru"
-    },
-    {
-      "title": "Generative Embodied Multiple Behavior Control Systems for Human-like Agents",
-      "link": "https://arxiv.org/abs/2609.22691",
-      "source": "arXiv CS AI",
-      "date": "2026-09-22",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2609.22691v1 Announce Type: new Abstract: An enduring and richly elaborated dichotomy in cognitive neuroscience is that of human behavior control mechanisms, divided into habitual versus goal-directed. While existing human-like agent frameworks primarily focus on modeling g"
-    },
-    {
-      "title": "Event Signature Transfer: Model-Agnostic Forecast Scenario Construction from Historical Events",
-      "link": "https://arxiv.org/abs/2609.23074",
-      "source": "arXiv CS AI",
-      "date": "2026-09-22",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2609.23074v1 Announce Type: new Abstract: Forecasters often know an event is imminent but not the shape, size, or timing of its effect. We introduce Event Signature Transfer (EST), a training-free, model-agnostic operator that turns a completed past event into an explicit f"
-    },
-    {
-      "title": "From Inference Engine to Inference Control Plane: Connecting vLLM, llm-d, and the Evolution of Efficient Distributed LLM Serving",
-      "link": "https://arxiv.org/abs/2609.23130",
-      "source": "arXiv CS AI",
-      "date": "2026-09-22",
-      "tags": [
-        "boston-dynamics"
-      ],
-      "summary": "arXiv:2609.23130v1 Announce Type: new Abstract: Large language model (LLM) inference is evolving from an engine-local optimization problem into a distributed control problem involving reusable state, phase placement, heterogeneous accelerators, networking, autoscaling, reliabilit"
-    },
-    {
-      "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
-      "link": "https://arxiv.org/abs/2609.23695",
-      "source": "arXiv CS AI",
-      "date": "2026-09-22",
-      "tags": [
-        "embodied",
-        "foundation-model"
-      ],
-      "summary": "arXiv:2609.23695v1 Announce Type: new Abstract: Recent advances in Physical AI have accelerated the use of foundation models in autonomous systems such as unmanned aerial vehicles (UAVs), which must perceive, reason, plan, and act in dynamic environments. Existing benchmarks asse"
     }
   ]
 }
