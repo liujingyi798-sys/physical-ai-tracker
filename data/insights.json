@@ -1,6 +1,59 @@
 {
   "reports": [
     {
+      "generatedAt": "2026-09-27T03:35:52.356Z",
+      "period": {
+        "start": "2026-09-20",
+        "end": "2026-09-27"
+      },
+      "newsCount": 80,
+      "analyzedCount": 30,
+      "summary": "本周物理AI赛道最核心的信号是产业化从“交付”走向“部署态”。智元第20000台具身机器人交付长隆、首期超300台常驻乐园，标志着国内具身智能首次实现大规模真实场景持续运营，量产与场景适配能力得到验证。海外方面，Agility Robotics探索轮式形态、General Robotics押注模块化智能，反映硬件形态与模型架构尚未收敛。学术端世界模型、触觉操作、VLA鲁棒性密集发布，HarnessPAI提出物理AI全栈评估框架，数据基础设施与评估体系竞争升温。",
+      "topEvents": [
+        {
+          "title": "智元第20000台具身机器人交付长隆，首期超300台常驻乐园",
+          "importance": "这是国内具身智能首次实现万台级量产交付后的规模化真实场景运营，从“交付态”进入“部署态”，验证了量产稳定性与场景持续工作能力。",
+          "impact": "为行业树立了“量产-交付-运营”的闭环标杆，主题乐园可能成为具身智能商业化落地的首个规模化场景，倒逼其他厂商加速真实场景部署。"
+        },
+        {
+          "title": "Agility Robotics探索轮式机器人形态",
+          "importance": "头部人形机器人公司公开探索非人形形态，说明双足并非所有场景的最优解，硬件形态正在根据运营环境与客户需求分化。",
+          "impact": "可能带动行业重新审视“人形至上”的叙事，轮式+人形双臂的混合形态或成为仓储、制造等场景的务实选择，降低商业化门槛。"
+        },
+        {
+          "title": "General Robotics押注模块化智能而非单一机器人大脑",
+          "importance": "提出用组合式专用能力替代单一端到端大模型，是对当前VLA/世界模型主流范式的重要反思路径，可能影响具身智能的架构演进方向。",
+          "impact": "若模块化路线在跨任务和跨形态适配中表现更优，将分流部分对单一基础模型的资源投入，推动行业形成“专用模块+调度层”的新技术栈。"
+        },
+        {
+          "title": "HarnessPAI提出物理AI全栈评估框架",
+          "importance": "当前物理AI研究过度聚焦动作模型，HarnessPAI系统性地补全了感知、推理、决策等环节的评估缺失，为领域提供了更完整的基准。",
+          "impact": "有望成为物理AI领域的标准化评估工具，推动研究从单一动作生成转向全栈能力建设，加速从论文指标到真实部署的转化。"
+        },
+        {
+          "title": "Self-Adaptive VLA与Streaming-WAM等VLA鲁棒性/效率研究密集发布",
+          "importance": "VLA模型的无记忆性和推理成本是部署的核心瓶颈，本周多篇论文分别从自适应鲁棒性和异步执行效率切入，直指落地痛点。",
+          "impact": "VLA从“能演示”向“能稳定部署”演进，推理效率与测试时自适应将成为下一阶段VLA竞争的关键指标。"
+        }
+      ],
+      "trendJudgment": "赛道在加速，但加速重心从融资热度转向部署验证。依据：智元2万台交付并常驻乐园是产业化里程碑；Agility探索轮式形态说明头部公司在为规模化运营做务实调整；学术端VLA鲁棒性和世界模型评估框架密集出现，表明研究正从演示导向转向部署导向。",
+      "companiesToWatch": [
+        {
+          "name": "智元机器人",
+          "reason": "第20000台交付并实现300台级常驻乐园运营，是国内具身智能量产与部署态的首个规模化样本，其运营数据将检验具身机器人的真实商业价值。"
+        },
+        {
+          "name": "Agility Robotics",
+          "reason": "作为Digit人形机器人的制造商，公开探索轮式形态，可能引领人形机器人公司向多形态务实路线转型，值得关注其产品路线图调整。"
+        },
+        {
+          "name": "General Robotics",
+          "reason": "押注模块化智能而非单一机器人大脑，是对主流端到端范式的差异化挑战，若其组合式能力在跨场景中验证成功，可能改变行业技术架构选择。"
+        }
+      ],
+      "noiseAlert": "本周无明显噪音。robotaxi规模化服务挑战、GPT-6-Astra零样本导航评估等属于常规行业讨论或早期探索，不构成短期赛道催化剂。"
+    },
+    {
       "generatedAt": "2026-09-21T03:21:03.039Z",
       "period": {
         "start": "2026-09-14",
@@ -582,60 +635,7 @@
         }
       ],
       "noiseAlert": "中力股份第八届629创新发布大会的报道内容重复，且偏向企业宣传，缺乏技术细节或行业突破性信息，属于常规营销活动，不值得过度关注。"
-    },
-    {
-      "generatedAt": "2026-06-30T14:13:55.324Z",
-      "period": {
-        "start": "2026-06-23",
-        "end": "2026-06-30"
-      },
-      "newsCount": 80,
-      "analyzedCount": 30,
-      "summary": "本周物理AI赛道在技术层面持续深化，arXiv论文密集发布，聚焦于人形机器人全身控制、灵巧操作、仿真到现实迁移以及数据标准化等关键议题。其中，关于人形机器人数据标准（ISO/WD）的论文揭示了行业基础设施缺失的痛点，而多项研究在VLA模型微调、触觉仿真、自我对弈学习等方面取得突破，显示出技术迭代正从单一算法向系统化、标准化方向演进。",
-      "topEvents": [
-        {
-          "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
-          "importance": "Figure 02在宝马工厂成功生产超过3万辆X3，验证了人形机器人在汽车制造中的商业价值，Figure 03的部署标志着从试点到规模化应用的转折点。",
-          "impact": "加速人形机器人在制造业的落地进程，为其他车企和机器人公司提供可复制的商业化路径，推动行业从实验室走向工厂。"
-        },
-        {
-          "title": "Kinisi Robotics被Bear Robotics收购",
-          "importance": "Kinisi在物理AI领域的独特方法获得行业认可，收购整合表明资本正在加速布局具身智能赛道。",
-          "impact": "强化Bear Robotics在餐饮服务机器人市场的技术壁垒，同时为物理AI初创公司提供退出路径，可能引发更多并购活动。"
-        },
-        {
-          "title": "SpikeVLA: Vision-Language-Action Models with Spiking Neural Networks",
-          "importance": "将脉冲神经网络引入VLA模型，显著降低推理延迟和能耗，为边缘部署和实时控制提供新范式。",
-          "impact": "推动物理AI系统向低功耗、高效率方向发展，可能改变机器人芯片和硬件架构的设计思路。"
-        },
-        {
-          "title": "Booster Lab: A Data-Centric Pipeline for Learning Deployable Humanoid Locomotion Policies",
-          "importance": "提出数据为中心的管线解决人形机器人运动数据稀缺问题，直接提升策略的可部署性。",
-          "impact": "降低人形机器人运动学习的门槛，加速从仿真到实物的迁移，推动行业数据基础设施的标准化。"
-        },
-        {
-          "title": "Building a Scalable, Reproducible, Evaluatable, and Closed-Loop Simulation Environment Foundation for Embodied Intelligence",
-          "importance": "提出云原生仿真基础设施框架，支持大规模训练、标准化评估和数据收集，是行业基础设施的关键突破。",
-          "impact": "为具身智能提供可复现的基准测试环境，促进算法公平比较和迭代，加速技术成熟。"
-        }
-      ],
-      "trendJudgment": "相比上周，赛道在加速。本周不仅有BMW和Figure的产业化里程碑，还有多项技术突破（如SpikeVLA、Booster Lab）和基础设施创新（云原生仿真），显示出从算法到系统再到商业化的全面提速。",
-      "companiesToWatch": [
-        {
-          "name": "Figure AI",
-          "reason": "Figure 03在宝马工厂部署，验证了人形机器人在汽车制造中的商业可行性，公司正从技术验证进入规模化应用阶段。"
-        },
-        {
-          "name": "Bear Robotics",
-          "reason": "收购Kinisi Robotics后，整合其物理AI技术，有望在餐饮服务机器人领域建立更强大的技术护城河。"
-        },
-        {
-          "name": "Kinisi Robotics",
-          "reason": "被收购事件凸显其技术价值，其物理AI方法可能成为行业参考，创始人Brennand Pierce的后续动向值得关注。"
-        }
-      ],
-      "noiseAlert": "本周无明显噪音。"
     }
   ],
-  "lastUpdated": "2026-09-21T03:21:03.039Z"
+  "lastUpdated": "2026-09-27T03:35:52.356Z"
 }
