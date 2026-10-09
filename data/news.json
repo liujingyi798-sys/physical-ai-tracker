@@ -1,9 +1,155 @@
 {
-  "lastUpdated": "2026-10-09T04:30:32.401Z",
+  "lastUpdated": "2026-10-09T17:56:46.680Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 99,
+  "itemsFetched": 32,
   "items": [
+    {
+      "title": "Boston Dynamics gives more insight into its redesigned humanoid hand",
+      "link": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
+      "source": "The Robot Report",
+      "date": "2026-10-09",
+      "tags": [
+        "boston-dynamics",
+        "humanoid"
+      ],
+      "summary": "The Robot Report spoke with Alberto Rodriguez, the director of robot behavior for Atlas at Boston Dynamics, about the humanoid's new hand. The post Boston Dynamics gives more insight into its redesigned humanoid hand appeared first on The Robot Report."
+    },
+    {
+      "title": "RoboIRS: Inference-Time Internal Representation Steering for Generalist Robot Policies",
+      "link": "https://arxiv.org/abs/2610.04681",
+      "source": "arXiv CS Robotics",
+      "date": "2026-10-09",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2610.04681v3 Announce Type: replace Abstract: Vision-language-action (VLA) and world-action models (WAMs) often degrade under out-of-distribution task variations despite retaining partial task capability. To recover such capability, we propose RoboIRS, an inference-time int"
+    },
+    {
+      "title": "LACE-CRAFT: Robot Co-Design with Actor Inheritance and Blackboard Collaboration",
+      "link": "https://arxiv.org/abs/2610.09283",
+      "source": "arXiv CS Robotics",
+      "date": "2026-10-09",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2610.09283v2 Announce Type: replace Abstract: Robot co-design couples morphology search with policy learning, yet training every new design from scratch discards acquired control experience. We present LACE-CRAFT, which compares continued learning on the current robot with "
+    },
+    {
+      "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
+      "link": "https://arxiv.org/abs/2607.16204",
+      "source": "arXiv CS AI",
+      "date": "2026-10-09",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2607.16204v2 Announce Type: replace Abstract: Recent growth in reinforcement learning (RL) has surfaced a need for diverse, specialized training environments. Hand-curated environments with fixed task and reward difficulties become ineffective signals as model performance i"
+    },
+    {
+      "title": "CRUISE: Vision-Language Model-Guided Uncertainty-Aware Cross-Modal Sensor Fusion for Robust Autonomous Driving",
+      "link": "https://arxiv.org/abs/2608.09202",
+      "source": "arXiv CS AI",
+      "date": "2026-10-09",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2608.09202v2 Announce Type: replace Abstract: Modern autonomous vehicles are equipped with multiple sensors, such as cameras, LiDAR, and radar, for comprehensive environmental perception. However, robust cross-modal feature fusion remains a critical challenge, as the reliab"
+    },
+    {
+      "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
+      "link": "https://arxiv.org/abs/2608.22697",
+      "source": "arXiv CS AI",
+      "date": "2026-10-09",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2608.22697v4 Announce Type: replace Abstract: When shopping is delegated to AI agents, it is unclear whether the ranking advantage documented for humans persists. Across 7,000 sessions with five large language models (LLMs) and varying reasoning effort, we compare AI agents"
+    },
+    {
+      "title": "Policy Learning with a Language Bottleneck",
+      "link": "https://arxiv.org/abs/2405.04118",
+      "source": "arXiv CS AI",
+      "date": "2026-10-09",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2405.04118v4 Announce Type: replace-cross Abstract: Modern AI systems such as self-driving cars and game-playing agents can achieve superhuman performance, but often lack human-like generalization, interpretability, and inter-operability with human users. Inspired by the ri"
+    },
+    {
+      "title": "AI Appeals Processor: A Deep Learning Approach to Automated Classification of Citizen Appeals in Government Services",
+      "link": "https://arxiv.org/abs/2604.03672",
+      "source": "arXiv CS AI",
+      "date": "2026-10-09",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2604.03672v2 Announce Type: replace-cross Abstract: Government agencies must register, classify and route every citizen appeal within statutory time limits, and much of this work is still done by hand. We describe AI Appeals Processor, a classification and routing component"
+    },
+    {
+      "title": "Reward Observability and the Limits of Offline Checkpoint Selection in RSSM World Models",
+      "link": "https://arxiv.org/abs/2607.01736",
+      "source": "arXiv CS AI",
+      "date": "2026-10-09",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2607.01736v3 Announce Type: replace-cross Abstract: We study the closed-loop properties of a recurrent state-space model (RSSM) world model trained on human demonstrations in Gymnasium's LunarLander-v3. We use the trained world model for zero-shot CEM model-predictive contr"
+    },
+    {
+      "title": "SlideLab: Audience-Centered Scientific Slide Generation and Evaluation",
+      "link": "https://arxiv.org/abs/2609.30294",
+      "source": "arXiv CS AI",
+      "date": "2026-10-09",
+      "tags": [
+        "figure-ai"
+      ],
+      "summary": "arXiv:2609.30294v2 Announce Type: replace-cross Abstract: Scientific presentations are more than summaries of research papers. They need to present the work in a coherent sequence, explain the main ideas clearly, and help the audience follow the presentation. We present SlideLab,"
+    },
+    {
+      "title": "MA-JEPA: Joint-Embedding World Models for Multi-Agent Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2609.33563",
+      "source": "arXiv CS AI",
+      "date": "2026-10-09",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.33563v2 Announce Type: replace-cross Abstract: World models improve sample efficiency by training policies on imagined trajectories, but their usefulness depends on learning representations that capture the information needed for future control. We study whether self-s"
+    },
+    {
+      "title": "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型",
+      "link": "https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html",
+      "source": "雷锋网",
+      "date": "2026-10-09",
+      "tags": [
+        "spatial-intelligence",
+        "unitree",
+        "embodied",
+        "funding"
+      ],
+      "summary": "2026 年 10 月，AI 创投圈迎来一笔颇具戏剧感的融资。一家 10 人规模的神秘实验室，没产品、没名字，成了资本市场冰火两重天的风暴眼。一方面，业内进行着道德审判，“人品不行的公司绝对不能投”，另一方面，顶级 VC 机构五源资本和 IDG 却暗中追捧，偷偷塞了 3000 万美金，把估值推到 2 亿美元。而这家公司的创始人，正是 2024 年震动国内 AI 圈、被称作 “字节投毒实习生” 的北大博士生田柯宇。彼时，他身陷字节跳动索赔 800 万元的诉讼风波，却同时以第一作者身份拿到 NeurIPS 2024 最佳论文奖。这样一个争议与天才并存的人，如"
+    },
+    {
+      "title": "做了八年DSP，Credo怎么突然开始做光芯片了？",
+      "link": "https://www.leiphone.com/category/chips/iJYPlZXgggbJ74ZB.html",
+      "source": "雷锋网",
+      "date": "2026-10-09",
+      "tags": [
+        "general"
+      ],
+      "summary": "做了八年DSP（Digital Signal Processor，数字信号处理器）后，Credo Technology Group Holding Ltd（以下简称“Credo”）开始真正走进“光”里。&nbsp;自去年10月首次推出ZeroFlap光模块产品线以来，Credo用一年时间把产品带宽从800G推向1.6T。一起扩张的，还有Credo在模块内部能够自己掌控的技术环节——最新一代全DSP模块首次集合了200G/lane的Cardinal DSP、收购DustPhotonics后拿下的Kfir200 SiPho PIC（Silicon Photo"
+    },
+    {
+      "title": "再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20%；腾讯拟发行50亿美元离岸债券，或筹钱加码AI；OpenAI全面上线GPT-6",
+      "link": "https://www.leiphone.com/category/zaobao/GGmq1RiBgXY2GSVL.html",
+      "source": "雷锋网",
+      "date": "2026-10-09",
+      "tags": [
+        "figure-ai",
+        "humanoid",
+        "funding"
+      ],
+      "summary": "要闻提示再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20%阿里巴巴蔡崇信：开源是欧洲发展 AI 的最佳选择腾讯拟发行50亿美元离岸债券，或筹钱加码AI超33亿元！Manus拿下国内Agent创企最大单笔融资，腾讯投了7万人排队掏钱！小米公布澎程上市首月战报：30天锁单超70000台字节跳动前争议实习生开发世界模型：融资近3000万美元OpenAI面向全球所有ChatGPT用户全面上线GPT-6曝英伟达拟再投 10 亿美元加码人形机器人企业 Figure今日头条再裁员5000人！保时捷明确回归燃油车，高端车型计划涨价20%10月8日消息，德国豪"
+    },
     {
       "title": "TAPNAV: Humanoid Navigation through Tactile Active Perception",
       "link": "https://arxiv.org/abs/2610.10748",
@@ -672,146 +818,6 @@
         "general"
       ],
       "summary": "arXiv:2610.11662v1 Announce Type: new Abstract: Autonomous driving capabilities depend strongly on the distribution of scenarios encountered during training. Existing methods commonly construct or dynamically adapt training scenario distributions using surrogate criteria such as "
-    },
-    {
-      "title": "MultiWorldBench: Do Independently Controlled Views Describe One Shared World?",
-      "link": "https://arxiv.org/abs/2610.11723",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.11723v1 Announce Type: new Abstract: Multiplayer world models must ensure that independently controlled views remain consistent with one shared and persistent world. We introduce MultiWorldBench, a diagnostic Minecraft benchmark containing 495 case configurations acros"
-    },
-    {
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "link": "https://arxiv.org/abs/2610.11794",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.11794v1 Announce Type: new Abstract: Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past interactions"
-    },
-    {
-      "title": "MemoWM: How World Models Change What Agents Need to Remember",
-      "link": "https://arxiv.org/abs/2610.10778",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.10778v1 Announce Type: cross Abstract: Long-term agents face growing storage demands as they accumulate experience. World models capture reusable regularities that can reduce the information stored for each experience. We formulate the problem of memory allocation cond"
-    },
-    {
-      "title": "AffordDrive3D: Affordance-Aware World-Action Modeling with Spatial Understanding",
-      "link": "https://arxiv.org/abs/2610.11060",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.11060v1 Announce Type: cross Abstract: World-action models have recently improved autonomous driving by jointly learning future scene prediction and trajectory generation. Most existing approaches model the future primarily through RGB appearance, and recent works have"
-    },
-    {
-      "title": "DynaTE: Accelerating Diffusion LLMs via Dynamic Token Execution",
-      "link": "https://arxiv.org/abs/2610.11284",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2610.11284v1 Announce Type: cross Abstract: Diffusion-based LLMs (dLLMs) have recently emerged as a promising alternative to autoregressive (AR) LLMs by enabling bidirectional parallel refinement, alleviating the sequential decoding bottleneck of AR generation. However, the"
-    },
-    {
-      "title": "CRISP: Fixing Flying Pixels in Latent LiDAR Generation via Diffusion Decoding",
-      "link": "https://arxiv.org/abs/2610.11376",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.11376v1 Announce Type: cross Abstract: Latent LiDAR pipelines suffer from flying pixels: convolutional VAEs blur sharp radial depth discontinuities, yielding edge depths that back-project to points floating between surfaces. We identify this as a major, directly correc"
-    },
-    {
-      "title": "Evaluating Local Language Model Agents for Reproducible Data Engineering: An Empirical Software Engineering Study of Mobility Workflows",
-      "link": "https://arxiv.org/abs/2610.11482",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2610.11482v1 Announce Type: cross Abstract: Context: Large language model (LLM) agents are increasingly used as software and data-engineering assistants, yet evidence about locally deployable open-weight agents remains limited. Existing evaluations often emphasize textual r"
-    },
-    {
-      "title": "DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception",
-      "link": "https://arxiv.org/abs/2610.12266",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12266v1 Announce Type: cross Abstract: Multimodal large language models have made remarkable progress in bridging vision and language, facilitating various perception tasks essential for human-machine interaction, robotics, and autonomous driving. However, existing MLL"
-    },
-    {
-      "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
-      "link": "https://arxiv.org/abs/2610.12299",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2610.12299v1 Announce Type: cross Abstract: Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment."
-    },
-    {
-      "title": "RiCo: Neural Simulation of Rigid-Body Interactions via Local Contact Reasoning",
-      "link": "https://arxiv.org/abs/2610.12333",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12333v1 Announce Type: cross Abstract: Accurate simulation of rigid-body interactions is essential for predictive physical world models. Despite recent progress in modeling object dynamics, capturing how local contacts between surfaces shape object motion remains chall"
-    },
-    {
-      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "link": "https://arxiv.org/abs/2610.12463",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "figure-ai"
-      ],
-      "summary": "arXiv:2610.12463v1 Announce Type: cross Abstract: In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated acr"
-    },
-    {
-      "title": "MAPF-World: Action World Model for Multi-Agent Path Finding",
-      "link": "https://arxiv.org/abs/2508.12087",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "foundation-model"
-      ],
-      "summary": "arXiv:2508.12087v3 Announce Type: replace Abstract: Multi-agent path finding (MAPF) studies the problem of planning conflict-free paths for multiple agents from given start locations to designated goals, with applications in robot-assisted logistics and social navigation. Recent "
-    },
-    {
-      "title": "MobileWorldBench: Towards Semantic World Modeling For Mobile Agents",
-      "link": "https://arxiv.org/abs/2512.14014",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2512.14014v2 Announce Type: replace Abstract: World models have shown great utility in improving the task performance of embodied agents. While prior work largely focuses on pixel-space world models, these approaches face practical limitations in GUI settings, where predict"
-    },
-    {
-      "title": "VLA Grounder: Language-Conditioning Space Optimization for Black-Box VLA Models",
-      "link": "https://arxiv.org/abs/2607.04517",
-      "source": "arXiv CS AI",
-      "date": "2026-10-09",
-      "tags": [
-        "foundation-model"
-      ],
-      "summary": "arXiv:2607.04517v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are commonly treated as end-to-end action policies conditioned on natural-language task descriptions. In practice, however, their behavior often depends sharply on how the instruction is phras"
     }
   ]
 }
