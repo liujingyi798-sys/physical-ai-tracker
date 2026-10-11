@@ -1,9 +1,276 @@
 {
-  "lastUpdated": "2026-10-10T04:16:09.068Z",
+  "lastUpdated": "2026-10-11T03:54:54.784Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 31,
+  "itemsFetched": 36,
   "items": [
+    {
+      "title": "Why dexterity is physical AI&#8217;s real bottleneck",
+      "link": "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/",
+      "source": "The Robot Report",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "The next major challenge in robotic dexterity is making the entire system reliable enough to turn capabilities into useful work. The post Why dexterity is physical AI&#8217;s real bottleneck appeared first on The Robot Report."
+    },
+    {
+      "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models",
+      "link": "https://arxiv.org/abs/2610.11253",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2610.11253v1 Announce Type: new Abstract: Large language model agents are being increasingly deployed as autonomous scientists, designing experiments and inferring mechanistic world models with minimal human oversight. Yet identifiability is often overlooked: when a plateau"
+    },
+    {
+      "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+      "link": "https://arxiv.org/abs/2610.11328",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "spatial-intelligence",
+        "foundation-model"
+      ],
+      "summary": "arXiv:2610.11328v1 Announce Type: new Abstract: Advances in foundation models are driving efforts to introduce agents to assist people in the physical world. Such agents require agentic spatial intelligence: exploring unfamiliar environments, updating spatial understanding throug"
+    },
+    {
+      "title": "BridgeGuard: Explicit Safety Drift for Diffusion-based Autonomous Driving",
+      "link": "https://arxiv.org/abs/2610.11483",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2610.11483v1 Announce Type: new Abstract: Diffusion-based driving planners capture diverse behaviors but can generate unsafe trajectories under distribution shift. We propose BridgeGuard, a safety-constrained diffusion planning method that progressively strengthens a constr"
+    },
+    {
+      "title": "The Operator Mismatch Problem: Deploying BEV Perception with Portable GPU Compute",
+      "link": "https://arxiv.org/abs/2610.11504",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2610.11504v1 Announce Type: new Abstract: Modern autonomous driving systems rely on bird's-eye-view (BEV) perception models that fuse camera and LiDAR inputs to detect objects in 3D space. These models are accurate, but they cannot be deployed through standard inference run"
+    },
+    {
+      "title": "AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbones for Materials Dynamics",
+      "link": "https://arxiv.org/abs/2610.11527",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2610.11527v1 Announce Type: new Abstract: Atomistic simulation is a fundamental tool for studying long-term materials evolution, from diffusion and defect dynamics to interfacial reactions and fracture. Yet conventional simulators typically advance at microscopic resolution"
+    },
+    {
+      "title": "Lamarck's Driving School: Discovering Autonomous Driving Training Strategies through Evolutionary Competition",
+      "link": "https://arxiv.org/abs/2610.11662",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2610.11662v1 Announce Type: new Abstract: Autonomous driving capabilities depend strongly on the distribution of scenarios encountered during training. Existing methods commonly construct or dynamically adapt training scenario distributions using surrogate criteria such as "
+    },
+    {
+      "title": "PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization",
+      "link": "https://arxiv.org/abs/2603.13228",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "arXiv:2603.13228v3 Announce Type: replace-cross Abstract: Recent progress in text-conditioned human motion generation has been largely driven by diffusion models trained on large-scale human motion data. Building on this progress, recent methods attempt to transfer such models fo"
+    },
+    {
+      "title": "World-Ego Modeling for Embodied Video Generation in Long-Horizon Navigation-Manipulation Tasks",
+      "link": "https://arxiv.org/abs/2605.19957",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "arXiv:2605.19957v2 Announce Type: replace-cross Abstract: Embodied video world models typically capture both scene evolution and the robot's behavior, which we refer to as the \\emph{world} and the \\emph{ego}, respectively. The world and the ego exhibit different underlying dynami"
+    },
+    {
+      "title": "HIL-UMI: Bringing Human-in-the-Loop Post-Training of Vision-Language-Action Models to Universal Manipulation Interface",
+      "link": "https://arxiv.org/abs/2609.20659",
+      "source": "arXiv CS AI",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2609.20659v2 Announce Type: replace-cross Abstract: Large-scale vision-language-action (VLA) models provide powerful priors for robot manipulation, yet adapting them to a specific deployment remains challenging. Supervised fine-tuning (SFT) on task-specific demonstrations p"
+    },
+    {
+      "title": "字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
+      "link": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "industrial",
+        "embodied",
+        "funding"
+      ],
+      "summary": "DeepSeek 的省钱杀手锏，为何成了致命盲区？&nbsp; &nbsp; 作者丨高允毅&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp"
+    },
+    {
+      "title": "45分钟小定8000台，智己LS6这次成了？",
+      "link": "https://www.leiphone.com/category/transportation/ZbUAuIZ3oSpuD906.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "这一次，智己能走出「叫好不叫座」吗？作者 | 王瑞昊编辑 | 李雨晨9月10日，全新一代智己LS6正式开启预售，预售价20.99万元起，并将于9月23日正式上市。预售开启45分钟，小订突破8000台。这是智己“Next·2028战略”下的首款20万级纯电SUV，也是LS6迭代到第四代的产品。LS6一直是智己的当家花旦。但对这家成立近六年的品牌来说，智己身上始终贴着一个不算好听的标签：技术很好，但叫好不叫座。在智己眼中，全新一代LS6是全线控大五座家庭SUV，把上汽70年的造车积淀，以9系的旗舰标准，放进一台20万级的家庭SUV里。三大下一代技术是这台车的"
+    },
+    {
+      "title": "新智驾独家丨奇瑞高层人事调整：智能化中心负责人谢保军疑似离职",
+      "link": "https://www.leiphone.com/category/transportation/oiSyYkdJBNF6AfVW.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "内部飞书状态已显示暂停使用。作者 | 王瑞昊编辑 | 李雨晨雷峰网《新智驾》独家获悉，奇瑞汽车股份有限公司副总裁、智能化中心负责人谢保军疑似已离职，内部飞书状态已显示暂停使用。雷峰网《新智驾》就此事向奇瑞汽车求证，截止发稿未作回应。谢保军于2024年10月加入奇瑞，最初任职于旗下大卓智能，主要负责智能驾驶相关研发工作。2025年5月，奇瑞将雄狮科技、大卓智能以及研发总院相关业务整合，成立奇瑞智能化中心，谢保军成为中心实际运营负责人，统筹智能座舱、智能辅助驾驶、数字架构等智能化业务。此后，奇瑞进一步推进猎鹰智驾技术方案归一、合作伙伴收敛和全栈自研，并在20"
+    },
+    {
+      "title": "零跑朱江明放话第二品牌要做iPhone式产品革命，哪来的自信？",
+      "link": "https://www.leiphone.com/category/transportation/2mlyhW6adiiiwwoy.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "第二品牌新车有一个反常识的指标：得房率超过100%。作者 | 王瑞昊编辑 | 李雨晨雷峰网了解到，2015年零跑成立的时候，团队一共50个人，其中41个是工程师。十一年过去，那41个人里还有21个留在公司。今天的零跑有1万名员工，8500个在做研发，销售、人力、财务、公关全部加起来，只有1500人。2026年8月，零跑全球交付103,129辆，上半年归母净利润2.1亿元，手里有18座零部件工厂，整车成本的65%由自己掌握。9月16日这场技术日，零跑给了一个主题词：底气。当天晚上发的东西很多，朱江明自己总结起来是“1加3”：一套面向第二品牌的全新架构，加上"
+    },
+    {
+      "title": "对话蔚来创始人李斌：蔚来单车均价比奥迪贵18万，比宝马贵七八万，比奔驰贵数万",
+      "link": "https://www.leiphone.com/category/transportation/AZ0KUba2gFI5kSB4.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "humanoid",
+        "embodied",
+        "funding"
+      ],
+      "summary": "李斌最近提出了一个反共识：在汽车行业，过去大家都认为，量上去了，成本自然就会下来。但现在反过来了，量上去了，成本反而也可能上去了。李斌叫这个现象为“规模不经济”，背后的原因，是AI行业现处于不计成本投入的阶段，对内存等资源需求庞大，导致汽车企业的需求一旦起来，就会直接与AIDC（人工智能数据中心）行业形成资源竞争。“你要得少一点，人家还可以给你打折；你要得多了，对不起，价格反而上去了。”李斌告诉雷峰网，“这个很有意思。”蔚来也未能独善其身。第二季度，蔚来单台成本较去年底上涨了1.4万元，按当季销量计算，一个季度相当于凭空多出约15亿元成本。李斌预计下半年"
+    },
+    {
+      "title": "对话赵长江：智界RX要成为华为的「Pura X」",
+      "link": "https://www.leiphone.com/category/transportation/N2Mpq4po8AjIzd1T.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "7月，智界V9完成了一次颇有戏剧性的破圈。这款售价38.98万—51.98万元的旗舰MPV，上市两个多月后，7月单月交付达到10101辆，成交均价约50万元，高配版本占比超过80%。从市场结果来看，V9又一次让智界这个品牌本身获得了足够强的存在感。但赵长江并不愿意把V9的成功简单理解成一次产品爆款。在他看来，V9真正重要的意义，是证明智界已经开始具备定义高端产品、承接高端用户和兑现产品价值的能力。“V9一炮而红，感谢大家支持。”在近期的一场小范围沟通会上，赵长江说。但紧接着，他又告诉雷峰网：“少说话，多做事，一步一步来。”因为对于今天的智界来说，真正的问"
+    },
+    {
+      "title": "独家丨蔚来李斌最新内部讲话：明年将有重量级新车，未来3年的核心是三个聚焦",
+      "link": "https://www.leiphone.com/category/transportation/aPoeP4p5SiG0Rian.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "雷峰网独家获悉，9月8日下午，蔚来创始人、董事长、CEO李斌面向公司全员进行了一场内部讲话。一个多小时的交流中，李斌谈到了中国汽车行业正在经历的剧烈变化，也谈到了蔚来过去一年多以来经营质量的持续改善、未来三年的战略方向和“第二增长曲线在哪”。中国汽车行业正在经历从未出现过的局面：就在李斌全员讲话前的几个小时，乘联会发布的最新销量数据显示，今年以来，中国乘用车市场累计零售1,171.6万辆，同比下降20.8%。李斌称，中国汽车产业已经进入“决赛最残酷的阶段”。但在此背景下，李斌仍然认为，蔚来仍存在巨大的增长空间。在行业整体销量下降两成的背景下，蔚来1-8月"
+    },
+    {
+      "title": "独家丨阿维塔酝酿高层调整：董事长王辉已开始负责长安海外业务",
+      "link": "https://www.leiphone.com/category/transportation/K2A5u6HhCSr6HH9d.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "雷峰网独家获悉，阿维塔科技正在酝酿新一轮高层调整，现任阿维塔科技董事长王辉已被调去负责长安汽车集团海外业务。据雷峰网了解，在内部系统中，王辉目前仍是阿维塔科技董事长，但他的精力已转向长安的海外，目前已开始负责长安的东南亚和中南美业务。与此同时，现任长安汽车副总裁、阿维塔科技总裁陈卓，预计将进一步掌管阿维塔相关业务的管理范畴。据透露，王辉一年前上任阿维塔董事长的核心任务是推动阿维塔完成 IPO，目前&nbsp;IPO&nbsp;正常推进中。与此同时，王辉也是长安体系内较早、较坚定推动与华为合作的重要高管之一。而陈卓，同样是长安汽车重点培养的少壮派高管，他在"
+    },
+    {
+      "title": "独家丨舒酉星创立新公司「星能远行」，此前是比亚迪欧洲总裁",
+      "link": "https://www.leiphone.com/category/transportation/Mq2kLln4ozKgC9Kv.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "雷峰网独家获悉，比亚迪前高管舒酉星近期成立了新公司，该公司名为星能远行科技（深圳）有限公司，成立于2026年8月16日，注册资本500万元，舒酉星为法定代表人并持股100%。雷峰网了解到，星能远行注册地位于深圳市龙岗区，所属行业为新能源技术推广服务。目前公司股东及高管结构较为简单，除舒酉星外，章安若担任监事。值得注意的是，星能远行成立的时间点，与舒酉星近期从比亚迪相关工商主体退出高度接近。2026年，舒酉星已卸任比亚迪丰田电动车科技有限公司董事一职，由比亚迪集团董事会秘书、投资处总经理李黔接替。比亚迪丰田成立于2020年，由比亚迪与丰田各持股50%，主要"
+    },
+    {
+      "title": "JEPA、空间智能路线正面交锋：WorldArena 2.0 挑战赛开考「能不能被机器人真正用起来」| IROS 2026",
+      "link": "https://www.leiphone.com/category/private/A0uKolgD2esWoUfT.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "nvidia",
+        "industrial",
+        "embodied",
+        "foundation-model"
+      ],
+      "summary": "JEPA 路线先下一城：视启未来 Track 1 第一，晨昏线 Track 2 第二。&nbsp; &nbsp; 作者丨张岂萍 幸丽娟&nbsp; &nbsp; 编辑丨幸丽娟&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs"
+    },
+    {
+      "title": "这届 IROS 2026 上，具身学术与产业边界正在消融",
+      "link": "https://www.leiphone.com/category/ai/4I8YKksz9V10Ih1R.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "industrial",
+        "humanoid",
+        "embodied",
+        "foundation-model"
+      ],
+      "summary": "模型、数据、灵巧操作都在工程化，顶会上具身传递出的信号变了&nbsp;&nbsp; &nbsp; 作者丨齐铖湧&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n"
+    },
+    {
+      "title": "数据越多≠决策越好：从无人机滑翔到多机器人通信，重新审视数据与信息的关系 | IROS 2026",
+      "link": "https://www.leiphone.com/category/private/1evshSdPUrUacuRC.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "industrial",
+        "embodied",
+        "funding"
+      ],
+      "summary": "决定智能上限的从来不是数据的绝对规模，而是数据的质量与信息密度。&nbsp; &nbsp; 作者丨岑峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp"
+    },
+    {
+      "title": "让触觉像视觉一样可规模化，哥大李昀烛团队 FlexiTac 的开源实践 | IROS 2026",
+      "link": "https://www.leiphone.com/category/robot/Pz34omTBnW9Y0LhO.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "industrial",
+        "humanoid",
+        "embodied",
+        "funding"
+      ],
+      "summary": "FlexiTac压阻式传感器可兼顾柔性、低成本与一致性。&nbsp; &nbsp; 作者丨向欣&nbsp; &nbsp; 编辑丨岑峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs"
+    },
+    {
+      "title": "2026中国国际社会公共安全产品博览会暨第三届智能与安全产业发展大会将于11月3日在北京开幕",
+      "link": "https://www.leiphone.com/category/industrynews/aRKXkAwc34s4SwGT.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "中国国际社会公共安全产品博览会（以下简称“安博会”）是经中华人民共和国商务部批准，由中国安全防范产品行业协会主办的专业性展会。1994 年创办至今，依托行业主管部门、各地相关单位、行业协会、技术服务机构及国内外安防企业的大力支持，安博会历经 32 年发展，已成功举办十七届。立足新时代使命定位，安博会业已成为贯彻总体国家安全观，强化科技赋能，提升公共安全治理水平，完善社会治理体系，助力推进国家安全体系和能力建设的重要展示交流平台。2026中国国际社会公共安全产品博览会暨第三届智能与安全产业发展大会定于11月3日至6日在北京中国国际展览中心（顺义馆）举办。本"
+    },
+    {
+      "title": "赛力斯9月产销快报 全新一代问界M9系列16周累计交付破4万",
+      "link": "https://www.leiphone.com/category/industrynews/flB9MNXXd1jcRTtZ.html",
+      "source": "雷锋网",
+      "date": "2026-10-10",
+      "tags": [
+        "general"
+      ],
+      "summary": "10月8日，赛力斯发布9月产销快报。数据显示，9月新能源汽车销量29,271辆，环比增长20.7%。问界高端产品交付放量，伴随问界M9 Ultimate领世加长版开启交付，全新一代问界M9 系列16周累计交付突破40000辆，持续斩获50万以上车型销量第一。旗舰领跑新品蓄势 高端产品交付持续突破三季度以来，问界高端产品矩阵持续焕新。问界M9 Ultimate领世加长版首批交付已于9月12日开启，以出众的科技感、豪华感、品质感，将豪华旗舰SUV价值推向新高度，深受用户认可。与此同时，问界新M8也于9月30日开启预售，全系标配面向L3级自动驾驶的架构设计，搭"
+    },
     {
       "title": "MultiWorldBench: Do Independently Controlled Views Describe One Shared World?",
       "link": "https://arxiv.org/abs/2610.11723",
@@ -561,261 +828,6 @@
         "general"
       ],
       "summary": "arXiv:2610.12194v1 Announce Type: new Abstract: World modeling has emerged as an effective co-training objective for robot policies, giving rise to World Action Models (WAMs) that jointly predict actions and future states. However, most WAMs predict future states in the native re"
-    },
-    {
-      "title": "Residual Modeling Closes the Regression and Generative Policy Gap in Robot Learning",
-      "link": "https://arxiv.org/abs/2610.12231",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12231v1 Announce Type: new Abstract: Learning from demonstration has enabled impressive robot behaviors. A common choice for policy learning is to use diffusion or flow matching (Flow-Policies), which often outperforms direct action regression trained with mean squared"
-    },
-    {
-      "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
-      "link": "https://arxiv.org/abs/2610.12285",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12285v1 Announce Type: new Abstract: Learning to predict how the world evolves can provide vision-language-action (VLA) policies with predictive context for long-horizon control, but its effectiveness depends on what future representation is modeled and how it conditio"
-    },
-    {
-      "title": "LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild",
-      "link": "https://arxiv.org/abs/2610.12368",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12368v1 Announce Type: new Abstract: Direct visual navigation policies generate trajectories efficiently but do not explicitly evaluate their future consequences. Generative navigation world models provide this foresight through visual rollouts, which are costly when e"
-    },
-    {
-      "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
-      "link": "https://arxiv.org/abs/2610.12386",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "foundation-model"
-      ],
-      "summary": "arXiv:2610.12386v1 Announce Type: new Abstract: The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary approach: the r"
-    },
-    {
-      "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
-      "link": "https://arxiv.org/abs/2610.12407",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12407v1 Announce Type: new Abstract: World action models (WAMs) predict actions and future observations, typically from a reconstruction-based representation that carries noisy, redundant information which can complicate downstream predictions. We introduce LeWAM, a bi"
-    },
-    {
-      "title": "GLIO2: A GPU-Parallelized Tightly-Coupled LiDAR-Inertial-GNSS System for Robust and Real-Time Global Localization and Mapping",
-      "link": "https://arxiv.org/abs/2610.12411",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2610.12411v1 Announce Type: new Abstract: Globally consistent, real-time state estimation in large-scale, perceptually degraded environments is essential for autonomous vehicles and aerial robots, and requires fusing LiDAR, inertial, and GNSS measurements. Existing fusion m"
-    },
-    {
-      "title": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
-      "link": "https://arxiv.org/abs/2610.12432",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "unitree",
-        "humanoid"
-      ],
-      "summary": "arXiv:2610.12432v1 Announce Type: new Abstract: Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an ana"
-    },
-    {
-      "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
-      "link": "https://arxiv.org/abs/2610.12435",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "nvidia",
-        "humanoid"
-      ],
-      "summary": "arXiv:2610.12435v1 Announce Type: new Abstract: Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-l"
-    },
-    {
-      "title": "Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation",
-      "link": "https://arxiv.org/abs/2610.12440",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12440v1 Announce Type: new Abstract: Human demonstrations are a scalable data source for learning dexterous manipulation, but the embodiment gap prevents human motion from being executed directly on robots. Inverse kinematics (IK) retargets human motion to robots effic"
-    },
-    {
-      "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
-      "link": "https://arxiv.org/abs/2610.12457",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "embodied",
-        "foundation-model"
-      ],
-      "summary": "arXiv:2610.12457v1 Announce Type: new Abstract: Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is n"
-    },
-    {
-      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-      "link": "https://arxiv.org/abs/2610.12465",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12465v1 Announce Type: new Abstract: General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on en"
-    },
-    {
-      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-      "link": "https://arxiv.org/abs/2610.12468",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "agibot",
-        "embodied"
-      ],
-      "summary": "arXiv:2610.12468v1 Announce Type: new Abstract: We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can im"
-    },
-    {
-      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
-      "link": "https://arxiv.org/abs/2610.12470",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.12470v1 Announce Type: new Abstract: While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits "
-    },
-    {
-      "title": "SpectralCache: Accelerating Diffusion-Based World Models via Spectral Feature Caching",
-      "link": "https://arxiv.org/abs/2610.02660",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.02660v1 Announce Type: cross Abstract: Diffusion-based world models enable high-quality interactive environment generation but suffer from substantial inference overhead due to repeated Transformer evaluations during denoising. Existing caching methods mainly exploit t"
-    },
-    {
-      "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
-      "link": "https://arxiv.org/abs/2610.10857",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.10857v1 Announce Type: cross Abstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horizons. Existing policy architectures rely on recurrent or attention-based mechan"
-    },
-    {
-      "title": "VGGTWorld-VLA: Intent-Conditioned 3D World Evolution for Autonomous Driving",
-      "link": "https://arxiv.org/abs/2610.11161",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.11161v1 Announce Type: cross Abstract: VGGT provides a strong foundation for geometry-centric world models by recovering unified 3D scene geometry from visual observations. Although recent extensions enable temporal 3D prediction, their future evolution remains weakly "
-    },
-    {
-      "title": "The Kinetics Observer: A Tightly Coupled Estimator for Legged Robots",
-      "link": "https://arxiv.org/abs/2406.13267",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "humanoid"
-      ],
-      "summary": "arXiv:2406.13267v2 Announce Type: replace Abstract: This paper presents the Kinetics Observer, a novel proprioceptive state estimator for legged robots designed to provide the feedback required for versatile locomotion and physical interaction with the environment, with enhanced "
-    },
-    {
-      "title": "Seed2Scale: A Self-Evolving Data Engine with Parallel Worlds Expansion for Scalable Robot Learning",
-      "link": "https://arxiv.org/abs/2603.08260",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2603.08260v2 Announce Type: replace Abstract: Existing data generation methods for robot learning suffer from limited exploration, embodiment gaps, low signal-to-noise ratios, and domain shifts, leading to performance degradation during self-iteration and poor generalizatio"
-    },
-    {
-      "title": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space",
-      "link": "https://arxiv.org/abs/2606.17924",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2606.17924v2 Announce Type: replace Abstract: Current Vision-Language-Action (VLA) models face a trade-off between efficient action generation and explicit deliberation. Directly decoding actions from vision-language backbone representations enables low-latency control, whe"
-    },
-    {
-      "title": "STEAM: Self-Supervised Temporal Ensemble Advantage Modeling for Real-World Robot Learning",
-      "link": "https://arxiv.org/abs/2606.29834",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2606.29834v2 Announce Type: replace Abstract: Real-world robot learning increasingly relies on heterogeneous data, but demonstrations and rollouts often mix useful progress with stalls, corrections, and suboptimal behavior. Effective policy learning therefore requires frame"
-    },
-    {
-      "title": "3D Point World Models: Point Completion Enables More Accurate Dynamics Learning",
-      "link": "https://arxiv.org/abs/2607.00148",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2607.00148v2 Announce Type: replace Abstract: Learning predictive models of the world enables robotic control through planning, potentially allowing robots to improvise solutions on new tasks. However, large video-based dynamics models lack explicit 3D spatial structure and"
-    },
-    {
-      "title": "ACID: Action Consistency via Inverse Dynamics for Planning with World Models",
-      "link": "https://arxiv.org/abs/2607.02403",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "arXiv:2607.02403v2 Announce Type: replace Abstract: Decision-time planning with action-conditioned world models has become a popular paradigm for embodied control. However, the standard planning cost judges a candidate solely by how close its predicted terminal state lies to the "
-    },
-    {
-      "title": "PACE: Persona Adaptation through Conversational Elicitation in Human-Robot Interaction",
-      "link": "https://arxiv.org/abs/2607.15579",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "humanoid",
-        "embodied"
-      ],
-      "summary": "arXiv:2607.15579v5 Announce Type: replace Abstract: Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities t"
-    },
-    {
-      "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
-      "link": "https://arxiv.org/abs/2608.06332",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.06332v2 Announce Type: replace Abstract: Generalist robot policies exhibit strong capabilities, but their robustness in complex and unseen environments remains limited. Scaling robot learning and evaluation in diverse real-world environments remains costly and challeng"
-    },
-    {
-      "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
-      "link": "https://arxiv.org/abs/2608.19776",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-09",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2608.19776v3 Announce Type: replace Abstract: Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp sy"
     }
   ]
 }
