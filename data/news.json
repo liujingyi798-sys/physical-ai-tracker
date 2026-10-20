@@ -1,9 +1,41 @@
 {
-  "lastUpdated": "2026-10-19T18:18:33.160Z",
+  "lastUpdated": "2026-10-20T03:20:28.742Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 64,
+  "itemsFetched": 13,
   "items": [
+    {
+      "title": "EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training",
+      "link": "https://arxiv.org/abs/2604.20012",
+      "source": "arXiv CS Robotics",
+      "date": "2026-10-19",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "arXiv:2604.20012v2 Announce Type: cross Abstract: Vision-Language-Action Models (VLAs) inherit their visual and linguistic capabilities from Vision-Language Models (VLMs), yet most VLAs are built from off-the-shelf VLMs that are not adapted to the embodied domain, limiting their "
+    },
+    {
+      "title": "OxyGen: Unified KV Cache Management for VLA Inference under Multi-Task Parallelism",
+      "link": "https://arxiv.org/abs/2603.14371",
+      "source": "arXiv CS Robotics",
+      "date": "2026-10-19",
+      "tags": [
+        "nvidia",
+        "humanoid",
+        "embodied"
+      ],
+      "summary": "arXiv:2603.14371v5 Announce Type: replace Abstract: Embodied AI agents increasingly require parallel execution of multiple tasks, such as manipulation, conversation, and memory construction, from shared observations under distinct time constraints. Recent Mixture-of-Transformers "
+    },
+    {
+      "title": "MAIA: Anticipating Interaction Anomalies in Contact-Rich Manipulation via Multimodal World Models",
+      "link": "https://arxiv.org/abs/2610.21686",
+      "source": "arXiv CS Robotics",
+      "date": "2026-10-19",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2610.21686v2 Announce Type: replace Abstract: Reliable contact-rich manipulation requires detecting execution deviations early enough for corrective action. Yet most monitoring methods are reactive, identifying anomalies only after they become observable. Anticipating such "
+    },
     {
       "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
       "link": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
@@ -636,6 +668,28 @@
       "summary": "Humans play a key role in developing humanoid robots and training AI models, so we can maintain control, writes a columnist. The post The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies appeared first on The Robot Report."
     },
     {
+      "title": "JAECOO × Momenta完成首个无接管凯旋门智驾挑战，联合征服巴黎“最难魔鬼环岛”",
+      "link": "https://www.leiphone.com/category/industrynews/LDt2TEiUf3wgi2Os.html",
+      "source": "雷锋网",
+      "date": "2026-10-16",
+      "tags": [
+        "general"
+      ],
+      "summary": "当地时间10月12日，巴黎车展期间，JAECOO与Momenta共同完成首个无接管的凯旋门智驾挑战。奇瑞欧洲（德国）研发中心总经理侯小红、奇瑞欧洲（德国）研发中心CTO Peter Matkin与Momenta全球解决方案首席架构师饶庆，乘坐搭载Momenta R7世界模型的JAECOO 7测试车，挑战凯旋门“全球最魔鬼环岛”，展示双方共同打造的欧洲智驾体验。挑战“全球最魔鬼环岛”，迎战智驾“最难考题”智驾路线从拉德芳斯出发，跨越塞纳河，途经塞纳河畔讷伊，进入凯旋门环岛及周边街区，全程约11.38公里。沿途覆盖无标线道路、12个环岛出口、反常规的“右方优"
+    },
+    {
+      "title": "推翻一切！Nick Cammarata 万字长文宣告，AI 不是黑箱，99% 神经元清晰可见",
+      "link": "https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html",
+      "source": "雷锋网",
+      "date": "2026-10-16",
+      "tags": [
+        "industrial",
+        "embodied",
+        "funding"
+      ],
+      "summary": "亲手推翻自己十年前的结论，可解释性大佬 Nick Cammarata 这次读懂 AI 脑回路。&nbsp; &nbsp; 作者丨高允毅&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs"
+    },
+    {
       "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
       "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
       "source": "TechCrunch Robotics",
@@ -777,57 +831,6 @@
         "unitree"
       ],
       "summary": "arXiv:2610.21199v1 Announce Type: new Abstract: Geometric light detection and ranging (LiDAR)--inertial simultaneous localization and mapping (SLAM) provides efficient state estimation but lacks the continuous map representation and global refinement capabilities of neural implic"
-    },
-    {
-      "title": "CQDC-Warp: GPU-Accelerated Differentiable Quasi-Dynamic Simulation for Contact-Rich Manipulation",
-      "link": "https://arxiv.org/abs/2610.21349",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-16",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2610.21349v1 Announce Type: new Abstract: Efficient synthesis of contact-rich manipulation trajectories is essential for downstream robot learning. Gradient-based planning offers a promising approach, but jointly optimizing motion and contact decisions remains challenging. "
-    },
-    {
-      "title": "From Optical Flow to Safety: Visual Safety Certification via Scale-Free Relative Motion",
-      "link": "https://arxiv.org/abs/2610.21374",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-16",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.21374v1 Announce Type: new Abstract: Safe autonomous navigation using monocular vision remains challenging because explicit obstacle states are not directly observable. This letter introduces a visual safety-certification paradigm that uses scale-free, depth-normalized"
-    },
-    {
-      "title": "Fast-VLA: You Only Think Once for Robot Manipulation",
-      "link": "https://arxiv.org/abs/2610.21389",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-16",
-      "tags": [
-        "foundation-model"
-      ],
-      "summary": "arXiv:2610.21389v1 Announce Type: new Abstract: Vision-language-action (VLA) policies commonly place a multi-billion-parameter model inside the feedback loop, repeatedly recomputing task context whenever they predict a new action chunk. Yet task understanding changes far more slo"
-    },
-    {
-      "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
-      "link": "https://arxiv.org/abs/2610.21515",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-16",
-      "tags": [
-        "unitree",
-        "humanoid"
-      ],
-      "summary": "arXiv:2610.21515v1 Announce Type: new Abstract: Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequ"
-    },
-    {
-      "title": "SPEAR: Selective Preference Elicitation with Adaptive Rewards for VLM-Guided Robotic Manipulation",
-      "link": "https://arxiv.org/abs/2610.21621",
-      "source": "arXiv CS Robotics",
-      "date": "2026-10-16",
-      "tags": [
-        "general"
-      ],
-      "summary": "arXiv:2610.21621v1 Announce Type: new Abstract: Recent Vision-Language Models (VLMs) enable automated preference labeling for robotic manipulation, yet their deployment remains impractical since each query incurs substantial inference cost, while VLMs frequently abstain on visual"
     }
   ]
 }
