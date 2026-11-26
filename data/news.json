@@ -1,9 +1,104 @@
 {
-  "lastUpdated": "2026-11-26T06:47:43.784Z",
+  "lastUpdated": "2026-11-26T20:54:18.859Z",
   "source": "auto-fetched",
   "totalFeeds": 8,
-  "itemsFetched": 94,
+  "itemsFetched": 30,
   "items": [
+    {
+      "title": "RESET: One Demonstration, One Verified World, Self-Improved Skills Across Embodiments",
+      "link": "https://arxiv.org/abs/2611.31894",
+      "source": "arXiv CS Robotics",
+      "date": "2026-11-26",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2611.31894v2 Announce Type: replace Abstract: Large language model (LLM) coding agents can iteratively self-improve robot manipulation skills in simulation benchmarks, yet real-world tasks provide neither ground-truth success scorers nor resettable practice environments. Ou"
+    },
+    {
+      "title": "Design, Control, and Teleoperation of a Dexterous Robotic Hand with Soft-Rigid Hybrid Fingers",
+      "link": "https://arxiv.org/abs/2611.32582",
+      "source": "arXiv CS Robotics",
+      "date": "2026-11-26",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2611.32582v2 Announce Type: replace Abstract: Adding compliance to robot hands results in higher grasp quality and robust contact with the environment. Soft hands are inherently compliant, but are typically more complex to control and model than rigid equivalents. We extend"
+    },
+    {
+      "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models",
+      "link": "https://arxiv.org/abs/2611.32665",
+      "source": "arXiv CS Robotics",
+      "date": "2026-11-26",
+      "tags": [
+        "nvidia",
+        "humanoid",
+        "foundation-model"
+      ],
+      "summary": "arXiv:2611.32665v2 Announce Type: replace Abstract: Vision-language-action (VLA) models have achieved strong results in arm-centric manipulation, yet humanoid whole-body control (WBC) requires dynamic balance and tightly coupled full-body coordination. Existing hierarchical human"
+    },
+    {
+      "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
+      "link": "https://arxiv.org/abs/2611.32335",
+      "source": "arXiv CS Robotics",
+      "date": "2026-11-26",
+      "tags": [
+        "nvidia"
+      ],
+      "summary": "arXiv:2611.32335v2 Announce Type: replace-cross Abstract: Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaussi"
+    },
+    {
+      "title": "EffectWAM: Learning Action-Grounded Effects for Robot Manipulation",
+      "link": "https://arxiv.org/abs/2611.32053",
+      "source": "arXiv CS AI",
+      "date": "2026-11-26",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "arXiv:2611.32053v2 Announce Type: replace Abstract: World-action models connect visual prediction with executable robot control. We present EffectWAM, which develops this connection through three complementary components: Effect, camera positional encoding (CaPE), and Action Grou"
+    },
+    {
+      "title": "Learning World Models through Contrastive Identification of Actions",
+      "link": "https://arxiv.org/abs/2611.32776",
+      "source": "arXiv CS AI",
+      "date": "2026-11-26",
+      "tags": [
+        "general"
+      ],
+      "summary": "arXiv:2611.32776v2 Announce Type: replace Abstract: Latent world models enable goal-directed planning from offline visual data, but prediction alone does not specify which action-related distinctions their representations should preserve. Inverse dynamics provides auxiliary super"
+    },
+    {
+      "title": "深耕核心零部件，钛虎机器人轻量化关节模组Lite-1系列助力整机降本增效",
+      "link": "https://www.leiphone.com/category/industrynews/hYv4Caentt6byJhj.html",
+      "source": "雷锋网",
+      "date": "2026-11-26",
+      "tags": [
+        "humanoid"
+      ],
+      "summary": "近日，钛虎机器人科技（上海）有限公司（以下简称“钛虎机器人”）正式发布面向机器人批量落地场景的轻量化关节模组Lite-1系列。该产品通过结构精简，驱控板与编码器一体化设计，在压缩体积、提升集成度的同时保持控制精度与运行稳定性，为人形机器人整机设计与规模化生产提供了新的核心零部件选择。当前，人形机器人产业正从“能走能动”的样机验证阶段，加速迈向“可批量、可交付、可落地”的产业化阶段。关节模组是机器人的核心运动部件，其体积、集成度、走线方式与装配一致性，直接影响整机结构、成本与量产节奏。头部、手臂、腰部等部位空间有限，对关节的轴向尺寸提出了更高要求；多关节带"
+    },
+    {
+      "title": "直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验",
+      "link": "https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html",
+      "source": "雷锋网",
+      "date": "2026-11-26",
+      "tags": [
+        "figure-ai",
+        "industrial",
+        "embodied",
+        "funding"
+      ],
+      "summary": "&nbsp;聊聊榜单之外的 Motubrain 2.0，和它背后那支不太一样的团队。&nbsp; &nbsp; 作者丨齐铖湧&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n"
+    },
+    {
+      "title": "蔚来到底应该值多少钱？",
+      "link": "https://www.leiphone.com/category/transportation/BqLLEaO4CLvE4tnG.html",
+      "source": "雷锋网",
+      "date": "2026-11-26",
+      "tags": [
+        "embodied"
+      ],
+      "summary": "蔚来到底应该值多少钱？要回答这个问题，不妨先看蔚来内部一个看似反直觉的决定。2025年的某一天，蔚来内部正在进行一场头脑风暴，聊到了一件放在过去很难发生的事：放弃高通旗舰芯片的首发。当时，研发已经投入，各项准备也已就绪。但团队最后算了一笔账，决定先不上了。“万事俱备，只等首发，但我们算了一下，当时CBU已经深入人心了，算那笔账算不过来，所以我们真的不搞了。”Ted（蔚来产品体验高级副总裁李天舒）回忆道。这件事放在以前，蔚来势必要争取到首发。蔚来是一家以技术创新为底色的公司，早在2023年就已有覆盖12个领域的全栈技术布局。对这样的公司来说，首发很有吸引力"
+    },
     {
       "title": "An Adversarial Multi-Agent Pursuit Game for Locomotor Agility Pretraining",
       "link": "https://arxiv.org/abs/2611.33407",
@@ -719,105 +814,6 @@
         "general"
       ],
       "summary": "arXiv:2610.18305v2 Announce Type: replace-cross Abstract: The world encompasses both physical environments and human actors. Predicting its evolution requires understanding both physical laws and how emotions shape human actions. However, existing world model benchmarks primarily"
-    },
-    {
-      "title": "国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案",
-      "link": "https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html",
-      "source": "雷锋网",
-      "date": "2026-11-26",
-      "tags": [
-        "embodied"
-      ],
-      "summary": "&nbsp;&nbsp; &nbsp; 作者丨高允毅&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb"
-    },
-    {
-      "title": "独家 | 华人 CV 先驱权龙二次创业，成立空间与物理 AI 公司「Envision AI」",
-      "link": "https://www.leiphone.com/category/academic/S12DTjaFWmIPkwCk.html",
-      "source": "雷锋网",
-      "date": "2026-11-26",
-      "tags": [
-        "foundation-model",
-        "industrial",
-        "embodied",
-        "funding"
-      ],
-      "summary": "融合语言、逻辑、几何、物理规律，要做统一和通用的空间物理原生基模。&nbsp; &nbsp; 作者丨幸丽娟&nbsp; &nbsp; 编辑丨岑 &nbsp; 峰&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs"
-    },
-    {
-      "title": "机器人量产背后，物理AI开始算新账：研发底座何必各自建？",
-      "link": "https://www.leiphone.com/category/chips/HQvbSEUnkDy0Tos9.html",
-      "source": "雷锋网",
-      "date": "2026-11-26",
-      "tags": [
-        "humanoid",
-        "embodied",
-        "foundation-model",
-        "funding"
-      ],
-      "summary": "2026年，人形机器人加速走出实验室。但是让机器人在真实世界产生价值，依然复杂而成本高昂。从数据采集、物理仿真到模型训练、真机验证，机器人每掌握一项新技能，背后都可能是一整套研发流程的反复运转。更复杂的是，这些能力分散在不同的专业厂商手中。产业分工越来越细，如何将分散的技术能力组织起来，反而成了一道新的难题。当机器人开始规模化交付，产业需要解决的不只是如何造出更多机器人，还有如何让更多企业以更低的成本训练机器人。这也让物理AI产业出现了一个新的机会：谁有能力将分散的研发资源组织成可复用的基础设施，谁就有机会成为产业链上的重要组织者。九章云极正尝试从算力供"
-    },
-    {
-      "title": "一月只开工两三天！奥迪中国回应长春工厂产能利用率跌破10%；Anthropic创始人兄妹上市次日套现37亿；小鹏智驾拟开启全球付费订阅",
-      "link": "https://www.leiphone.com/category/zaobao/TaYBp58OxQSPMi10.html",
-      "source": "雷锋网",
-      "date": "2026-11-26",
-      "tags": [
-        "unitree",
-        "embodied",
-        "foundation-model"
-      ],
-      "summary": "要闻提示1.Anthropic创始人兄妹上市次日套现37亿元2.一月只开工两三天，被称“幽灵工厂”！奥迪中国回应长春工厂产能利用率跌破10%3.打脸自己？小鹏图灵AI智驾将于明年二季度开启全球收费订阅4.希音披露美国FTC调查最新进展：将向美国财政部支付1亿美元5.B站陈睿回应短剧冲击：我们没受影响6.华为将展示自研HBM、逻辑堆叠等技术7.特朗普称美国政府入股英伟达犹未为晚，自称早就想过但一直没说8.韩国SK集团董事长崔泰源前妻拒绝“9440亿韩元和解建议”今日头条Anthropic创始人兄妹上市次日套现37亿元11 月 25 日消息，据报道，根据监管"
-    },
-    {
-      "title": "How Vention is cutting factory programming from weeks to minutes",
-      "link": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
-      "source": "The Robot Report",
-      "date": "2026-11-25",
-      "tags": [
-        "general"
-      ],
-      "summary": "Etienne Lacroix explains why AI deployment—not just better models—will define the future of industrial automation. The post How Vention is cutting factory programming from weeks to minutes appeared first on The Robot Report."
-    },
-    {
-      "title": "FCC should focus on robot security, not country of origin",
-      "link": "https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/",
-      "source": "The Robot Report",
-      "date": "2026-11-25",
-      "tags": [
-        "general"
-      ],
-      "summary": "Where a robot was assembled tells you little about who controls it once it's deployed, writes Brain Corp CEO David Pinn. The post FCC should focus on robot security, not country of origin appeared first on The Robot Report."
-    },
-    {
-      "title": "WeaveVLA: 3D Relational Grounding for Vision-Language-Action Models",
-      "link": "https://arxiv.org/abs/2611.31126",
-      "source": "arXiv CS Robotics",
-      "date": "2026-11-25",
-      "tags": [
-        "nvidia"
-      ],
-      "summary": "arXiv:2611.31126v2 Announce Type: replace Abstract: Vision-language-action (VLA) models leverage pretrained vision-language representations for instruction-conditioned robot control, yet their understanding of task-relevant 3D relations and how these relations evolve during manip"
-    },
-    {
-      "title": "算力唤醒真实世界：九章云极发布物理AI工厂与生态开放计划",
-      "link": "https://www.leiphone.com/category/chips/Qz3QPf26nVIVA0ga.html",
-      "source": "雷锋网",
-      "date": "2026-11-25",
-      "tags": [
-        "humanoid",
-        "embodied"
-      ],
-      "summary": "11月25日，以“算力唤醒真实世界”为主题的2026物理AI行业峰会暨九章云极智算生态大会在深圳举行。会议由九章云极DataCanvas主办，深圳市龙华区工业和信息化局支持，清华大学互联网产业研究院为学术指导单位。来自标准机构、高校与科研院所、投资机构，以及机器人本体、世界模型、仿真软件、智算云等领域的上百位嘉宾代表出席。中国电子技术标准化研究院副院长范科峰，深圳市龙华区委常委、常务副区长张智，九章云极DataCanvas董事长方磊分别致辞。会议聚焦的核心命题是：当机器人、世界模型与仿真软件相继通过技术验证，物理AI如何跨越从实验室到产线的产业化鸿沟。答"
-    },
-    {
-      "title": "中国算力采购信心指数启动 九章云极核心共建算力市场先行指标",
-      "link": "https://www.leiphone.com/category/chips/G3lWNUyVJphxOTU2.html",
-      "source": "雷锋网",
-      "date": "2026-11-25",
-      "tags": [
-        "general"
-      ],
-      "summary": "11月25日，在2026物理AI行业峰会暨九章云极智算生态大会上，中国经济信息社新华指数研究院副院长周宇涵宣布“中国算力采购信心指数”正式启动。北京九章云极科技股份有限公司（下称“九章云极”）作为核心共建单位，参与指数体系搭建。当前，中国算力产业正处于高速增长与结构性调整并行的阶段。我国智能算力规模高速增长，但训练与推理、东西部布局、层级供需三重错配依然存在，算力租赁价格波动加剧。对于算力需求方，采购决策往往依赖于分散的市场信息，难以形成对行业整体景气程度的系统认知；对于算力供给方，产能规划与定价策略同样缺少来自真实交易一线的反馈信号。市场需要一个能够回"
     }
   ]
 }
